@@ -4,9 +4,9 @@
 ## Coverage
 This chapter combines three **different** reporting lenses that must not be merged indiscriminately:
 
-1. **Regional presence** — Tranquilitas Caribbean website market routes: https://caribbean.massagebahamas.com/
+1. **Regional operations reporting** — Caribbean Performance dashboard at https://caribbean.massagebahamas.com/; customer-facing destination pages at https://www.massagebahamas.com/locations
 2. **Logged regional activity** — first-party `Tranquilitas_Caribbean_Tracker_Simplified` Google Sheet entries; tracker entry dates **12 January–26 March 2026**. These may be backfilled summaries and are **not confirmed treatment dates**.
-3. **Published service-price benchmarks** — first-party Caribbean Wellness Pricing Index: https://index.massagebahamas.com/. Source code in `PearsonLegacyVentures/pricing-index`, prices valid as snapshot, not independently collected market competitors.
+3. **Confirmed partner-price benchmarks** — Caribbean Wellness Pricing Index: https://index.massagebahamas.com/. Source last updated June 5, 2026; not a comprehensive survey of competing businesses.
 
 ## Provisional regional tracker
 
@@ -36,8 +36,8 @@ This chapter combines three **different** reporting lenses that must not be merg
 
 - **20 market records**, of which **16 are priced/active**, and **4 are labelled coming soon** by that separate pricing system.
 - **123 published service-price observations** across Swedish, deep tissue, couples, and beach massage, in 60- and/or 90-minute formats.
-- Native currency preserved: mainly USD; St Barths is in EUR. No current FX rate was inserted.
-- The index stores Tranquilitas menu price snapshots; **do not label these as independently collected competitors' prices**.
+- Native currency preserved: mainly USD; St Barths is in EUR. The source index uses the June 5, 2026 EUR/USD reference rate of 1.164 for USD-normalized comparisons, not the current spot rate.
+- The index stores Tranquilitas confirmed partner-rate snapshots; **do not label these as independently collected competitors' prices**.
 - A priced listing does **not** imply therapist coverage, contracted demand, or fulfillment SLA.
 
 ## Decisions supported by the data
@@ -61,7 +61,8 @@ Before presenting regional revenue as *actual 2026 sales*, match each completed 
 ## Sources and references
 
 - https://docs.google.com/spreadsheets/d/1xnOkiTnrOCBMvFnx2VdlocELUTWCA5BpuiS9gmjtInw/edit
-- https://caribbean.massagebahamas.com/
+- https://caribbean.massagebahamas.com/ (regional operations dashboard)
+- https://www.massagebahamas.com/locations (country service-page directory)
 - https://index.massagebahamas.com/
 - https://github.com/PearsonLegacyVentures/pricing-index
 - Historical data extracts: `/data/caribbean-tracker.json`, `/data/pricing-index.json`
