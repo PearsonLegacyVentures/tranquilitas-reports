@@ -34,11 +34,18 @@ This chapter combines three **different** reporting lenses that must not be merg
 
 ## Pricing index coverage
 
-- **20 market records**, of which **16 are priced/active**, and **4 are labelled coming soon** by that separate pricing system.
+- **16 priced markets** in the source index, plus **4 coming-soon markets**; Aruba is additionally listed on the public Tranquilitas marketing website without source-index pricing. The private management directory therefore contains **21 destination/delivery-market entries**, including Nassau and Exuma separately.
 - **123 published service-price observations** across Swedish, deep tissue, couples, and beach massage, in 60- and/or 90-minute formats.
 - Native currency preserved: mainly USD; St Barths is in EUR. The source index uses the June 5, 2026 EUR/USD reference rate of 1.164 for USD-normalized comparisons, not the current spot rate.
 - The index stores Tranquilitas confirmed partner-rate snapshots; **do not label these as independently collected competitors' prices**.
 - A priced listing does **not** imply therapist coverage, contracted demand, or fulfillment SLA.
+
+### Pricing position as of June 5, 2026
+
+- Nassau average 60-minute individual-service price: **$172.67** versus the 16-market reference average of **$151.12**, a **$21.55** premium.
+- Highest indexed average 60-minute individual-service price: **St Barths, $241 USD-normalized**; lowest: **Curaçao, $115**.
+- Highest indexed 60-minute couples rate: **St Barths, $482 USD-normalized**.
+- These are **confirmed partner rates**, not industrywide competing-spa quotes; the sample is not statistically representative of the entire Caribbean wellness market.
 
 ## Decisions supported by the data
 
