@@ -1,9 +1,9 @@
 {
-  "source": "Tranquilitas Caribbean Wellness Pricing Index",
+  "source": "Caribbean Wellness Pricing Index — Tranquilitas confirmed partner pricing",
   "sourceUrl": "https://index.massagebahamas.com/",
   "repo": "PearsonLegacyVentures/pricing-index",
   "extractedAt": "2026-10-28",
-  "currencyBasis": "Native USD prices; St Barths EUR; no cross-currency comparison applied",
+  "currencyBasis": "USD-normalized using historic reference; original St Barths EUR retained",
   "rateNote": "The source index's historical FX rate is 2026-06-05. Native values are retained here.",
   "markets": [
     {
@@ -155,6 +155,10 @@
       "prices": {
         "60": 158,
         "90": 228
+      },
+      "usdPrices": {
+        "60": 158,
+        "90": 228
       }
     },
     {
@@ -162,6 +166,10 @@
       "currency": "USD",
       "service": "deep_tissue",
       "prices": {
+        "60": 170,
+        "90": 245
+      },
+      "usdPrices": {
         "60": 170,
         "90": 245
       }
@@ -173,6 +181,10 @@
       "prices": {
         "60": 190,
         "90": 215
+      },
+      "usdPrices": {
+        "60": 190,
+        "90": 215
       }
     },
     {
@@ -180,6 +192,10 @@
       "currency": "USD",
       "service": "couples",
       "prices": {
+        "60": 323,
+        "90": 468
+      },
+      "usdPrices": {
         "60": 323,
         "90": 468
       }
@@ -191,6 +207,10 @@
       "prices": {
         "60": 140,
         "90": 200
+      },
+      "usdPrices": {
+        "60": 140,
+        "90": 200
       }
     },
     {
@@ -198,6 +218,10 @@
       "currency": "USD",
       "service": "deep_tissue",
       "prices": {
+        "60": 150,
+        "90": 220
+      },
+      "usdPrices": {
         "60": 150,
         "90": 220
       }
@@ -209,6 +233,10 @@
       "prices": {
         "60": 165,
         "90": 240
+      },
+      "usdPrices": {
+        "60": 165,
+        "90": 240
       }
     },
     {
@@ -217,6 +245,9 @@
       "service": "couples",
       "prices": {
         "60": 290
+      },
+      "usdPrices": {
+        "60": 290
       }
     },
     {
@@ -224,6 +255,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 135,
+        "90": 185
+      },
+      "usdPrices": {
         "60": 135,
         "90": 185
       }
@@ -235,6 +270,10 @@
       "prices": {
         "60": 145,
         "90": 200
+      },
+      "usdPrices": {
+        "60": 145,
+        "90": 200
       }
     },
     {
@@ -242,6 +281,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 160,
+        "90": 240
+      },
+      "usdPrices": {
         "60": 160,
         "90": 240
       }
@@ -253,6 +296,10 @@
       "prices": {
         "60": 290,
         "90": 400
+      },
+      "usdPrices": {
+        "60": 290,
+        "90": 400
       }
     },
     {
@@ -260,6 +307,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 110,
+        "90": 170
+      },
+      "usdPrices": {
         "60": 110,
         "90": 170
       }
@@ -271,6 +322,10 @@
       "prices": {
         "60": 120,
         "90": 180
+      },
+      "usdPrices": {
+        "60": 120,
+        "90": 180
       }
     },
     {
@@ -278,6 +333,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 155,
+        "90": 230
+      },
+      "usdPrices": {
         "60": 155,
         "90": 230
       }
@@ -289,6 +348,10 @@
       "prices": {
         "60": 240,
         "90": 360
+      },
+      "usdPrices": {
+        "60": 240,
+        "90": 360
       }
     },
     {
@@ -296,6 +359,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 90,
+        "90": 140
+      },
+      "usdPrices": {
         "60": 90,
         "90": 140
       }
@@ -307,6 +374,10 @@
       "prices": {
         "60": 115,
         "90": 160
+      },
+      "usdPrices": {
+        "60": 115,
+        "90": 160
       }
     },
     {
@@ -314,6 +385,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 140,
+        "90": 210
+      },
+      "usdPrices": {
         "60": 140,
         "90": 210
       }
@@ -325,6 +400,10 @@
       "prices": {
         "60": 230,
         "90": 320
+      },
+      "usdPrices": {
+        "60": 230,
+        "90": 320
       }
     },
     {
@@ -332,6 +411,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 110,
+        "90": 150
+      },
+      "usdPrices": {
         "60": 110,
         "90": 150
       }
@@ -343,6 +426,10 @@
       "prices": {
         "60": 130,
         "90": 180
+      },
+      "usdPrices": {
+        "60": 130,
+        "90": 180
       }
     },
     {
@@ -350,6 +437,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 155,
+        "90": 210
+      },
+      "usdPrices": {
         "60": 155,
         "90": 210
       }
@@ -361,6 +452,10 @@
       "prices": {
         "60": 260,
         "90": 360
+      },
+      "usdPrices": {
+        "60": 260,
+        "90": 360
       }
     },
     {
@@ -368,6 +463,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 105,
+        "90": 155
+      },
+      "usdPrices": {
         "60": 105,
         "90": 155
       }
@@ -379,6 +478,10 @@
       "prices": {
         "60": 120,
         "90": 180
+      },
+      "usdPrices": {
+        "60": 120,
+        "90": 180
       }
     },
     {
@@ -386,6 +489,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 135,
+        "90": 200
+      },
+      "usdPrices": {
         "60": 135,
         "90": 200
       }
@@ -397,6 +504,10 @@
       "prices": {
         "60": 215,
         "90": 320
+      },
+      "usdPrices": {
+        "60": 215,
+        "90": 320
       }
     },
     {
@@ -404,6 +515,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 185,
+        "90": 225
+      },
+      "usdPrices": {
         "60": 185,
         "90": 225
       }
@@ -415,6 +530,10 @@
       "prices": {
         "60": 205,
         "90": 260
+      },
+      "usdPrices": {
+        "60": 205,
+        "90": 260
       }
     },
     {
@@ -422,6 +541,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 205,
+        "90": 260
+      },
+      "usdPrices": {
         "60": 205,
         "90": 260
       }
@@ -433,6 +556,10 @@
       "prices": {
         "60": 375,
         "90": 555
+      },
+      "usdPrices": {
+        "60": 375,
+        "90": 555
       }
     },
     {
@@ -440,6 +567,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 135,
+        "90": 190
+      },
+      "usdPrices": {
         "60": 135,
         "90": 190
       }
@@ -451,6 +582,10 @@
       "prices": {
         "60": 145,
         "90": 195
+      },
+      "usdPrices": {
+        "60": 145,
+        "90": 195
       }
     },
     {
@@ -458,6 +593,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 160,
+        "90": 210
+      },
+      "usdPrices": {
         "60": 160,
         "90": 210
       }
@@ -469,6 +608,10 @@
       "prices": {
         "60": 290,
         "90": 430
+      },
+      "usdPrices": {
+        "60": 290,
+        "90": 430
       }
     },
     {
@@ -476,6 +619,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 100,
+        "90": 120
+      },
+      "usdPrices": {
         "60": 100,
         "90": 120
       }
@@ -487,6 +634,10 @@
       "prices": {
         "60": 120,
         "90": 135
+      },
+      "usdPrices": {
+        "60": 120,
+        "90": 135
       }
     },
     {
@@ -494,6 +645,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 130,
+        "90": 145
+      },
+      "usdPrices": {
         "60": 130,
         "90": 145
       }
@@ -505,6 +660,10 @@
       "prices": {
         "60": 205,
         "90": 265
+      },
+      "usdPrices": {
+        "60": 205,
+        "90": 265
       }
     },
     {
@@ -512,6 +671,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 145,
+        "90": 185
+      },
+      "usdPrices": {
         "60": 145,
         "90": 185
       }
@@ -523,6 +686,10 @@
       "prices": {
         "60": 165,
         "90": 220
+      },
+      "usdPrices": {
+        "60": 165,
+        "90": 220
       }
     },
     {
@@ -530,6 +697,10 @@
       "currency": "USD",
       "service": "couples",
       "prices": {
+        "60": 290,
+        "90": 350
+      },
+      "usdPrices": {
         "60": 290,
         "90": 350
       }
@@ -541,6 +712,10 @@
       "prices": {
         "60": 105,
         "90": 155
+      },
+      "usdPrices": {
+        "60": 105,
+        "90": 155
       }
     },
     {
@@ -548,6 +723,10 @@
       "currency": "USD",
       "service": "deep_tissue",
       "prices": {
+        "60": 115,
+        "90": 170
+      },
+      "usdPrices": {
         "60": 115,
         "90": 170
       }
@@ -559,6 +738,10 @@
       "prices": {
         "60": 125,
         "90": 185
+      },
+      "usdPrices": {
+        "60": 125,
+        "90": 185
       }
     },
     {
@@ -566,6 +749,10 @@
       "currency": "USD",
       "service": "couples",
       "prices": {
+        "60": 215,
+        "90": 330
+      },
+      "usdPrices": {
         "60": 215,
         "90": 330
       }
@@ -577,6 +764,10 @@
       "prices": {
         "60": 207,
         "90": 299
+      },
+      "usdPrices": {
+        "60": 241,
+        "90": 348
       }
     },
     {
@@ -586,6 +777,10 @@
       "prices": {
         "60": 207,
         "90": 299
+      },
+      "usdPrices": {
+        "60": 241,
+        "90": 348
       }
     },
     {
@@ -595,6 +790,10 @@
       "prices": {
         "60": 414,
         "90": 598
+      },
+      "usdPrices": {
+        "60": 482,
+        "90": 696
       }
     },
     {
@@ -602,6 +801,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 172.5,
+        "90": 230
+      },
+      "usdPrices": {
         "60": 172.5,
         "90": 230
       }
@@ -613,6 +816,10 @@
       "prices": {
         "60": 180,
         "90": 240
+      },
+      "usdPrices": {
+        "60": 180,
+        "90": 240
       }
     },
     {
@@ -620,6 +827,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 185,
+        "90": 245
+      },
+      "usdPrices": {
         "60": 185,
         "90": 245
       }
@@ -631,6 +842,10 @@
       "prices": {
         "60": 350,
         "90": 435
+      },
+      "usdPrices": {
+        "60": 350,
+        "90": 435
       }
     },
     {
@@ -638,6 +853,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 145,
+        "90": 215
+      },
+      "usdPrices": {
         "60": 145,
         "90": 215
       }
@@ -649,6 +868,10 @@
       "prices": {
         "60": 155,
         "90": 230
+      },
+      "usdPrices": {
+        "60": 155,
+        "90": 230
       }
     },
     {
@@ -656,6 +879,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 170,
+        "90": 250
+      },
+      "usdPrices": {
         "60": 170,
         "90": 250
       }
@@ -667,6 +894,10 @@
       "prices": {
         "60": 310,
         "90": 460
+      },
+      "usdPrices": {
+        "60": 310,
+        "90": 460
       }
     },
     {
@@ -674,6 +905,10 @@
       "currency": "USD",
       "service": "swedish",
       "prices": {
+        "60": 130,
+        "90": 190
+      },
+      "usdPrices": {
         "60": 130,
         "90": 190
       }
@@ -685,6 +920,10 @@
       "prices": {
         "60": 140,
         "90": 200
+      },
+      "usdPrices": {
+        "60": 140,
+        "90": 200
       }
     },
     {
@@ -692,6 +931,10 @@
       "currency": "USD",
       "service": "beach",
       "prices": {
+        "60": 160,
+        "90": 220
+      },
+      "usdPrices": {
         "60": 160,
         "90": 220
       }
@@ -703,7 +946,37 @@
       "prices": {
         "60": 280,
         "90": 440
+      },
+      "usdPrices": {
+        "60": 280,
+        "90": 440
       }
     }
-  ]
+  ],
+  "sourceLastUpdated": "2026-06-05",
+  "fxRateReference": {
+    "from": "EUR",
+    "to": "USD",
+    "rate": 1.164,
+    "asOf": "2026-06-05",
+    "method": "Historical ECB reference rate used by original pricing index"
+  },
+  "benchmarks": {
+    "activeMarkets": 16,
+    "confirmedPricePoints": 123,
+    "nassauAverageIndividual60USD": 172.67,
+    "regionalAverageIndividual60USD": 151.12,
+    "largestAverageIndividual60USD": {
+      "market": "St Barths",
+      "value": 241
+    },
+    "lowestAverageIndividual60USD": {
+      "market": "Curacao",
+      "value": 115
+    },
+    "highestCouples60USD": {
+      "market": "St Barths",
+      "value": 482
+    }
+  }
 }
