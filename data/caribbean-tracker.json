@@ -1,0 +1,168 @@
+{
+  "source": "Tranquilitas_Caribbean_Tracker_Simplified — LOG_ENTRIES",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1xnOkiTnrOCBMvFnx2VdlocELUTWCA5BpuiS9gmjtInw/edit",
+  "extractedAt": "2026-10-28",
+  "dateField": "Telegram entry timestamp, NOT treatment date",
+  "valueBasis": "Self-reported logged service values, NOT settled cash or independently verified bookings",
+  "commissionBasis": "Tracker applies modeled 15% rate; does NOT prove payment to Tranquilitas",
+  "totals": {
+    "okEntries": 34,
+    "loggedValue": 25192,
+    "loggedUnits": 135,
+    "modeledCommission": 3778.8,
+    "reviewEntries": 6
+  },
+  "byMarket": [
+    {
+      "marketId": "curacao",
+      "country": "Curacao",
+      "loggedEntries": 4,
+      "loggedUnits": 26,
+      "loggedValue": 5590,
+      "modeledCommission": 838.5
+    },
+    {
+      "marketId": "st_barths",
+      "country": "St Barths",
+      "loggedEntries": 4,
+      "loggedUnits": 22,
+      "loggedValue": 4554,
+      "modeledCommission": 683.1
+    },
+    {
+      "marketId": "anguilla",
+      "country": "Anguilla",
+      "loggedEntries": 3,
+      "loggedUnits": 16,
+      "loggedValue": 3750,
+      "modeledCommission": 562.5
+    },
+    {
+      "marketId": "turks_caicos",
+      "country": "Turks and Caicos",
+      "loggedEntries": 4,
+      "loggedUnits": 22,
+      "loggedValue": 3440,
+      "modeledCommission": 516
+    },
+    {
+      "marketId": "st_lucia",
+      "country": "St Lucia",
+      "loggedEntries": 4,
+      "loggedUnits": 14,
+      "loggedValue": 2498,
+      "modeledCommission": 374.7
+    },
+    {
+      "marketId": "st_kitts_nevis",
+      "country": "St Kitts and Nevis",
+      "loggedEntries": 5,
+      "loggedUnits": 11,
+      "loggedValue": 1435,
+      "modeledCommission": 215.25
+    },
+    {
+      "marketId": "cayman_islands",
+      "country": "Cayman Islands",
+      "loggedEntries": 3,
+      "loggedUnits": 4,
+      "loggedValue": 845,
+      "modeledCommission": 126.75
+    },
+    {
+      "marketId": "exuma",
+      "country": "Exuma",
+      "loggedEntries": 1,
+      "loggedUnits": 6,
+      "loggedValue": 840,
+      "modeledCommission": 126
+    },
+    {
+      "marketId": "st_martin",
+      "country": "St. Martin",
+      "loggedEntries": 1,
+      "loggedUnits": 5,
+      "loggedValue": 700,
+      "modeledCommission": 105
+    },
+    {
+      "marketId": "grenada",
+      "country": "Grenada",
+      "loggedEntries": 2,
+      "loggedUnits": 4,
+      "loggedValue": 485,
+      "modeledCommission": 72.75
+    },
+    {
+      "marketId": "bonaire",
+      "country": "Bonaire",
+      "loggedEntries": 1,
+      "loggedUnits": 3,
+      "loggedValue": 465,
+      "modeledCommission": 69.75
+    },
+    {
+      "marketId": "barbados",
+      "country": "Barbados",
+      "loggedEntries": 1,
+      "loggedUnits": 1,
+      "loggedValue": 300,
+      "modeledCommission": 45
+    },
+    {
+      "marketId": "antigua_barbuda",
+      "country": "Antigua",
+      "loggedEntries": 1,
+      "loggedUnits": 1,
+      "loggedValue": 290,
+      "modeledCommission": 43.5
+    }
+  ],
+  "byMonth": [
+    {
+      "month": "2026-01",
+      "loggedValue": 11260,
+      "entries": 18
+    },
+    {
+      "month": "2026-02",
+      "loggedValue": 1015,
+      "entries": 4
+    },
+    {
+      "month": "2026-03",
+      "loggedValue": 12917,
+      "entries": 12
+    }
+  ],
+  "quality": {
+    "potentialDuplicates": [
+      {
+        "type": "possible_duplicate",
+        "country": "Curacao",
+        "month": "2026-03",
+        "amount": 2580
+      },
+      {
+        "type": "possible_duplicate",
+        "country": "Curacao",
+        "month": "2026-03",
+        "amount": 215
+      }
+    ],
+    "arithmeticMismatches": [
+      {
+        "type": "arithmetic_mismatch",
+        "country": "Exuma",
+        "month": "2026-01",
+        "declared": 840,
+        "computed": 1020
+      }
+    ],
+    "notes": [
+      "Entry timestamp may represent backfilled service activity, not event dates. March 2026 entries may summarize multiple prior bookings.",
+      "Flag possible duplicate quantities/values for verification before annual reporting.",
+      "Missing operating expenses, therapist settlement, and individual booking verification."
+    ]
+  }
+}
