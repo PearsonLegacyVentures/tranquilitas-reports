@@ -8,6 +8,7 @@ var moneyFmt=new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',maxi
 var pctFmt=new Intl.NumberFormat('en-US',{style:'percent',maximumFractionDigits:1});
 function money(v){return typeof v==='number'&&Number.isFinite(v)?moneyFmt.format(v):'—';}
 function nfmt(v){return typeof v==='number'&&Number.isFinite(v)?num.format(v):'—';}
+function bsd(v){return typeof v==='number'&&Number.isFinite(v)?'B'+new Intl.NumberFormat('en-US',{style:'currency',currency:'USD',minimumFractionDigits:2,maximumFractionDigits:2}).format(v):'—';}
 function shortMoney(v){if(!Number.isFinite(v))return '—';return Math.abs(v)>=100000?'$'+(v/1000).toFixed(1)+'K':money(v);}
 function esc(v){return String(v??'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function change(a,b){return typeof a==='number'&&typeof b==='number'&&b>0?(a/b-1)*100:null;}
@@ -40,17 +41,28 @@ function kpi(label,value,meta,highlight,changeVal){
  return '<div class="kpi'+(highlight?' highlight':'')+'"><span class="kpi-label">'+esc(label)+'</span><strong class="kpi-value">'+esc(value)+'</strong><span class="kpi-meta'+(typeof changeVal==='number'?(changeVal>=0?' positive':' negative'):'')+'">'+esc(meta)+'</span></div>';
 }
 function renderKpis(){
- var s=periodMetric(state.year,'sales'),b=periodMetric(state.year,'bookings'),t=periodMetric(state.year,'traffic');
+ var s=periodMetric(state.year,'sales'),b=periodMetric(state.year,'bookings');
  var prior=state.year==='2026'?'2025-YTD-matched':state.year==='2025'?'2024':null;
- var ps=prior?periodMetric(prior,'sales'):{},pb=prior?periodMetric(prior,'bookings'):{},pt=prior?periodMetric(prior,'traffic'):{};
- var note=state.year==='2026'?'vs same dates in 2025':state.year==='2025'?'vs 2024 full year':'historical baseline';
- var cells=[
-  {label:'Wix sales value',val:shortMoney(s.total_sales_amount),v:s.total_sales_amount,p:ps.total_sales_amount,h:true},
-  {label:'Sales orders',val:nfmt(s.sales_count),v:s.sales_count,p:ps.sales_count},
-  {label:'Average order value',val:money(s.order_value_avg),v:s.order_value_avg,p:ps.order_value_avg},
-  {label:'Confirmed bookings',val:nfmt(b.confirmed_bookings_count),v:b.confirmed_bookings_count,p:pb.confirmed_bookings_count}
- ];
- $('kpiGrid').innerHTML=cells.map(function(c){return kpi(c.label,c.val,prior?changeLabel(c.v,c.p,note):'Reported 2024 actual',c.h,prior?change(c.v,c.p):null);}).join('');
+ var ps=prior?periodMetric(prior,'sales'):{},pb=prior?periodMetric(prior,'bookings'):{};
+ var f=state.data.finance2024.companyReported;
+ if(state.year==='2024'){
+  var siteLabel=state.site==='combined'?'Both Wix sites':'Selected Wix site';
+  $('kpiGrid').innerHTML=[
+   kpi('2024 company income',bsd(f.annualIncomeBSD),'Management-reported · company-wide · unaudited',true,null),
+   kpi('2024 net earnings',bsd(f.annualNetEarningsBSD),'Management-reported · needs reconciliation',false,null),
+   kpi('Wix sales value',money(s.total_sales_amount),siteLabel+' · already potentially in income',false,null),
+   kpi('Confirmed Wix bookings',nfmt(b.confirmed_bookings_count),siteLabel+' · operating data',false,null)
+  ].join('');
+ }else{
+  var note=state.year==='2026'?'vs same dates in 2025 (Wix)':'vs 2024 (Wix-only, not company income)';
+  var cells=[
+   {label:'Wix sales value',val:shortMoney(s.total_sales_amount),v:s.total_sales_amount,p:ps.total_sales_amount,h:true},
+   {label:'Sales orders',val:nfmt(s.sales_count),v:s.sales_count,p:ps.sales_count},
+   {label:'Average Wix order value',val:money(s.order_value_avg),v:s.order_value_avg,p:ps.order_value_avg},
+   {label:'Confirmed Wix bookings',val:nfmt(b.confirmed_bookings_count),v:b.confirmed_bookings_count,p:pb.confirmed_bookings_count}
+  ];
+  $('kpiGrid').innerHTML=cells.map(function(c){return kpi(c.label,c.val,changeLabel(c.v,c.p,note),c.h,change(c.v,c.p));}).join('');
+ }
  $('periodDescription').textContent=state.year==='2026'?'Year to date · Jan 1 – Oct 28, 2026':'Full calendar year · '+state.year;
  $('coveragePill').textContent=state.year==='2026'?'Partial year · as of Oct 28':'Full calendar year';
 }
@@ -73,7 +85,7 @@ function renderTrend(){
  svg+='<path d="'+fillpath+'" fill="url(#mintFill)"/><polyline fill="none" stroke="#9ee9cd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" points="'+poly+'"/>';
  all.forEach(function(d,i){svg+='<circle cx="'+x(i)+'" cy="'+y(d.value)+'" r="4.5" fill="#a5f0d2" stroke="#0c202b" stroke-width="2"><title>'+esc(d.month)+' · '+esc(state.metric==='sales'?money(d.value):nfmt(d.value))+'</title></circle><text text-anchor="middle" x="'+x(i)+'" y="'+(h-12)+'" fill="#8eabb0" font-family="Manrope" font-size="12">'+esc(new Date(d.month+'-15').toLocaleString('en-US',{month:'short'}))+'</text>';});
  svg+='</svg>';$('trendChart').innerHTML=svg;
- var heading=$('trendChart').closest('.panel').querySelector('h3');heading.textContent=state.metric==='sales'?'Sales value over time':state.metric==='bookings'?'Confirmed bookings over time':'Site sessions over time';
+ var heading=$('trendChart').closest('.panel').querySelector('h3');heading.textContent=state.metric==='sales'?'Wix sales value over time':state.metric==='bookings'?'Confirmed bookings over time':'Site sessions over time';
 }
 function renderInsights(){
  var items=[],s=periodMetric(state.year,'sales'),t=periodMetric(state.year,'traffic'),b=periodMetric(state.year,'bookings');
@@ -81,25 +93,48 @@ function renderInsights(){
   var ps=periodMetric('2025-YTD-matched','sales'),pt=periodMetric('2025-YTD-matched','traffic'),pb=periodMetric('2025-YTD-matched','bookings');
   items.push({title:'More sales value, fewer transactions',body:'Through October 28, Wix sales value is '+changeLabel(s.total_sales_amount,ps.total_sales_amount,'year over year')+' while orders are '+changeLabel(s.sales_count,ps.sales_count,'year over year')+'. Pricing and product mix matter more than raw order volume.'});
   items.push({title:'Traffic growth is not yet booking growth',body:'Sessions are '+changeLabel(t.sessions_count,pt.sessions_count,'vs 2025')+' while confirmed bookings are '+changeLabel(b.confirmed_bookings_count,pb.confirmed_bookings_count,'vs 2025')+'. Investigate the booking funnel and channel quality before increasing acquisition spend.'});
-  items.push({title:'Higher realized ticket',body:'Average Wix order value moved from '+money(ps.order_value_avg)+' to '+money(s.order_value_avg)+'. Prioritize contribution per completed booking, not discount-led volume.'});
+  items.push({title:'Higher recorded Wix order value',body:'Average Wix order value moved from '+money(ps.order_value_avg)+' to '+money(s.order_value_avg)+'. Prioritize contribution per completed booking, not discount-led volume.'});
  }else if(state.year==='2025'){
-  var old=periodMetric('2024','sales');items.push({title:'Scale shift in the sales record',body:'Reported Wix sales value increased '+changeLabel(s.total_sales_amount,old.total_sales_amount,'vs 2024')+'. The comparison also reflects migration from the legacy website, so confirm merchant and operational continuity.'});
+  var old=periodMetric('2024','sales');items.push({title:'Growth in Wix-recorded sales only',body:'Wix sales value increased '+changeLabel(s.total_sales_amount,old.total_sales_amount,'vs 2024 Wix sales')+'. The 2024 management annual report separately records B$102,990.71 company income; do not use Wix growth as total company revenue growth.'});
   items.push({title:'Established a larger booking base',body:nfmt(b.confirmed_bookings_count)+' confirmed Wix bookings and '+nfmt(s.sales_count)+' Wix sales orders. Evaluate utilization and direct service costs before calling this growth profitable.'});
   items.push({title:'Channel choice matters',body:'Use organic search, concierge and direct-booking performance to allocate distribution partnerships, not only total traffic.'});
  }else{
-  items.push({title:'Two-site transition year',body:'2024 contains operating activity on both the original site and the replacement site. The reporting system keeps the histories separate, then aggregates additive business measures.'});
-  items.push({title:'Historical baseline, not complete P&L',body:nfmt(s.sales_count)+' reported Wix orders and '+nfmt(b.confirmed_bookings_count)+' confirmed bookings. These figures require reconciliation with actual bank receipts and therapist payouts.'});
-  items.push({title:'Early demand foundation',body:nfmt(t.sessions_count)+' total site sessions across both Wix properties. Visitor counts may overlap between sites and should not be represented as unique company-wide people.'});
+  var f=state.data.finance2024.companyReported;
+  items.push({title:'Full-year company income recovered',body:'The 2024 annual management report records '+bsd(f.annualIncomeBSD)+' income and '+bsd(f.annualNetEarningsBSD)+' net earnings, rather than only Wix sales activity. Figures remain unaudited.'});
+  items.push({title:'Annual-quarter income mismatch',body:'The four quarter-income lines sum to '+bsd(f.quarterIncomeSumBSD)+' — '+bsd(f.annualIncomeBSD-f.quarterIncomeSumBSD)+' below the annual headline. This must be reconciled against source ledgers.'});
+  items.push({title:'Wix is not additional income',body:'The two Wix sites recorded '+money(s.total_sales_amount)+' in 2024 sales activity; it may be wholly or partly included in the company-reported income. Never add those values together.'});
  }
  $('insights').innerHTML=items.map(function(i,idx){return '<div class="insight"><div class="insight-number">0'+(idx+1)+'</div><div><div class="insight-title">'+esc(i.title)+'</div><p>'+esc(i.body)+'</p></div></div>';}).join('');
 }
 function renderQuarters(){
- var yrs=['2024','2025','2026'];var html='';
- yrs.forEach(function(y){for(var q=1;q<=4;q++){var key=y+'-Q'+q,s=periodMetric(key,'sales'),b=periodMetric(key,'bookings'),t=periodMetric(key,'traffic'),partial=key==='2026-Q4';
- html+='<tr'+(y===state.year?' class="current-year"':'')+'><td>'+esc(key)+(partial?'<span class="q-partial">PARTIAL</span>':'')+'</td><td>'+money(s.total_sales_amount)+'</td><td>'+nfmt(s.sales_count)+'</td><td>'+money(s.order_value_avg)+'</td><td>'+nfmt(b.bookings_count)+'</td><td>'+nfmt(b.confirmed_bookings_count)+'</td><td>'+nfmt(t.sessions_count)+'</td></tr>';}});$('quarterTable').innerHTML=html;
- var cards=['2024','2025','2026'].map(function(y){var s=periodMetric(y,'sales'),b=periodMetric(y,'bookings');return '<article class="annual-card'+(state.year===y?' active':'')+'"><div class="year">'+y+'</div><div class="year-caption">'+(y==='2026'?'YEAR TO DATE · THROUGH OCTOBER 28':'FULL CALENDAR YEAR')+'</div><div class="year-sales">'+money(s.total_sales_amount)+'</div><span class="subtle">Wix reported sales value</span><div class="year-foot"><span><strong>'+nfmt(s.sales_count)+'</strong> sales orders</span><span><strong>'+nfmt(b.confirmed_bookings_count)+'</strong> confirmed bookings</span></div></article>';});
- $('annualCards').innerHTML=cards.join('');
+ var yrs=['2024','2025','2026'];var html='',fin=state.data.finance2024.companyReported;
+ yrs.forEach(function(y){for(var q=1;q<=4;q++){
+  var key=y+'-Q'+q,s=periodMetric(key,'sales'),b=periodMetric(key,'bookings'),t=periodMetric(key,'traffic'),partial=key==='2026-Q4';
+  var f=y==='2024'?fin.quarterItems.find(function(x){return x.period===key;}):null;
+  html+='<tr'+(y===state.year?' class="current-year"':'')+'><td>'+esc(key)+(partial?'<span class="q-partial">PARTIAL</span>':'')+'</td><td>'+(f?bsd(f.incomeBSD):'—')+'</td><td>'+(f?bsd(f.netEarningsBSD):'—')+'</td><td>'+money(s.total_sales_amount)+'</td><td>'+nfmt(s.sales_count)+'</td><td>'+money(s.order_value_avg)+'</td><td>'+nfmt(b.bookings_count)+'</td><td>'+nfmt(b.confirmed_bookings_count)+'</td><td>'+nfmt(t.sessions_count)+'</td></tr>';
+ }});
+ $('quarterTable').innerHTML=html;
+ var cards=['2024','2025','2026'].map(function(y){
+  var s=periodMetric(y,'sales'),b=periodMetric(y,'bookings');
+  var management=y==='2024';
+  var main=management?bsd(fin.annualIncomeBSD):money(s.total_sales_amount);
+  var subtitle=management?'Management-reported income · unaudited':'Wix-reported sales value · not audited revenue';
+  var desc=management?'<div class="annual-source">Wix sales activity: '+money(s.total_sales_amount)+' (overlapping source)</div>':'';
+  return '<article class="annual-card'+(state.year===y?' active':'')+'"><div class="year">'+y+'</div><div class="year-caption">'+(y==='2026'?'YEAR TO DATE · THROUGH OCTOBER 28':'FULL CALENDAR YEAR')+'</div><div class="year-sales">'+main+'</div><span class="subtle">'+subtitle+'</span>'+desc+'<div class="year-foot"><span><strong>'+nfmt(s.sales_count)+'</strong> Wix orders</span><span><strong>'+nfmt(b.confirmed_bookings_count)+'</strong> confirmed Wix bookings</span></div></article>';
+ });
+ $('annualCards').innerHTML=cards.join('')+'<p class="cross-year-caveat">Financial basis differs: the 2024 headline is management-reported company income; 2025 and 2026 figures are Wix sales activity only. These three amounts must not be used as a verified company revenue growth series.</p>';
 }
+function render2024Financials(){
+ var f=state.data.finance2024.companyReported,w=state.data.finance2024.wixReported,r=state.data.finance2024.reconciliation;
+ var wix=periodMetric('2024','sales');
+ $('financial2024Summary').innerHTML='<div class="finance-large"><div><span>Total company income</span><strong>'+bsd(f.annualIncomeBSD)+'</strong></div><div><span>Net earnings</span><strong>'+bsd(f.annualNetEarningsBSD)+'</strong></div></div><div class="finance-strip"><div><span>Reported net-to-income ratio</span><strong>'+(f.annualNetEarningsToIncomeRatio*100).toFixed(1)+'%</strong></div><div><span>Income less net (derived)</span><strong>'+bsd(f.annualImpliedDifferenceBetweenIncomeAndNetBSD)+'</strong></div></div>';
+ $('financial2024Reconciliation').innerHTML='<div class="finance-check"><span>Quarterly income sum</span><strong>'+bsd(f.quarterIncomeSumBSD)+'</strong></div><div class="finance-check alert"><span>Unreconciled to annual headline</span><strong>'+bsd(r.annualIncomeMinusQuarterlyIncomeBSD)+'</strong></div><div class="finance-check"><span>Wix-recorded sales value ('+(state.site==='combined'?'both sites':'selected site')+')</span><strong>'+money(wix.total_sales_amount)+'</strong></div><p>Wix records are potentially included in the company report. Do <b>not</b> add them. Q3 also differs by '+bsd(r.q3QuarterlyIncomeMinusFinancialHighlightsLabelBSD)+' between the report’s highlights and quarterly analysis. Quarter net earnings reconcile to the annual net.</p>';
+ $('financial2024Quarters').innerHTML=f.quarterItems.map(function(q){
+  var s=periodMetric(q.period,'sales');
+  return '<tr><td>'+esc(q.period)+'</td><td>'+bsd(q.incomeBSD)+'</td><td>'+bsd(q.netEarningsBSD)+'</td><td>'+money(s.total_sales_amount)+'</td></tr>';
+ }).join('')+'<tr class="finance-total"><td><strong>Annual totals</strong></td><td><strong>'+bsd(f.annualIncomeBSD)+'</strong></td><td><strong>'+bsd(f.annualNetEarningsBSD)+'</strong></td><td><strong>'+money(wix.total_sales_amount)+'</strong></td></tr>';
+}
+
 function barList(id,rows,valueKey,formatter,gold){var list=rows.filter(function(x){return typeof x[valueKey]==='number'&&x[valueKey]>0;}).sort(function(a,b){return b[valueKey]-a[valueKey];}).slice(0,7);if(!list.length){$(id).innerHTML='<div class="empty">No recorded observations for this site and period.</div>';return;}var max=list[0][valueKey]||1;$(id).innerHTML=list.map(function(r){var v=r[valueKey];return '<div class="bar-item" title="'+esc(r.label)+'"><span class="bar-name">'+esc(r.label)+'</span><span class="bar-value">'+esc(formatter(v))+'</span><div class="bar-track"><div class="bar-fill'+(gold?' gold':'')+'" style="width:'+Math.max(1,v/max*100).toFixed(1)+'%"></div></div></div>';}).join('');}
 function renderServices(){barList('serviceBars',breakdown('service_sales'),'total_items_sales_amount',money,false);barList('bookingServices',breakdown('booking_services'),'confirmed_bookings_count',nfmt,true);}
 function prettyChannel(s){return String(s||'Unknown').replace(/^wix_/,'').replace(/_/g,' ');}
@@ -134,7 +169,7 @@ function renderMethod(){
 function render(){
  if(!state.data)return;
  document.querySelectorAll('[data-year]').forEach(function(b){b.classList.toggle('selected',b.dataset.year===state.year);});
- renderKpis();renderTrend();renderInsights();renderQuarters();renderServices();renderAcquisition();renderBookings();renderMethod();
+ renderKpis();renderTrend();renderInsights();renderQuarters();render2024Financials();renderServices();renderAcquisition();renderBookings();renderMethod();
 }
 function activateNav(){
  var hash=location.hash||'#overview';document.querySelectorAll('.nav-link').forEach(function(a){a.classList.toggle('active',a.getAttribute('href')===hash);});
@@ -145,8 +180,8 @@ function init(){
  $('chartMetric').addEventListener('change',function(e){state.metric=e.target.value;renderTrend();});
  $('printButton').addEventListener('click',function(){window.print();});
  window.addEventListener('hashchange',activateNav);activateNav();
- Promise.all(['data/wix-history.json','data/wix-periods.json','data/wix-breakdowns.json'].map(function(path){return fetch(path,{cache:'no-cache'}).then(function(response){if(!response.ok)throw Error(path+' '+response.status);return response.json();});}))
- .then(function(data){state.data={history:data[0],periods:data[1],breakdowns:data[2]};$('loading').hidden=true;$('dashboard').hidden=false;render();})
+ Promise.all(['data/wix-history.json','data/wix-periods.json','data/wix-breakdowns.json','data/2024-financial-reconciliation.json'].map(function(path){return fetch(path,{cache:'no-cache'}).then(function(response){if(!response.ok)throw Error(path+' '+response.status);return response.json();});}))
+ .then(function(data){state.data={history:data[0],periods:data[1],breakdowns:data[2],finance2024:data[3]};$('loading').hidden=true;$('dashboard').hidden=false;render();})
  .catch(function(err){$('loading').innerHTML='<strong>Data could not be loaded.</strong><p>This dashboard must be served over HTTP(S) with the three JSON files in the data directory.</p><p>'+esc(err.message)+'</p>';});
 }
 if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',init);else init();
