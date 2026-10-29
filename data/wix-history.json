@@ -1,0 +1,2654 @@
+{
+  "extractedAt": "2026-10-28",
+  "through": "2026-10-28",
+  "sites": [
+    {
+      "key": "main",
+      "label": "Tranquilitas — Current site",
+      "url": "https://www.tranquilitasspa.com/"
+    },
+    {
+      "key": "legacy",
+      "label": "Tranquilitas — Legacy site",
+      "url": "https://tranquilitasdayspa.wixsite.com/tranquilitas"
+    }
+  ],
+  "series": [
+    {
+      "site": "main",
+      "model": "traffic",
+      "rows": [
+        {
+          "month": "2024-08",
+          "sessions_count": 72,
+          "visitors_count": 47,
+          "views_count": 232,
+          "site_bounce_ratio": 0.57,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2024-09",
+          "sessions_count": 2336,
+          "visitors_count": 1839,
+          "views_count": 6402,
+          "site_bounce_ratio": 0.38,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2024-10",
+          "sessions_count": 1500,
+          "visitors_count": 1183,
+          "views_count": 4538,
+          "site_bounce_ratio": 0.42,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2024-11",
+          "sessions_count": 1793,
+          "visitors_count": 1400,
+          "views_count": 5243,
+          "site_bounce_ratio": 0.43,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2024-12",
+          "sessions_count": 817,
+          "visitors_count": 621,
+          "views_count": 3067,
+          "site_bounce_ratio": 0.32,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-01",
+          "sessions_count": 855,
+          "visitors_count": 669,
+          "views_count": 2925,
+          "site_bounce_ratio": 0.47,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-02",
+          "sessions_count": 626,
+          "visitors_count": 472,
+          "views_count": 2441,
+          "site_bounce_ratio": 0.39,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-03",
+          "sessions_count": 617,
+          "visitors_count": 472,
+          "views_count": 2153,
+          "site_bounce_ratio": 0.42,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-04",
+          "sessions_count": 549,
+          "visitors_count": 431,
+          "views_count": 1854,
+          "site_bounce_ratio": 0.43,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-05",
+          "sessions_count": 945,
+          "visitors_count": 791,
+          "views_count": 2650,
+          "site_bounce_ratio": 0.56,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-06",
+          "sessions_count": 587,
+          "visitors_count": 467,
+          "views_count": 1960,
+          "site_bounce_ratio": 0.43,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-07",
+          "sessions_count": 695,
+          "visitors_count": 579,
+          "views_count": 1683,
+          "site_bounce_ratio": 0.54,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-08",
+          "sessions_count": 1895,
+          "visitors_count": 1528,
+          "views_count": 3066,
+          "site_bounce_ratio": 0.79,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2025-09",
+          "sessions_count": 644,
+          "visitors_count": 517,
+          "views_count": 1467,
+          "site_bounce_ratio": 0.51,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-10",
+          "sessions_count": 967,
+          "visitors_count": 815,
+          "views_count": 1975,
+          "site_bounce_ratio": 0.62,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-11",
+          "sessions_count": 1630,
+          "visitors_count": 1432,
+          "views_count": 2929,
+          "site_bounce_ratio": 0.7,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2025-12",
+          "sessions_count": 1560,
+          "visitors_count": 1344,
+          "views_count": 3211,
+          "site_bounce_ratio": 0.62,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-01",
+          "sessions_count": 2018,
+          "visitors_count": 1755,
+          "views_count": 3777,
+          "site_bounce_ratio": 0.67,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-02",
+          "sessions_count": 1702,
+          "visitors_count": 1432,
+          "views_count": 3446,
+          "site_bounce_ratio": 0.58,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-03",
+          "sessions_count": 1398,
+          "visitors_count": 1147,
+          "views_count": 3063,
+          "site_bounce_ratio": 0.53,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-04",
+          "sessions_count": 1148,
+          "visitors_count": 915,
+          "views_count": 2592,
+          "site_bounce_ratio": 0.54,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-05",
+          "sessions_count": 1044,
+          "visitors_count": 839,
+          "views_count": 2214,
+          "site_bounce_ratio": 0.56,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-06",
+          "sessions_count": 899,
+          "visitors_count": 737,
+          "views_count": 1985,
+          "site_bounce_ratio": 0.54,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-07",
+          "sessions_count": 1031,
+          "visitors_count": 860,
+          "views_count": 2148,
+          "site_bounce_ratio": 0.55,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-08",
+          "sessions_count": 973,
+          "visitors_count": 819,
+          "views_count": 2106,
+          "site_bounce_ratio": 0.57,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-09",
+          "sessions_count": 1041,
+          "visitors_count": 911,
+          "views_count": 2032,
+          "site_bounce_ratio": 0.63,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-10",
+          "sessions_count": 906,
+          "visitors_count": 767,
+          "views_count": 1908,
+          "site_bounce_ratio": 0.56,
+          "pages_per_session_avg": 2
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "sales",
+      "rows": [
+        {
+          "month": "2024-08",
+          "sales_count": 1,
+          "total_sales_amount": 105,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 105,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-09",
+          "sales_count": 39,
+          "total_sales_amount": 6158,
+          "total_paid_amount": 395.25,
+          "total_revenue_amount": 395.25,
+          "total_discount_amount": 205.5,
+          "total_refunded_amount": 0,
+          "order_value_avg": 157.897435897,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-10",
+          "sales_count": 55,
+          "total_sales_amount": 8032.2,
+          "total_paid_amount": 557.7,
+          "total_revenue_amount": 557.7,
+          "total_discount_amount": 38,
+          "total_refunded_amount": 0,
+          "order_value_avg": 146.04,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-11",
+          "sales_count": 44,
+          "total_sales_amount": 6692.14,
+          "total_paid_amount": 25,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 76.75,
+          "total_refunded_amount": 0,
+          "order_value_avg": 152.094090909,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-12",
+          "sales_count": 86,
+          "total_sales_amount": 16558.86,
+          "total_paid_amount": 99,
+          "total_revenue_amount": 99,
+          "total_discount_amount": 61.5,
+          "total_refunded_amount": 0,
+          "order_value_avg": 192.544883721,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-01",
+          "sales_count": 74,
+          "total_sales_amount": 12903.55,
+          "total_paid_amount": 180,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 106.5,
+          "total_refunded_amount": 0,
+          "order_value_avg": 174.372297297,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-02",
+          "sales_count": 78,
+          "total_sales_amount": 14373.7,
+          "total_paid_amount": 265.5,
+          "total_revenue_amount": 115.5,
+          "total_discount_amount": 28,
+          "total_refunded_amount": 0,
+          "order_value_avg": 184.278205128,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-03",
+          "sales_count": 71,
+          "total_sales_amount": 14234,
+          "total_paid_amount": 100,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 200.478873239,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-04",
+          "sales_count": 78,
+          "total_sales_amount": 15468.2,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 198.31025641,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-05",
+          "sales_count": 89,
+          "total_sales_amount": 15812.5,
+          "total_paid_amount": 683,
+          "total_revenue_amount": 418,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 177.668539326,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-06",
+          "sales_count": 81,
+          "total_sales_amount": 15054.66,
+          "total_paid_amount": 764.5,
+          "total_revenue_amount": 764.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 185.86,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-07",
+          "sales_count": 50,
+          "total_sales_amount": 9664.6,
+          "total_paid_amount": 132,
+          "total_revenue_amount": 132,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 193.292,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-08",
+          "sales_count": 56,
+          "total_sales_amount": 10967.66,
+          "total_paid_amount": 379.5,
+          "total_revenue_amount": 379.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 195.851071429,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-09",
+          "sales_count": 45,
+          "total_sales_amount": 10846,
+          "total_paid_amount": 253,
+          "total_revenue_amount": 253,
+          "total_discount_amount": 93,
+          "total_refunded_amount": 0,
+          "order_value_avg": 241.022222222,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-10",
+          "sales_count": 44,
+          "total_sales_amount": 9148.7,
+          "total_paid_amount": 378.5,
+          "total_revenue_amount": 378.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 207.925,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-11",
+          "sales_count": 54,
+          "total_sales_amount": 15591.4,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 288.72962963,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2025-12",
+          "sales_count": 67,
+          "total_sales_amount": 12918.4,
+          "total_paid_amount": 525.5,
+          "total_revenue_amount": 525.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 192.811940299,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-01",
+          "sales_count": 66,
+          "total_sales_amount": 15295.5,
+          "total_paid_amount": 2327.5,
+          "total_revenue_amount": 2327.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 231.75,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-02",
+          "sales_count": 66,
+          "total_sales_amount": 16163.96,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 244.908484848,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-03",
+          "sales_count": 53,
+          "total_sales_amount": 12989.25,
+          "total_paid_amount": 441,
+          "total_revenue_amount": 441,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 245.080188679,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-04",
+          "sales_count": 58,
+          "total_sales_amount": 12793,
+          "total_paid_amount": 132,
+          "total_revenue_amount": 132,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 220.568965517,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-05",
+          "sales_count": 71,
+          "total_sales_amount": 15613.4,
+          "total_paid_amount": 469,
+          "total_revenue_amount": 469,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 219.907042254,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-06",
+          "sales_count": 74,
+          "total_sales_amount": 14732.08,
+          "total_paid_amount": 445.5,
+          "total_revenue_amount": 445.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 199.082162162,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-07",
+          "sales_count": 60,
+          "total_sales_amount": 17051.1,
+          "total_paid_amount": 1413.5,
+          "total_revenue_amount": 1413.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 284.185,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-08",
+          "sales_count": 61,
+          "total_sales_amount": 13623.3,
+          "total_paid_amount": 315.5,
+          "total_revenue_amount": 315.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 223.332786885,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-09",
+          "sales_count": 48,
+          "total_sales_amount": 10317.45,
+          "total_paid_amount": 855,
+          "total_revenue_amount": 855,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 214.946875,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-10",
+          "sales_count": 33,
+          "total_sales_amount": 8269.5,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 250.590909091,
+          "total_tips_amount": 0
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "bookings",
+      "rows": [
+        {
+          "month": "2024-08",
+          "bookings_count": 1,
+          "confirmed_bookings_count": 1,
+          "canceled_bookings_count": 0,
+          "customers_count": 1,
+          "total_items_sales_amount": 105,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-09",
+          "bookings_count": 39,
+          "confirmed_bookings_count": 27,
+          "canceled_bookings_count": 12,
+          "customers_count": 27,
+          "total_items_sales_amount": 6258.5,
+          "proportional_paid_amount": 395.25
+        },
+        {
+          "month": "2024-10",
+          "bookings_count": 56,
+          "confirmed_bookings_count": 42,
+          "canceled_bookings_count": 14,
+          "customers_count": 38,
+          "total_items_sales_amount": 8074,
+          "proportional_paid_amount": 557.7
+        },
+        {
+          "month": "2024-11",
+          "bookings_count": 47,
+          "confirmed_bookings_count": 33,
+          "canceled_bookings_count": 14,
+          "customers_count": 35,
+          "total_items_sales_amount": 6692.14,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-12",
+          "bookings_count": 94,
+          "confirmed_bookings_count": 86,
+          "canceled_bookings_count": 8,
+          "customers_count": 64,
+          "total_items_sales_amount": 16558.86,
+          "proportional_paid_amount": 99
+        },
+        {
+          "month": "2025-01",
+          "bookings_count": 76,
+          "confirmed_bookings_count": 65,
+          "canceled_bookings_count": 11,
+          "customers_count": 55,
+          "total_items_sales_amount": 12903.55,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2025-02",
+          "bookings_count": 82,
+          "confirmed_bookings_count": 70,
+          "canceled_bookings_count": 12,
+          "customers_count": 62,
+          "total_items_sales_amount": 14373.7,
+          "proportional_paid_amount": 115.5
+        },
+        {
+          "month": "2025-03",
+          "bookings_count": 76,
+          "confirmed_bookings_count": 61,
+          "canceled_bookings_count": 15,
+          "customers_count": 55,
+          "total_items_sales_amount": 14234,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2025-04",
+          "bookings_count": 90,
+          "confirmed_bookings_count": 80,
+          "canceled_bookings_count": 10,
+          "customers_count": 66,
+          "total_items_sales_amount": 15468.2,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2025-05",
+          "bookings_count": 112,
+          "confirmed_bookings_count": 85,
+          "canceled_bookings_count": 24,
+          "customers_count": 75,
+          "total_items_sales_amount": 16203,
+          "proportional_paid_amount": 418
+        },
+        {
+          "month": "2025-06",
+          "bookings_count": 101,
+          "confirmed_bookings_count": 69,
+          "canceled_bookings_count": 22,
+          "customers_count": 68,
+          "total_items_sales_amount": 15054.66,
+          "proportional_paid_amount": 764.5
+        },
+        {
+          "month": "2025-07",
+          "bookings_count": 57,
+          "confirmed_bookings_count": 46,
+          "canceled_bookings_count": 9,
+          "customers_count": 38,
+          "total_items_sales_amount": 9664.6,
+          "proportional_paid_amount": 132
+        },
+        {
+          "month": "2025-08",
+          "bookings_count": 70,
+          "confirmed_bookings_count": 61,
+          "canceled_bookings_count": 6,
+          "customers_count": 47,
+          "total_items_sales_amount": 10967.66,
+          "proportional_paid_amount": 379.5
+        },
+        {
+          "month": "2025-09",
+          "bookings_count": 61,
+          "confirmed_bookings_count": 48,
+          "canceled_bookings_count": 7,
+          "customers_count": 35,
+          "total_items_sales_amount": 10846,
+          "proportional_paid_amount": 253
+        },
+        {
+          "month": "2025-10",
+          "bookings_count": 53,
+          "confirmed_bookings_count": 45,
+          "canceled_bookings_count": 7,
+          "customers_count": 38,
+          "total_items_sales_amount": 9148.7,
+          "proportional_paid_amount": 148.5
+        },
+        {
+          "month": "2025-11",
+          "bookings_count": 68,
+          "confirmed_bookings_count": 59,
+          "canceled_bookings_count": 7,
+          "customers_count": 47,
+          "total_items_sales_amount": 15591.4,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2025-12",
+          "bookings_count": 83,
+          "confirmed_bookings_count": 66,
+          "canceled_bookings_count": 8,
+          "customers_count": 45,
+          "total_items_sales_amount": 12918.4,
+          "proportional_paid_amount": 170.5
+        },
+        {
+          "month": "2026-01",
+          "bookings_count": 94,
+          "confirmed_bookings_count": 64,
+          "canceled_bookings_count": 16,
+          "customers_count": 55,
+          "total_items_sales_amount": 13519,
+          "proportional_paid_amount": 396
+        },
+        {
+          "month": "2026-02",
+          "bookings_count": 90,
+          "confirmed_bookings_count": 72,
+          "canceled_bookings_count": 11,
+          "customers_count": 57,
+          "total_items_sales_amount": 16163.96,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2026-03",
+          "bookings_count": 62,
+          "confirmed_bookings_count": 56,
+          "canceled_bookings_count": 3,
+          "customers_count": 46,
+          "total_items_sales_amount": 12989.25,
+          "proportional_paid_amount": 341
+        },
+        {
+          "month": "2026-04",
+          "bookings_count": 73,
+          "confirmed_bookings_count": 62,
+          "canceled_bookings_count": 4,
+          "customers_count": 42,
+          "total_items_sales_amount": 12793,
+          "proportional_paid_amount": 132
+        },
+        {
+          "month": "2026-05",
+          "bookings_count": 93,
+          "confirmed_bookings_count": 79,
+          "canceled_bookings_count": 7,
+          "customers_count": 56,
+          "total_items_sales_amount": 15965.4,
+          "proportional_paid_amount": 319
+        },
+        {
+          "month": "2026-06",
+          "bookings_count": 95,
+          "confirmed_bookings_count": 75,
+          "canceled_bookings_count": 13,
+          "customers_count": 44,
+          "total_items_sales_amount": 14814.58,
+          "proportional_paid_amount": 445.5
+        },
+        {
+          "month": "2026-07",
+          "bookings_count": 82,
+          "confirmed_bookings_count": 73,
+          "canceled_bookings_count": 8,
+          "customers_count": 57,
+          "total_items_sales_amount": 17513.1,
+          "proportional_paid_amount": 1413.5
+        },
+        {
+          "month": "2026-08",
+          "bookings_count": 77,
+          "confirmed_bookings_count": 63,
+          "canceled_bookings_count": 13,
+          "customers_count": 40,
+          "total_items_sales_amount": 13623.3,
+          "proportional_paid_amount": 315.5
+        },
+        {
+          "month": "2026-09",
+          "bookings_count": 53,
+          "confirmed_bookings_count": 44,
+          "canceled_bookings_count": 6,
+          "customers_count": 33,
+          "total_items_sales_amount": 10476.95,
+          "proportional_paid_amount": 605
+        },
+        {
+          "month": "2026-10",
+          "bookings_count": 39,
+          "confirmed_bookings_count": 34,
+          "canceled_bookings_count": 2,
+          "customers_count": 23,
+          "total_items_sales_amount": 8621.5,
+          "proportional_paid_amount": 0
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "sale_items",
+      "rows": [
+        {
+          "month": "2024-08",
+          "sales_count": 1,
+          "total_items_sales_amount": 105,
+          "total_items_quantity": 1,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-09",
+          "sales_count": 39,
+          "total_items_sales_amount": 6258.5,
+          "total_items_quantity": 39,
+          "total_items_discount_amount": 105,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-10",
+          "sales_count": 55,
+          "total_items_sales_amount": 8074,
+          "total_items_quantity": 56,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-11",
+          "sales_count": 44,
+          "total_items_sales_amount": 6717.14,
+          "total_items_quantity": 47,
+          "total_items_discount_amount": 76.75,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-12",
+          "sales_count": 86,
+          "total_items_sales_amount": 16558.86,
+          "total_items_quantity": 93,
+          "total_items_discount_amount": 61.5,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-01",
+          "sales_count": 74,
+          "total_items_sales_amount": 13083.55,
+          "total_items_quantity": 79,
+          "total_items_discount_amount": 106.5,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-02",
+          "sales_count": 78,
+          "total_items_sales_amount": 14523.7,
+          "total_items_quantity": 83,
+          "total_items_discount_amount": 28,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-03",
+          "sales_count": 71,
+          "total_items_sales_amount": 14334,
+          "total_items_quantity": 77,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-04",
+          "sales_count": 78,
+          "total_items_sales_amount": 15468.2,
+          "total_items_quantity": 90,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-05",
+          "sales_count": 89,
+          "total_items_sales_amount": 16077.5,
+          "total_items_quantity": 109,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-06",
+          "sales_count": 81,
+          "total_items_sales_amount": 15264.66,
+          "total_items_quantity": 92,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-07",
+          "sales_count": 50,
+          "total_items_sales_amount": 9664.6,
+          "total_items_quantity": 55,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-08",
+          "sales_count": 56,
+          "total_items_sales_amount": 10967.66,
+          "total_items_quantity": 67,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-09",
+          "sales_count": 45,
+          "total_items_sales_amount": 10846,
+          "total_items_quantity": 55,
+          "total_items_discount_amount": 93,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-10",
+          "sales_count": 44,
+          "total_items_sales_amount": 9518.7,
+          "total_items_quantity": 54,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-11",
+          "sales_count": 54,
+          "total_items_sales_amount": 15591.4,
+          "total_items_quantity": 66,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2025-12",
+          "sales_count": 67,
+          "total_items_sales_amount": 13473.4,
+          "total_items_quantity": 77,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-01",
+          "sales_count": 66,
+          "total_items_sales_amount": 15450.5,
+          "total_items_quantity": 94,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-02",
+          "sales_count": 66,
+          "total_items_sales_amount": 16163.96,
+          "total_items_quantity": 80,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-03",
+          "sales_count": 53,
+          "total_items_sales_amount": 13089.25,
+          "total_items_quantity": 60,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-04",
+          "sales_count": 58,
+          "total_items_sales_amount": 12793,
+          "total_items_quantity": 65,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-05",
+          "sales_count": 71,
+          "total_items_sales_amount": 15763.4,
+          "total_items_quantity": 81,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-06",
+          "sales_count": 74,
+          "total_items_sales_amount": 14782.08,
+          "total_items_quantity": 88,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-07",
+          "sales_count": 60,
+          "total_items_sales_amount": 17051.1,
+          "total_items_quantity": 73,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-08",
+          "sales_count": 61,
+          "total_items_sales_amount": 13623.3,
+          "total_items_quantity": 75,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-09",
+          "sales_count": 48,
+          "total_items_sales_amount": 10567.45,
+          "total_items_quantity": 51,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-10",
+          "sales_count": 33,
+          "total_items_sales_amount": 8269.5,
+          "total_items_quantity": 35,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "button_clicks",
+      "rows": [
+        {
+          "month": "2024-09",
+          "clicks_count": 122,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 76
+        },
+        {
+          "month": "2024-10",
+          "clicks_count": 540,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 288
+        },
+        {
+          "month": "2024-11",
+          "clicks_count": 568,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 305
+        },
+        {
+          "month": "2024-12",
+          "clicks_count": 398,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 227
+        },
+        {
+          "month": "2025-01",
+          "clicks_count": 393,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 206
+        },
+        {
+          "month": "2025-02",
+          "clicks_count": 436,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 207
+        },
+        {
+          "month": "2025-03",
+          "clicks_count": 366,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 201
+        },
+        {
+          "month": "2025-04",
+          "clicks_count": 351,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 176
+        },
+        {
+          "month": "2025-05",
+          "clicks_count": 548,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 252
+        },
+        {
+          "month": "2025-06",
+          "clicks_count": 409,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 210
+        },
+        {
+          "month": "2025-07",
+          "clicks_count": 325,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 201
+        },
+        {
+          "month": "2025-08",
+          "clicks_count": 401,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 200
+        },
+        {
+          "month": "2025-09",
+          "clicks_count": 370,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 210
+        },
+        {
+          "month": "2025-10",
+          "clicks_count": 446,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 270
+        },
+        {
+          "month": "2025-11",
+          "clicks_count": 608,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 355
+        },
+        {
+          "month": "2025-12",
+          "clicks_count": 771,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 463
+        },
+        {
+          "month": "2026-01",
+          "clicks_count": 847,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 529
+        },
+        {
+          "month": "2026-02",
+          "clicks_count": 833,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 542
+        },
+        {
+          "month": "2026-03",
+          "clicks_count": 784,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 508
+        },
+        {
+          "month": "2026-04",
+          "clicks_count": 677,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 398
+        },
+        {
+          "month": "2026-05",
+          "clicks_count": 621,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 352
+        },
+        {
+          "month": "2026-06",
+          "clicks_count": 524,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 336
+        },
+        {
+          "month": "2026-07",
+          "clicks_count": 568,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 348
+        },
+        {
+          "month": "2026-08",
+          "clicks_count": 540,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 335
+        },
+        {
+          "month": "2026-09",
+          "clicks_count": 446,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 284
+        },
+        {
+          "month": "2026-10",
+          "clicks_count": 499,
+          "sessions_count": 30248,
+          "views_count": 70650,
+          "unique_visitors_clicks_count": 313
+        }
+      ],
+      "returnCount": 26
+    },
+    {
+      "site": "main",
+      "model": "conversion",
+      "rows": [
+        {
+          "month": "2024-08",
+          "orders_count": 1,
+          "confirmed_bookings_count": 1,
+          "total_sales_amount": 105,
+          "leads_count": 0,
+          "sessions_count": 72,
+          "conversion_sales_ratio": 0.013889
+        },
+        {
+          "month": "2024-09",
+          "orders_count": 27,
+          "confirmed_bookings_count": 27,
+          "total_sales_amount": 4072.5,
+          "leads_count": 7,
+          "sessions_count": 2336,
+          "conversion_sales_ratio": 0.009846
+        },
+        {
+          "month": "2024-10",
+          "orders_count": 19,
+          "confirmed_bookings_count": 20,
+          "total_sales_amount": 1985.5,
+          "leads_count": 49,
+          "sessions_count": 1500,
+          "conversion_sales_ratio": 0.01
+        },
+        {
+          "month": "2024-11",
+          "orders_count": 20,
+          "confirmed_bookings_count": 19,
+          "total_sales_amount": 2874.59,
+          "leads_count": 48,
+          "sessions_count": 1793,
+          "conversion_sales_ratio": 0.010597
+        },
+        {
+          "month": "2024-12",
+          "orders_count": 21,
+          "confirmed_bookings_count": 21,
+          "total_sales_amount": 4404.68,
+          "leads_count": 28,
+          "sessions_count": 817,
+          "conversion_sales_ratio": 0.025704
+        },
+        {
+          "month": "2025-01",
+          "orders_count": 21,
+          "confirmed_bookings_count": 19,
+          "total_sales_amount": 3518.35,
+          "leads_count": 24,
+          "sessions_count": 855,
+          "conversion_sales_ratio": 0.023392
+        },
+        {
+          "month": "2025-02",
+          "orders_count": 32,
+          "confirmed_bookings_count": 32,
+          "total_sales_amount": 5705.7,
+          "leads_count": 2,
+          "sessions_count": 626,
+          "conversion_sales_ratio": 0.051118
+        },
+        {
+          "month": "2025-03",
+          "orders_count": 25,
+          "confirmed_bookings_count": 28,
+          "total_sales_amount": 4867.5,
+          "leads_count": 3,
+          "sessions_count": 617,
+          "conversion_sales_ratio": 0.040519
+        },
+        {
+          "month": "2025-04",
+          "orders_count": 22,
+          "confirmed_bookings_count": 27,
+          "total_sales_amount": 4345,
+          "leads_count": 2,
+          "sessions_count": 549,
+          "conversion_sales_ratio": 0.040073
+        },
+        {
+          "month": "2025-05",
+          "orders_count": 26,
+          "confirmed_bookings_count": 27,
+          "total_sales_amount": 3938,
+          "leads_count": 1,
+          "sessions_count": 945,
+          "conversion_sales_ratio": 0.027513
+        },
+        {
+          "month": "2025-06",
+          "orders_count": 24,
+          "confirmed_bookings_count": 22,
+          "total_sales_amount": 3905,
+          "leads_count": 3,
+          "sessions_count": 587,
+          "conversion_sales_ratio": 0.040886
+        },
+        {
+          "month": "2025-07",
+          "orders_count": 13,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 1947,
+          "leads_count": 2,
+          "sessions_count": 695,
+          "conversion_sales_ratio": 0.018705
+        },
+        {
+          "month": "2025-08",
+          "orders_count": 17,
+          "confirmed_bookings_count": 19,
+          "total_sales_amount": 2752.2,
+          "leads_count": 0,
+          "sessions_count": 1895,
+          "conversion_sales_ratio": 0.008443
+        },
+        {
+          "month": "2025-09",
+          "orders_count": 13,
+          "confirmed_bookings_count": 15,
+          "total_sales_amount": 2966.7,
+          "leads_count": 1,
+          "sessions_count": 644,
+          "conversion_sales_ratio": 0.020186
+        },
+        {
+          "month": "2025-10",
+          "orders_count": 11,
+          "confirmed_bookings_count": 10,
+          "total_sales_amount": 1875.5,
+          "leads_count": 0,
+          "sessions_count": 967,
+          "conversion_sales_ratio": 0.011375
+        },
+        {
+          "month": "2025-11",
+          "orders_count": 18,
+          "confirmed_bookings_count": 21,
+          "total_sales_amount": 3498,
+          "leads_count": 2,
+          "sessions_count": 1630,
+          "conversion_sales_ratio": 0.011043
+        },
+        {
+          "month": "2025-12",
+          "orders_count": 31,
+          "confirmed_bookings_count": 37,
+          "total_sales_amount": 6050,
+          "leads_count": 2,
+          "sessions_count": 1560,
+          "conversion_sales_ratio": 0.016667
+        },
+        {
+          "month": "2026-01",
+          "orders_count": 27,
+          "confirmed_bookings_count": 28,
+          "total_sales_amount": 4350.5,
+          "leads_count": 1,
+          "sessions_count": 2018,
+          "conversion_sales_ratio": 0.01338
+        },
+        {
+          "month": "2026-02",
+          "orders_count": 13,
+          "confirmed_bookings_count": 16,
+          "total_sales_amount": 2794,
+          "leads_count": 2,
+          "sessions_count": 1702,
+          "conversion_sales_ratio": 0.007051
+        },
+        {
+          "month": "2026-03",
+          "orders_count": 28,
+          "confirmed_bookings_count": 27,
+          "total_sales_amount": 6748.5,
+          "leads_count": 1,
+          "sessions_count": 1398,
+          "conversion_sales_ratio": 0.020744
+        },
+        {
+          "month": "2026-04",
+          "orders_count": 19,
+          "confirmed_bookings_count": 20,
+          "total_sales_amount": 3498,
+          "leads_count": 1,
+          "sessions_count": 1148,
+          "conversion_sales_ratio": 0.015679
+        },
+        {
+          "month": "2026-05",
+          "orders_count": 21,
+          "confirmed_bookings_count": 27,
+          "total_sales_amount": 5769.5,
+          "leads_count": 1,
+          "sessions_count": 1044,
+          "conversion_sales_ratio": 0.020115
+        },
+        {
+          "month": "2026-06",
+          "orders_count": 20,
+          "confirmed_bookings_count": 26,
+          "total_sales_amount": 4496.8,
+          "leads_count": 0,
+          "sessions_count": 899,
+          "conversion_sales_ratio": 0.022247
+        },
+        {
+          "month": "2026-07",
+          "orders_count": 27,
+          "confirmed_bookings_count": 34,
+          "total_sales_amount": 6504.3,
+          "leads_count": 1,
+          "sessions_count": 1031,
+          "conversion_sales_ratio": 0.025218
+        },
+        {
+          "month": "2026-08",
+          "orders_count": 17,
+          "confirmed_bookings_count": 20,
+          "total_sales_amount": 2541,
+          "leads_count": 0,
+          "sessions_count": 973,
+          "conversion_sales_ratio": 0.014388
+        },
+        {
+          "month": "2026-09",
+          "orders_count": 17,
+          "confirmed_bookings_count": 17,
+          "total_sales_amount": 3396.8,
+          "leads_count": 0,
+          "sessions_count": 1041,
+          "conversion_sales_ratio": 0.01633
+        },
+        {
+          "month": "2026-10",
+          "orders_count": 11,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 2534.5,
+          "leads_count": 0,
+          "sessions_count": 906,
+          "conversion_sales_ratio": 0.012141
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "google_search",
+      "rows": [
+        {
+          "month": "2024-08",
+          "clicks_count": 12,
+          "impressions_count": 500,
+          "click_through_ratio": 0.024,
+          "position_avg": 22.848
+        },
+        {
+          "month": "2024-09",
+          "clicks_count": 58,
+          "impressions_count": 2902,
+          "click_through_ratio": 0.0199862164,
+          "position_avg": 16.858373535
+        },
+        {
+          "month": "2024-10",
+          "clicks_count": 69,
+          "impressions_count": 3599,
+          "click_through_ratio": 0.01917199222,
+          "position_avg": 16.798833009
+        },
+        {
+          "month": "2024-11",
+          "clicks_count": 85,
+          "impressions_count": 4244,
+          "click_through_ratio": 0.02002827521,
+          "position_avg": 15.430254477
+        },
+        {
+          "month": "2024-12",
+          "clicks_count": 141,
+          "impressions_count": 5216,
+          "click_through_ratio": 0.02703220859,
+          "position_avg": 13.742331288
+        },
+        {
+          "month": "2025-01",
+          "clicks_count": 138,
+          "impressions_count": 5408,
+          "click_through_ratio": 0.02551775148,
+          "position_avg": 14.752588757
+        },
+        {
+          "month": "2025-02",
+          "clicks_count": 134,
+          "impressions_count": 5572,
+          "click_through_ratio": 0.02404881551,
+          "position_avg": 15.509511845
+        },
+        {
+          "month": "2025-03",
+          "clicks_count": 156,
+          "impressions_count": 6852,
+          "click_through_ratio": 0.02276707531,
+          "position_avg": 21.30545826
+        },
+        {
+          "month": "2025-04",
+          "clicks_count": 120,
+          "impressions_count": 6596,
+          "click_through_ratio": 0.01819284415,
+          "position_avg": 28.082929048
+        },
+        {
+          "month": "2025-05",
+          "clicks_count": 168,
+          "impressions_count": 9227,
+          "click_through_ratio": 0.0182074347,
+          "position_avg": 28.553267584
+        },
+        {
+          "month": "2025-06",
+          "clicks_count": 153,
+          "impressions_count": 8369,
+          "click_through_ratio": 0.01828175409,
+          "position_avg": 26.509618831
+        },
+        {
+          "month": "2025-07",
+          "clicks_count": 169,
+          "impressions_count": 9359,
+          "click_through_ratio": 0.01805748477,
+          "position_avg": 23.593012074
+        },
+        {
+          "month": "2025-08",
+          "clicks_count": 155,
+          "impressions_count": 6994,
+          "click_through_ratio": 0.02216185302,
+          "position_avg": 14.466685731
+        },
+        {
+          "month": "2025-09",
+          "clicks_count": 168,
+          "impressions_count": 5198,
+          "click_through_ratio": 0.03232012312,
+          "position_avg": 10.688918815
+        },
+        {
+          "month": "2025-10",
+          "clicks_count": 210,
+          "impressions_count": 6302,
+          "click_through_ratio": 0.03332275468,
+          "position_avg": 9.507775309
+        },
+        {
+          "month": "2025-11",
+          "clicks_count": 407,
+          "impressions_count": 10966,
+          "click_through_ratio": 0.03711471822,
+          "position_avg": 9.365493343
+        },
+        {
+          "month": "2025-12",
+          "clicks_count": 543,
+          "impressions_count": 18873,
+          "click_through_ratio": 0.02877126053,
+          "position_avg": 11.053091718
+        },
+        {
+          "month": "2026-01",
+          "clicks_count": 667,
+          "impressions_count": 25432,
+          "click_through_ratio": 0.02622680088,
+          "position_avg": 11.135341302
+        },
+        {
+          "month": "2026-02",
+          "clicks_count": 581,
+          "impressions_count": 21244,
+          "click_through_ratio": 0.02734889851,
+          "position_avg": 9.728911693
+        },
+        {
+          "month": "2026-03",
+          "clicks_count": 565,
+          "impressions_count": 23123,
+          "click_through_ratio": 0.02443454569,
+          "position_avg": 9.415430524
+        },
+        {
+          "month": "2026-04",
+          "clicks_count": 486,
+          "impressions_count": 19169,
+          "click_through_ratio": 0.02535343523,
+          "position_avg": 10.99186186
+        },
+        {
+          "month": "2026-05",
+          "clicks_count": 422,
+          "impressions_count": 21385,
+          "click_through_ratio": 0.01973345803,
+          "position_avg": 17.5812953
+        },
+        {
+          "month": "2026-06",
+          "clicks_count": 356,
+          "impressions_count": 20355,
+          "click_through_ratio": 0.0174895603,
+          "position_avg": 19.803242447
+        },
+        {
+          "month": "2026-07",
+          "clicks_count": 404,
+          "impressions_count": 22668,
+          "click_through_ratio": 0.01782248103,
+          "position_avg": 21.141874007
+        },
+        {
+          "month": "2026-08",
+          "clicks_count": 396,
+          "impressions_count": 21921,
+          "click_through_ratio": 0.0180648693,
+          "position_avg": 23.35897085
+        },
+        {
+          "month": "2026-09",
+          "clicks_count": 292,
+          "impressions_count": 20612,
+          "click_through_ratio": 0.01416650495,
+          "position_avg": 21.754657481
+        },
+        {
+          "month": "2026-10",
+          "clicks_count": 264,
+          "impressions_count": 17406,
+          "click_through_ratio": 0.01516718373,
+          "position_avg": 20.69723084
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "contacts",
+      "rows": [
+        {
+          "month": "2024-08",
+          "contacts_count": 2,
+          "total_orders_count": 3,
+          "total_sales_amount": 462.5,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-09",
+          "contacts_count": 41,
+          "total_orders_count": 156,
+          "total_sales_amount": 27936.9,
+          "total_paid_amount": 670.75
+        },
+        {
+          "month": "2024-10",
+          "contacts_count": 79,
+          "total_orders_count": 162,
+          "total_sales_amount": 27873.79,
+          "total_paid_amount": 557.7
+        },
+        {
+          "month": "2024-11",
+          "contacts_count": 77,
+          "total_orders_count": 63,
+          "total_sales_amount": 10588.06,
+          "total_paid_amount": 25
+        },
+        {
+          "month": "2024-12",
+          "contacts_count": 74,
+          "total_orders_count": 75,
+          "total_sales_amount": 17334.36,
+          "total_paid_amount": 99
+        },
+        {
+          "month": "2025-01",
+          "contacts_count": 64,
+          "total_orders_count": 67,
+          "total_sales_amount": 11277.75,
+          "total_paid_amount": 130
+        },
+        {
+          "month": "2025-02",
+          "contacts_count": 52,
+          "total_orders_count": 64,
+          "total_sales_amount": 11968,
+          "total_paid_amount": 265.5
+        },
+        {
+          "month": "2025-03",
+          "contacts_count": 46,
+          "total_orders_count": 48,
+          "total_sales_amount": 10565.5,
+          "total_paid_amount": 100
+        },
+        {
+          "month": "2025-04",
+          "contacts_count": 78,
+          "total_orders_count": 80,
+          "total_sales_amount": 15960.45,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2025-05",
+          "contacts_count": 65,
+          "total_orders_count": 81,
+          "total_sales_amount": 14393.5,
+          "total_paid_amount": 683
+        },
+        {
+          "month": "2025-06",
+          "contacts_count": 66,
+          "total_orders_count": 80,
+          "total_sales_amount": 15250.95,
+          "total_paid_amount": 764.5
+        },
+        {
+          "month": "2025-07",
+          "contacts_count": 28,
+          "total_orders_count": 26,
+          "total_sales_amount": 4466,
+          "total_paid_amount": 132
+        },
+        {
+          "month": "2025-08",
+          "contacts_count": 32,
+          "total_orders_count": 47,
+          "total_sales_amount": 9966.66,
+          "total_paid_amount": 379.5
+        },
+        {
+          "month": "2025-09",
+          "contacts_count": 30,
+          "total_orders_count": 43,
+          "total_sales_amount": 12971.2,
+          "total_paid_amount": 253
+        },
+        {
+          "month": "2025-10",
+          "contacts_count": 29,
+          "total_orders_count": 32,
+          "total_sales_amount": 7408.5,
+          "total_paid_amount": 378.5
+        },
+        {
+          "month": "2025-11",
+          "contacts_count": 45,
+          "total_orders_count": 115,
+          "total_sales_amount": 29606.5,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2025-12",
+          "contacts_count": 42,
+          "total_orders_count": 42,
+          "total_sales_amount": 7458,
+          "total_paid_amount": 525.5
+        },
+        {
+          "month": "2026-01",
+          "contacts_count": 58,
+          "total_orders_count": 58,
+          "total_sales_amount": 11649,
+          "total_paid_amount": 2327.5
+        },
+        {
+          "month": "2026-02",
+          "contacts_count": 50,
+          "total_orders_count": 82,
+          "total_sales_amount": 17101.06,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2026-03",
+          "contacts_count": 42,
+          "total_orders_count": 33,
+          "total_sales_amount": 8804.4,
+          "total_paid_amount": 441
+        },
+        {
+          "month": "2026-04",
+          "contacts_count": 36,
+          "total_orders_count": 38,
+          "total_sales_amount": 8570.1,
+          "total_paid_amount": 132
+        },
+        {
+          "month": "2026-05",
+          "contacts_count": 55,
+          "total_orders_count": 52,
+          "total_sales_amount": 11691.9,
+          "total_paid_amount": 469
+        },
+        {
+          "month": "2026-06",
+          "contacts_count": 28,
+          "total_orders_count": 35,
+          "total_sales_amount": 8908.68,
+          "total_paid_amount": 445.5
+        },
+        {
+          "month": "2026-07",
+          "contacts_count": 55,
+          "total_orders_count": 43,
+          "total_sales_amount": 11921.8,
+          "total_paid_amount": 1188
+        },
+        {
+          "month": "2026-08",
+          "contacts_count": 28,
+          "total_orders_count": 37,
+          "total_sales_amount": 8759.25,
+          "total_paid_amount": 315.5
+        },
+        {
+          "month": "2026-09",
+          "contacts_count": 29,
+          "total_orders_count": 25,
+          "total_sales_amount": 4991.8,
+          "total_paid_amount": 855
+        },
+        {
+          "month": "2026-10",
+          "contacts_count": 16,
+          "total_orders_count": 13,
+          "total_sales_amount": 3200,
+          "total_paid_amount": 0
+        }
+      ],
+      "returnCount": 27
+    },
+    {
+      "site": "main",
+      "model": "transactions",
+      "rows": [
+        {
+          "month": "2024-09",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 395.25,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-10",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 557.7,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-11",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 25,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-12",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 99,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-01",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 180,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-02",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 265.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-03",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 100,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-05",
+          "transactions_count": 4,
+          "successful_payments": 4,
+          "total_paid_amount": 683,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-06",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 764.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-07",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 132,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-08",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 379.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-09",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 253,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-10",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 378.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2025-12",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 525.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-01",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 2327.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-03",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 441,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-04",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 132,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-05",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 320.5,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-06",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 594,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-07",
+          "transactions_count": 3,
+          "successful_payments": 3,
+          "total_paid_amount": 1188,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-08",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 341,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2026-09",
+          "transactions_count": 5,
+          "successful_payments": 5,
+          "total_paid_amount": 1055,
+          "total_refunds_amount": null
+        }
+      ],
+      "returnCount": 22
+    },
+    {
+      "site": "main",
+      "model": "site_search",
+      "rows": [],
+      "returnCount": 0
+    },
+    {
+      "site": "legacy",
+      "model": "traffic",
+      "rows": [
+        {
+          "month": "2024-01",
+          "sessions_count": 107,
+          "visitors_count": 93,
+          "views_count": 454,
+          "site_bounce_ratio": 0.29,
+          "pages_per_session_avg": 3
+        },
+        {
+          "month": "2024-02",
+          "sessions_count": 149,
+          "visitors_count": 100,
+          "views_count": 594,
+          "site_bounce_ratio": 0.3,
+          "pages_per_session_avg": 3
+        },
+        {
+          "month": "2024-03",
+          "sessions_count": 117,
+          "visitors_count": 93,
+          "views_count": 518,
+          "site_bounce_ratio": 0.26,
+          "pages_per_session_avg": 3
+        },
+        {
+          "month": "2024-04",
+          "sessions_count": 325,
+          "visitors_count": 259,
+          "views_count": 805,
+          "site_bounce_ratio": 0.63,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2024-05",
+          "sessions_count": 312,
+          "visitors_count": 262,
+          "views_count": 1058,
+          "site_bounce_ratio": 0.45,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2024-06",
+          "sessions_count": 211,
+          "visitors_count": 170,
+          "views_count": 797,
+          "site_bounce_ratio": 0.48,
+          "pages_per_session_avg": 3
+        },
+        {
+          "month": "2024-07",
+          "sessions_count": 1133,
+          "visitors_count": 809,
+          "views_count": 2315,
+          "site_bounce_ratio": 0.7,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2024-08",
+          "sessions_count": 2143,
+          "visitors_count": 1298,
+          "views_count": 3974,
+          "site_bounce_ratio": 0.73,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2024-09",
+          "sessions_count": 14,
+          "visitors_count": 12,
+          "views_count": 14,
+          "site_bounce_ratio": 1,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2024-10",
+          "sessions_count": 7,
+          "visitors_count": 7,
+          "views_count": 8,
+          "site_bounce_ratio": 0.86,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2024-11",
+          "sessions_count": 1,
+          "visitors_count": 1,
+          "views_count": 1,
+          "site_bounce_ratio": 1,
+          "pages_per_session_avg": 1
+        },
+        {
+          "month": "2025-01",
+          "sessions_count": 1,
+          "visitors_count": 1,
+          "views_count": 1,
+          "site_bounce_ratio": 1,
+          "pages_per_session_avg": 1
+        }
+      ],
+      "returnCount": 12
+    },
+    {
+      "site": "legacy",
+      "model": "sales",
+      "rows": [
+        {
+          "month": "2024-02",
+          "sales_count": 9,
+          "total_sales_amount": 980,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 108.888888889,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-03",
+          "sales_count": 13,
+          "total_sales_amount": 1574.48,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 121.113846154,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-04",
+          "sales_count": 13,
+          "total_sales_amount": 1285,
+          "total_paid_amount": 130,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 98.846153846,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-05",
+          "sales_count": 29,
+          "total_sales_amount": 3683,
+          "total_paid_amount": 783,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 127,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-06",
+          "sales_count": 18,
+          "total_sales_amount": 2852.5,
+          "total_paid_amount": 0,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 158.472222222,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-07",
+          "sales_count": 19,
+          "total_sales_amount": 2970,
+          "total_paid_amount": 120,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 156.315789474,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2024-08",
+          "sales_count": 22,
+          "total_sales_amount": 3587,
+          "total_paid_amount": 105,
+          "total_revenue_amount": 0,
+          "total_discount_amount": 18,
+          "total_refunded_amount": 0,
+          "order_value_avg": 163.045454545,
+          "total_tips_amount": 0
+        }
+      ],
+      "returnCount": 7
+    },
+    {
+      "site": "legacy",
+      "model": "bookings",
+      "rows": [
+        {
+          "month": "2024-01",
+          "bookings_count": 16,
+          "confirmed_bookings_count": 13,
+          "canceled_bookings_count": 3,
+          "customers_count": 12,
+          "total_items_sales_amount": 1770,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-02",
+          "bookings_count": 9,
+          "confirmed_bookings_count": 9,
+          "canceled_bookings_count": 0,
+          "customers_count": 7,
+          "total_items_sales_amount": 980,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-03",
+          "bookings_count": 12,
+          "confirmed_bookings_count": 10,
+          "canceled_bookings_count": 2,
+          "customers_count": 11,
+          "total_items_sales_amount": 1495,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-04",
+          "bookings_count": 11,
+          "confirmed_bookings_count": 11,
+          "canceled_bookings_count": 0,
+          "customers_count": 10,
+          "total_items_sales_amount": 1285,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-05",
+          "bookings_count": 22,
+          "confirmed_bookings_count": 19,
+          "canceled_bookings_count": 3,
+          "customers_count": 16,
+          "total_items_sales_amount": 3650,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-06",
+          "bookings_count": 17,
+          "confirmed_bookings_count": 16,
+          "canceled_bookings_count": 1,
+          "customers_count": 13,
+          "total_items_sales_amount": 2660,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-07",
+          "bookings_count": 18,
+          "confirmed_bookings_count": 14,
+          "canceled_bookings_count": 4,
+          "customers_count": 12,
+          "total_items_sales_amount": 2970,
+          "proportional_paid_amount": 0
+        },
+        {
+          "month": "2024-08",
+          "bookings_count": 21,
+          "confirmed_bookings_count": 20,
+          "canceled_bookings_count": 1,
+          "customers_count": 20,
+          "total_items_sales_amount": 3587,
+          "proportional_paid_amount": 0
+        }
+      ],
+      "returnCount": 8
+    },
+    {
+      "site": "legacy",
+      "model": "sale_items",
+      "rows": [
+        {
+          "month": "2024-02",
+          "sales_count": 9,
+          "total_items_sales_amount": 980,
+          "total_items_quantity": 9,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-03",
+          "sales_count": 13,
+          "total_items_sales_amount": 1574.48,
+          "total_items_quantity": 14,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": 72.25
+        },
+        {
+          "month": "2024-04",
+          "sales_count": 13,
+          "total_items_sales_amount": 1415,
+          "total_items_quantity": 13,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-05",
+          "sales_count": 29,
+          "total_items_sales_amount": 4658,
+          "total_items_quantity": 30,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": 30
+        },
+        {
+          "month": "2024-06",
+          "sales_count": 18,
+          "total_items_sales_amount": 2852.51,
+          "total_items_quantity": 22,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": 175
+        },
+        {
+          "month": "2024-07",
+          "sales_count": 19,
+          "total_items_sales_amount": 3090,
+          "total_items_quantity": 19,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2024-08",
+          "sales_count": 22,
+          "total_items_sales_amount": 3692,
+          "total_items_quantity": 22,
+          "total_items_discount_amount": 18,
+          "total_items_profit_amount": null
+        }
+      ],
+      "returnCount": 7
+    },
+    {
+      "site": "legacy",
+      "model": "button_clicks",
+      "rows": [],
+      "returnCount": 0
+    },
+    {
+      "site": "legacy",
+      "model": "conversion",
+      "rows": [
+        {
+          "month": "2024-01",
+          "orders_count": 0,
+          "confirmed_bookings_count": 6,
+          "total_sales_amount": 0,
+          "leads_count": 0,
+          "sessions_count": 107,
+          "conversion_sales_ratio": 0
+        },
+        {
+          "month": "2024-02",
+          "orders_count": 9,
+          "confirmed_bookings_count": 9,
+          "total_sales_amount": 980,
+          "leads_count": 1,
+          "sessions_count": 149,
+          "conversion_sales_ratio": 0.060403
+        },
+        {
+          "month": "2024-03",
+          "orders_count": 12,
+          "confirmed_bookings_count": 10,
+          "total_sales_amount": 1394.48,
+          "leads_count": 1,
+          "sessions_count": 117,
+          "conversion_sales_ratio": 0.102564
+        },
+        {
+          "month": "2024-04",
+          "orders_count": 11,
+          "confirmed_bookings_count": 9,
+          "total_sales_amount": 1045,
+          "leads_count": 3,
+          "sessions_count": 325,
+          "conversion_sales_ratio": 0.030769
+        },
+        {
+          "month": "2024-05",
+          "orders_count": 20,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 1883,
+          "leads_count": 4,
+          "sessions_count": 312,
+          "conversion_sales_ratio": 0.051282
+        },
+        {
+          "month": "2024-06",
+          "orders_count": 14,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 2297.5,
+          "leads_count": 5,
+          "sessions_count": 211,
+          "conversion_sales_ratio": 0.042654
+        },
+        {
+          "month": "2024-07",
+          "orders_count": 14,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 2100,
+          "leads_count": 3,
+          "sessions_count": 1133,
+          "conversion_sales_ratio": 0.011474
+        },
+        {
+          "month": "2024-08",
+          "orders_count": 20,
+          "confirmed_bookings_count": 20,
+          "total_sales_amount": 3407,
+          "leads_count": 3,
+          "sessions_count": 2143,
+          "conversion_sales_ratio": 0.009333
+        },
+        {
+          "month": "2024-09",
+          "orders_count": 0,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0,
+          "leads_count": 0,
+          "sessions_count": 14,
+          "conversion_sales_ratio": 0
+        },
+        {
+          "month": "2024-10",
+          "orders_count": 0,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0,
+          "leads_count": 0,
+          "sessions_count": 7,
+          "conversion_sales_ratio": 0
+        },
+        {
+          "month": "2024-11",
+          "orders_count": 0,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0,
+          "leads_count": 0,
+          "sessions_count": 1,
+          "conversion_sales_ratio": 0
+        },
+        {
+          "month": "2025-01",
+          "orders_count": 0,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0,
+          "leads_count": 0,
+          "sessions_count": 1,
+          "conversion_sales_ratio": 0
+        }
+      ],
+      "returnCount": 12
+    },
+    {
+      "site": "legacy",
+      "model": "google_search",
+      "rows": [
+        {
+          "month": "2024-04",
+          "clicks_count": 4,
+          "impressions_count": 313,
+          "click_through_ratio": 0.01277955272,
+          "position_avg": 28.881789137
+        },
+        {
+          "month": "2024-05",
+          "clicks_count": 14,
+          "impressions_count": 845,
+          "click_through_ratio": 0.01656804734,
+          "position_avg": 32.350295858
+        },
+        {
+          "month": "2024-06",
+          "clicks_count": 24,
+          "impressions_count": 962,
+          "click_through_ratio": 0.02494802495,
+          "position_avg": 30.589397089
+        },
+        {
+          "month": "2024-07",
+          "clicks_count": 35,
+          "impressions_count": 1157,
+          "click_through_ratio": 0.03025064823,
+          "position_avg": 31.101123596
+        },
+        {
+          "month": "2024-08",
+          "clicks_count": 23,
+          "impressions_count": 996,
+          "click_through_ratio": 0.02309236948,
+          "position_avg": 28.887550201
+        }
+      ],
+      "returnCount": 5
+    },
+    {
+      "site": "legacy",
+      "model": "contacts",
+      "rows": [
+        {
+          "month": "2024-01",
+          "contacts_count": 12,
+          "total_orders_count": 3,
+          "total_sales_amount": 300,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2024-02",
+          "contacts_count": 7,
+          "total_orders_count": 8,
+          "total_sales_amount": 950,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-03",
+          "contacts_count": 8,
+          "total_orders_count": 7,
+          "total_sales_amount": 910,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2024-04",
+          "contacts_count": 8,
+          "total_orders_count": 7,
+          "total_sales_amount": 1155,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-05",
+          "contacts_count": 29,
+          "total_orders_count": 25,
+          "total_sales_amount": 3218,
+          "total_paid_amount": 783
+        },
+        {
+          "month": "2024-06",
+          "contacts_count": 17,
+          "total_orders_count": 10,
+          "total_sales_amount": 1530,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-07",
+          "contacts_count": 14,
+          "total_orders_count": 16,
+          "total_sales_amount": 2605,
+          "total_paid_amount": 120
+        },
+        {
+          "month": "2024-08",
+          "contacts_count": 21,
+          "total_orders_count": 19,
+          "total_sales_amount": 2902,
+          "total_paid_amount": 105
+        },
+        {
+          "month": "2025-04",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-07",
+          "contacts_count": 2,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-08",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-09",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2026-02",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        }
+      ],
+      "returnCount": 13
+    },
+    {
+      "site": "legacy",
+      "model": "transactions",
+      "rows": [
+        {
+          "month": "2024-04",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 130,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-05",
+          "transactions_count": 4,
+          "successful_payments": 4,
+          "total_paid_amount": 750,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-07",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 120,
+          "total_refunds_amount": null
+        },
+        {
+          "month": "2024-08",
+          "transactions_count": 1,
+          "successful_payments": 1,
+          "total_paid_amount": 105,
+          "total_refunds_amount": null
+        }
+      ],
+      "returnCount": 4
+    },
+    {
+      "site": "legacy",
+      "model": "site_search",
+      "rows": [],
+      "returnCount": 0
+    }
+  ],
+  "definitions": {
+    "source": "Wix Analytics Semantic Models API",
+    "dateRange": "2024-01-01 to 2026-10-28",
+    "frequency": "calendar month",
+    "timezone": "America/Nassau",
+    "warning": "Aggregate data only. Unique counts and ratio metrics are not additive across months or sites. Sales values are NOT audited cash receipts or P&L. Legacy and current Wix site records are independent sources."
+  }
+}
