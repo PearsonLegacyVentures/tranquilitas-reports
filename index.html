@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#091720">
+<meta name="robots" content="noindex,nofollow,noarchive">
+<meta name="description" content="Tranquilitas Intelligence — private management operating performance reporting.">
+<title>Tranquilitas Intelligence · Management Reporting</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<div id="app" class="app">
+ <aside class="sidebar">
+  <a class="brand" href="#overview"><div class="brand-icon">T<span>.</span></div><div><strong>TRANQUILITAS</strong><small>INTELLIGENCE SYSTEM</small></div></a>
+  <div class="sidebar-label">WORKSPACE</div>
+  <nav class="side-nav" aria-label="Primary navigation">
+   <a class="nav-link active" href="#overview"><span class="nav-icon">◫</span> Executive overview</a>
+   <a class="nav-link" href="#performance"><span class="nav-icon">⌁</span> Financial performance</a>
+   <a class="nav-link" href="#quarters"><span class="nav-icon">▦</span> Quarterly ledger</a>
+   <a class="nav-link" href="#services"><span class="nav-icon">◈</span> Service portfolio</a>
+   <a class="nav-link" href="#acquisition"><span class="nav-icon">◎</span> Acquisition & SEO</a>
+   <a class="nav-link" href="#bookings"><span class="nav-icon">▤</span> Bookings & clients</a>
+   <a class="nav-link" href="#methodology"><span class="nav-icon">≡</span> Source register</a>
+  </nav>
+  <div class="sidebar-bottom"><span class="status-dot"></span><span>Historical data loaded</span><small>Wix Analytics · 2024–2026</small></div>
+ </aside>
+ <main class="content">
+  <div class="topbar"><div class="breadcrumb">MANAGEMENT REPORTING <span>/</span> OVERVIEW</div><div class="top-actions"><span class="private-label">◉ &nbsp;Internal reporting</span><button id="printButton" class="button-outline" type="button">↧ &nbsp;Print report</button></div></div>
+  <div class="main-inner">
+   <header class="hero" id="overview">
+    <div class="hero-top"><span class="eyebrow"><span class="tiny-diamond"></span> 2024 — 2026 · HISTORICAL INTELLIGENCE</span><span class="vintage">RESEARCH EDITION 01 <span> / </span> 28 OCT 2026</span></div>
+    <h1>The business,<br><em>in perspective.</em></h1>
+    <p>Three years of commercial performance, guest demand, digital acquisition, and operational intelligence — organized to support better decisions.</p>
+    <div class="filter-bar"><div class="filter-group"><span>REPORTING YEAR</span><div class="segmented" id="yearTabs"><button type="button" data-year="2024">2024</button><button type="button" data-year="2025">2025</button><button type="button" class="selected" data-year="2026">2026 YTD</button></div></div><div class="filter-group"><label for="siteSelect">DATA SOURCE</label><select id="siteSelect"><option value="combined">Both websites · Combined</option><option value="main">Current website only</option><option value="legacy">Legacy website only</option></select></div><span id="coveragePill" class="coverage-pill">Through 28 Oct 2026</span></div>
+   </header>
+   <div id="loading" class="loading"><div class="loading-spinner"></div>Loading authenticated Wix reporting extracts…</div>
+   <div id="dashboard" hidden>
+    <section class="section" id="performance">
+      <div class="section-head"><div><span class="section-index">01 / THE SCORECARD</span><h2>Executive performance</h2></div><span id="periodDescription" class="subtle">Year to date · 2026</span></div>
+      <div class="kpi-grid" id="kpiGrid"></div>
+      <div class="two-col chart-row">
+       <article class="panel chart-panel"><div class="panel-head"><div><span class="panel-label">COMMERCIAL MOMENTUM</span><h3>Sales value over time</h3></div><select id="chartMetric" class="small-select"><option value="sales">Sales value</option><option value="bookings">Confirmed bookings</option><option value="traffic">Site sessions</option></select></div><div id="trendChart" class="trend-chart"></div><div class="chart-legend"><span><i class="legend-dot sea"></i>Monthly observations</span><span class="method-note">Actual · No forward projections</span></div></article>
+       <article class="panel"><div class="panel-head"><div><span class="panel-label">STRATEGIC READOUT</span><h3>What the numbers say</h3></div><span class="badge-outline">Management view</span></div><div id="insights" class="insights"></div></article>
+      </div>
+    </section>
+    <section class="section" id="quarters">
+      <div class="section-head"><div><span class="section-index">02 / THE RECORD</span><h2>Quarter by quarter</h2></div><span class="subtle">Verified period totals · no annualized estimates</span></div>
+      <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Period</th><th>Wix sales value</th><th>Sales orders</th><th>Avg. order</th><th>Bookings</th><th>Confirmed</th><th>Sessions</th></tr></thead><tbody id="quarterTable"></tbody></table></div><div class="table-footnote">Q4 2026 is partial through October 28. Site-level transaction and booking metrics are not interchangeable.</div></article>
+      <div class="section-head annual-head"><div><span class="section-index">03 / YEARLY COMPARISON</span><h2>Annual operating record</h2></div></div>
+      <div id="annualCards" class="annual-cards"></div>
+    </section>
+    <section class="section" id="services">
+      <div class="section-head"><div><span class="section-index">04 / PRODUCT ECONOMICS</span><h2>Service portfolio</h2></div><span class="subtle">Product-level sales contribution</span></div>
+      <div class="two-col"><article class="panel"><div class="panel-head"><div><span class="panel-label">REVENUE CONCENTRATION</span><h3>Highest-value services</h3></div></div><div id="serviceBars" class="bar-list"></div></article><article class="panel"><div class="panel-head"><div><span class="panel-label">BOOKING DEMAND</span><h3>Most booked treatments</h3></div></div><div id="bookingServices" class="bar-list"></div></article></div>
+    </section>
+    <section class="section" id="acquisition">
+      <div class="section-head"><div><span class="section-index">05 / GO-TO-MARKET</span><h2>Acquisition intelligence</h2></div></div>
+      <div class="two-col"><article class="panel"><div class="panel-head"><div><span class="panel-label">TRAFFIC MIX</span><h3>Where visitors arrive from</h3></div></div><div id="channelMix" class="channel-mix"></div></article><article class="panel"><div class="panel-head"><div><span class="panel-label">VISITOR GEOGRAPHY</span><h3>Leading visitor markets</h3></div></div><div id="countries" class="bar-list"></div></article></div>
+      <div class="two-col acquisition-bottom"><article class="panel"><div class="panel-head"><div><span class="panel-label">ORGANIC SEARCH</span><h3>Search phrases generating clicks</h3></div></div><div id="searchTerms" class="report-list"></div></article><article class="panel"><div class="panel-head"><div><span class="panel-label">ON-SITE INTENT</span><h3>Most-clicked actions</h3></div></div><div id="ctaClicks" class="bar-list"></div></article></div>
+    </section>
+    <section class="section" id="bookings">
+     <div class="section-head"><div><span class="section-index">06 / CUSTOMER DEMAND</span><h2>Bookings & guest activity</h2></div></div>
+     <div class="bookings-metrics" id="bookingMetrics"></div>
+     <article class="panel conversion-panel"><div class="panel-head"><div><span class="panel-label">CHANNEL EFFECTIVENESS</span><h3>Acquisition channels connected to bookings</h3></div></div><div class="table-scroll"><table><thead><tr><th>Reported channel</th><th>Sessions</th><th>Confirmed bookings</th><th>Attributed sales value</th></tr></thead><tbody id="conversionTable"></tbody></table></div><div class="table-footnote">Wix conversion attribution is a separate reporting model from site traffic and sales. These figures should not be summed with other model totals.</div></article>
+    </section>
+    <section class="section" id="methodology">
+      <div class="section-head"><div><span class="section-index">07 / DATA GOVERNANCE</span><h2>Source register & caveats</h2></div><span class="subtle">Essential context for decision quality</span></div>
+      <div id="methodGrid" class="method-grid"></div>
+      <article class="methodology-note"><strong>Financial reporting boundary.</strong> Wix “sales amount” represents reported commerce activity; it does not equal bank cash received, audited turnover, gross profit, or net income. Wix’s separately reported “paid” fields are much lower in some periods, likely reflecting payment-recording methods; they must be reconciled against payment processors and accounting records before any statutory or investor financial statements. All customer-level records remain excluded from this public repository.</article>
+    </section>
+    <footer class="footer"><div class="brand-mini">TRANQUILITAS<span>.</span> INTELLIGENCE</div><div>MANAGEMENT INFORMATION · RESEARCH EDITION 01</div><div>RELAXATION STARTS HERE.</div></footer>
+   </div>
+  </div>
+ </main>
+</div>
+<script src="assets/app.js" defer></script>
+</body>
+</html>
