@@ -69,24 +69,46 @@ function renderKpis(){
 function renderTrend(){
  var model=state.metric==='sales'?'sales':state.metric==='bookings'?'bookings':'traffic';
  var field=state.metric==='sales'?'total_sales_amount':state.metric==='bookings'?'confirmed_bookings_count':'sessions_count';
- var raw=monthRows(model),all=[];
+ var series=monthRows(model),all=[];
  var count=state.year==='2026'?10:12;
- for(var i=1;i<=count;i++){var key=state.year+'-'+String(i).padStart(2,'0');var item=raw.find(function(r){return r.month===key;});all.push({month:key,value:item?.[field]||0});}
- var max=Math.max.apply(null,all.map(function(x){return x.value;}));if(!max)max=1;
- var w=850,h=270,l=55,r=21,top=21,bottom=44,innerH=h-top-bottom,innerW=w-l-r;
- var x=function(i){return l+(i/(Math.max(1,count-1)))*innerW;};var y=function(v){return top+innerH-(v/max)*innerH;};
- var p=all.map(function(a,i){return x(i).toFixed(1)+','+y(a.value).toFixed(1);}).join(' ');
- var a='M'+x(0).toFixed(1)+' '+y(0).toFixed(1)+' L'+p.replace(/,/g,' ').replace(/ /g,' ')+' L'+x(count-1).toFixed(1)+' '+y(0).toFixed(1)+' Z';
- var svg='<svg viewBox="0 0 850 270" role="img" aria-label="'+esc(state.metric)+' monthly chart '+state.year+'"><defs><linearGradient id="mintFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#85dbc0" stop-opacity=".32"/><stop offset="100%" stop-color="#85dbc0" stop-opacity=".012"/></linearGradient></defs>';
- for(var j=0;j<5;j++){var val=max*j/4,yy=y(val);svg+='<line x1="'+l+'" x2="'+(w-r)+'" y1="'+yy+'" y2="'+yy+'" stroke="#25414b" stroke-dasharray="4 5"/><text x="0" y="'+(yy+4)+'" fill="#7899a0" font-size="12" font-family="Manrope">'+esc(state.metric==='sales'?'$'+(val/1000).toFixed(0)+'k':nfmt(val))+'</text>';}
- var points=all.map(function(a,i){return x(i)+','+y(a.value);}).join(' ');
- var poly=all.map(function(z,i){return x(i)+','+y(z.value);}).join(' ');
- var fillpath='M'+x(0)+' '+y(0)+' L'+all.map(function(z,i){return x(i)+' '+y(z.value);}).join(' L')+' L'+x(count-1)+' '+y(0)+' Z';
- svg+='<path d="'+fillpath+'" fill="url(#mintFill)"/><polyline fill="none" stroke="#9ee9cd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" points="'+poly+'"/>';
- all.forEach(function(d,i){svg+='<circle cx="'+x(i)+'" cy="'+y(d.value)+'" r="4.5" fill="#a5f0d2" stroke="#0c202b" stroke-width="2"><title>'+esc(d.month)+' · '+esc(state.metric==='sales'?money(d.value):nfmt(d.value))+'</title></circle><text text-anchor="middle" x="'+x(i)+'" y="'+(h-12)+'" fill="#8eabb0" font-family="Manrope" font-size="12">'+esc(new Date(d.month+'-15').toLocaleString('en-US',{month:'short'}))+'</text>';});
- svg+='</svg>';$('trendChart').innerHTML=svg;
- var heading=$('trendChart').closest('.panel').querySelector('h3');heading.textContent=state.metric==='sales'?'Wix sales value over time':state.metric==='bookings'?'Confirmed bookings over time':'Site sessions over time';
+ var monthLabels=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
+ for(var i=1;i<=count;i++){
+  var key=state.year+'-'+String(i).padStart(2,'0');
+  var item=series.find(function(r){return r.month===key;});
+  all.push({month:key,value:item?.[field]||0,label:monthLabels[i-1]});
+ }
+ var max=Math.max.apply(null,all.map(function(a){return a.value;}));
+ var topValue=max?max*1.16:1,largest=all.findIndex(function(r){return r.value===max;});
+ var w=900,h=310,left=67,right=24,top=42,bottom=46,plotH=h-top-bottom,plotW=w-left-right;
+ var eachW=plotW/all.length,barW=Math.max(25,eachW*.57);
+ var y=function(value){return top+plotH-(value/topValue)*plotH;};
+ var metricLabel=state.metric==='sales'?'Wix sales value':state.metric==='bookings'?'confirmed bookings':'site sessions';
+ var shortFmt=function(v){
+  if(state.metric==='sales')return v>=1000?'$'+(v/1000).toFixed(0)+'k':'$'+Math.round(v);
+  return v>=1000?(v/1000).toFixed(1)+'k':String(Math.round(v));
+ };
+ var svg='<svg viewBox="0 0 '+w+' '+h+'" role="img" aria-label="'+esc(metricLabel+' by month, '+state.year)+'" xmlns="http://www.w3.org/2000/svg">';
+ svg+='<title>'+esc(metricLabel+' · '+state.year)+'</title><desc>Monthly reported Wix observations. The teal columns represent recorded values; gold highlights the highest month, not company-level audited revenue.</desc>';
+ for(var tick=0;tick<5;tick++){
+  var val=topValue*tick/4,gy=y(val);
+  svg+='<line x1="'+left+'" x2="'+(w-right)+'" y1="'+gy.toFixed(2)+'" y2="'+gy.toFixed(2)+'" stroke="#E8E1D8" stroke-width="1"/>';
+  svg+='<text x="'+(left-14)+'" y="'+(gy+4).toFixed(2)+'" text-anchor="end" fill="#78736E" font-family="Archivo, sans-serif" font-size="12" font-weight="600">'+esc(shortFmt(val))+'</text>';
+ }
+ svg+='<line x1="'+left+'" x2="'+(w-right)+'" y1="'+(top+plotH)+'" y2="'+(top+plotH)+'" stroke="#BFB5A9"/>';
+ all.forEach(function(a,i){
+  var x=left+i*eachW+(eachW-barW)/2,height=Math.max(0,a.value/topValue*plotH),yy=y(a.value),peak=(i===largest&&a.value>0);
+  var color=peak?'#C8A156':'#0C8382',formatted=state.metric==='sales'?money(a.value):nfmt(a.value),isPartial=state.year==='2026'&&i===9;
+  svg+='<g class="chart-column"><rect x="'+x.toFixed(2)+'" y="'+yy.toFixed(2)+'" width="'+barW.toFixed(2)+'" height="'+Math.max(1,height).toFixed(2)+'" rx="3" fill="'+color+'" opacity="'+(peak?'1':'.88')+'" tabindex="0" role="graphics-symbol" aria-label="'+esc(a.label+' '+state.year+', '+formatted+(isPartial?', partial month':'') )+'"><title>'+esc(a.label+' '+state.year+' · '+formatted+(isPartial?' (partial month)':''))+'</title></rect></g>';
+  svg+='<text x="'+(left+(i+.5)*eachW).toFixed(2)+'" y="'+(h-13)+'" text-anchor="middle" fill="#696864" font-family="Archivo, sans-serif" font-size="11" font-weight="'+(peak?'900':'600')+'">'+a.label+(isPartial?'*':'')+'</text>';
+  if(peak){svg+='<text x="'+(x+barW/2).toFixed(2)+'" y="'+Math.max(15,yy-13).toFixed(2)+'" text-anchor="middle" fill="#80602A" font-family="Archivo, sans-serif" font-size="14" font-weight="900">'+esc(shortFmt(a.value))+'</text>';}
+ });
+ svg+='</svg>';
+ $('trendChart').innerHTML=svg;
+ $('trendChart').closest('.panel').querySelector('h3').textContent=metricLabel+' by month';
+ var legend=document.querySelector('.chart-legend');
+ if(legend)legend.innerHTML='<span><i class="legend-dot sea"></i>Wix '+esc(metricLabel)+'<i class="legend-dot gold-key"></i>Peak month</span><span class="method-note">'+(state.year==='2026'?'* October through the 28th · ':'')+'Wix reported, not total company income</span>';
 }
+
 function renderInsights(){
  var items=[],s=periodMetric(state.year,'sales'),t=periodMetric(state.year,'traffic'),b=periodMetric(state.year,'bookings');
  if(state.year==='2026'){
@@ -139,7 +161,7 @@ function barList(id,rows,valueKey,formatter,gold){var list=rows.filter(function(
 function renderServices(){barList('serviceBars',breakdown('service_sales'),'total_items_sales_amount',money,false);barList('bookingServices',breakdown('booking_services'),'confirmed_bookings_count',nfmt,true);}
 function prettyChannel(s){return String(s||'Unknown').replace(/^wix_/,'').replace(/_/g,' ');}
 function renderAcquisition(){
- var colors=['#94e5ca','#e1bf89','#6aacc0','#b79ad1','#d48e84','#456d77'];
+ var colors=['#0C8382','#C8A156','#4F8D9B','#A67666','#8B9D80','#4D635E'];
  var channels=breakdown('traffic_sources').filter(function(x){return x.sessions_count>0;}).sort(function(a,b){return b.sessions_count-a.sessions_count;});
  var total=channels.reduce(function(sum,r){return sum+r.sessions_count;},0);
  if(!total){$('channelMix').innerHTML='<div class="empty">No reported acquisition data.</div>';}else{
