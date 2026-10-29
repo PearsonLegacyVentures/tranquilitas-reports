@@ -20,6 +20,7 @@
    <a class="nav-link active" href="#overview"><span class="nav-icon">◫</span> Executive overview</a>
    <a class="nav-link" href="#performance"><span class="nav-icon">⌁</span> Financial performance</a>
    <a class="nav-link" href="#quarters"><span class="nav-icon">▦</span> Quarterly ledger</a>
+   <a class="nav-link" href="#financial2024"><span class="nav-icon">◇</span> 2024 financial baseline</a>
    <a class="nav-link" href="#services"><span class="nav-icon">◈</span> Service portfolio</a>
    <a class="nav-link" href="#acquisition"><span class="nav-icon">◎</span> Acquisition & SEO</a>
    <a class="nav-link" href="#bookings"><span class="nav-icon">▤</span> Bookings & clients</a>
@@ -45,15 +46,34 @@
       <div class="section-head"><div><span class="section-index">01 / THE SCORECARD</span><h2>Executive performance</h2></div><span id="periodDescription" class="subtle">Year to date · 2026</span></div>
       <div class="kpi-grid" id="kpiGrid"></div>
       <div class="two-col chart-row">
-       <article class="panel chart-panel"><div class="panel-head"><div><span class="panel-label">COMMERCIAL MOMENTUM</span><h3>Sales value over time</h3></div><select id="chartMetric" class="small-select"><option value="sales">Sales value</option><option value="bookings">Confirmed bookings</option><option value="traffic">Site sessions</option></select></div><div id="trendChart" class="trend-chart"></div><div class="chart-legend"><span><i class="legend-dot sea"></i>Monthly observations</span><span class="method-note">Actual · No forward projections</span></div></article>
+       <article class="panel chart-panel"><div class="panel-head"><div><span class="panel-label">COMMERCIAL MOMENTUM</span><h3>Sales value over time</h3></div><select id="chartMetric" class="small-select"><option value="sales">Sales value</option><option value="bookings">Confirmed bookings</option><option value="traffic">Site sessions</option></select></div><div id="trendChart" class="trend-chart"></div><div class="chart-legend"><span><i class="legend-dot sea"></i>Monthly observations</span><span class="method-note">Wix activity · not total company income</span></div></article>
        <article class="panel"><div class="panel-head"><div><span class="panel-label">STRATEGIC READOUT</span><h3>What the numbers say</h3></div><span class="badge-outline">Management view</span></div><div id="insights" class="insights"></div></article>
       </div>
     </section>
     <section class="section" id="quarters">
       <div class="section-head"><div><span class="section-index">02 / THE RECORD</span><h2>Quarter by quarter</h2></div><span class="subtle">Verified period totals · no annualized estimates</span></div>
-      <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Period</th><th>Wix sales value</th><th>Sales orders</th><th>Avg. order</th><th>Bookings</th><th>Confirmed</th><th>Sessions</th></tr></thead><tbody id="quarterTable"></tbody></table></div><div class="table-footnote">Q4 2026 is partial through October 28. Site-level transaction and booking metrics are not interchangeable.</div></article>
+      <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Period</th><th>Company income*</th><th>Net earnings*</th><th>Wix sales value</th><th>Sales orders</th><th>Avg. order</th><th>Bookings</th><th>Confirmed</th><th>Sessions</th></tr></thead><tbody id="quarterTable"></tbody></table></div><div class="table-footnote">*Company income and net earnings: uploaded 2024 management annual report, unaudited. Wix sales activity is a separate, potentially overlapping metric; do not add it to company income. Q4 2026 is partial through October 28.</div></article>
       <div class="section-head annual-head"><div><span class="section-index">03 / YEARLY COMPARISON</span><h2>Annual operating record</h2></div></div>
       <div id="annualCards" class="annual-cards"></div>
+      <div id="financial2024" class="financial-baseline">
+        <div class="section-head"><div><span class="section-index">04 / MANAGEMENT FINANCIAL BASELINE</span><h2>2024 financial reconciliation</h2></div><span class="subtle">2024 annual report + two Wix sites</span></div>
+        <div class="baseline-grid">
+          <article class="panel baseline-income">
+            <div class="panel-head"><div><span class="panel-label">COMPANY-REPORTED · 2024</span><h3>Reported income and net earnings</h3></div><span class="badge-outline">Unaudited</span></div>
+            <div id="financial2024Summary" class="financial-summary"></div>
+            <div class="baseline-note">The annual report is used as the company-level historical reference. It is not a verified bank reconciliation or audited income statement.</div>
+          </article>
+          <article class="panel">
+            <div class="panel-head"><div><span class="panel-label">DATA RECONCILIATION</span><h3>Why the figures differ</h3></div><span class="badge-outline">Requires review</span></div>
+            <div id="financial2024Reconciliation" class="financial-reconciliation"></div>
+          </article>
+        </div>
+        <article class="panel baseline-quarter-panel">
+          <div class="panel-head"><div><span class="panel-label">QUARTERLY SOURCE COMPARISON</span><h3>2024 quarterly income versus Wix-recorded sales</h3></div></div>
+          <div class="table-scroll"><table><thead><tr><th>Quarter</th><th>Reported company income (B$)</th><th>Reported net earnings (B$)</th><th>Wix recorded sales value ($)</th></tr></thead><tbody id="financial2024Quarters"></tbody></table></div>
+          <div class="table-footnote">These are distinct reporting bases. Wix orders may already be included in company income. The numerical difference must not be interpreted as newly recovered revenue.</div>
+        </article>
+      </div>
     </section>
     <section class="section" id="services">
       <div class="section-head"><div><span class="section-index">04 / PRODUCT ECONOMICS</span><h2>Service portfolio</h2></div><span class="subtle">Product-level sales contribution</span></div>
@@ -72,7 +92,7 @@
     <section class="section" id="methodology">
       <div class="section-head"><div><span class="section-index">07 / DATA GOVERNANCE</span><h2>Source register & caveats</h2></div><span class="subtle">Essential context for decision quality</span></div>
       <div id="methodGrid" class="method-grid"></div>
-      <article class="methodology-note"><strong>Financial reporting boundary.</strong> Wix “sales amount” represents reported commerce activity; it does not equal bank cash received, audited turnover, gross profit, or net income. Wix’s separately reported “paid” fields are much lower in some periods, likely reflecting payment-recording methods; they must be reconciled against payment processors and accounting records before any statutory or investor financial statements. All customer-level records remain excluded from this public repository.</article>
+      <article class="methodology-note"><strong>Financial reporting boundary.</strong> Wix “sales amount” represents reported commerce activity; it does not equal bank cash received, audited turnover, gross profit, or net income. Wix’s separately reported “paid” fields are much lower in some periods, likely reflecting payment-recording methods; they must be reconciled against payment processors and accounting records before any statutory or investor financial statements. All customer-level records remain excluded from this public repository. The uploaded 2024 management annual report reports B$102,990.71 income and B$60,387.83 net earnings, but its quarter-income totals differ from its annual headline by B$1,320.13. No transaction-level verification of this discrepancy has been made.</article>
     </section>
     <footer class="footer"><div class="brand-mini">TRANQUILITAS<span>.</span> INTELLIGENCE</div><div>MANAGEMENT INFORMATION · RESEARCH EDITION 01</div><div>RELAXATION STARTS HERE.</div></footer>
    </div>
