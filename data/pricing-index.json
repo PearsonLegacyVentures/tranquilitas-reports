@@ -1,0 +1,709 @@
+{
+  "source": "Tranquilitas Caribbean Wellness Pricing Index",
+  "sourceUrl": "https://index.massagebahamas.com/",
+  "repo": "PearsonLegacyVentures/pricing-index",
+  "extractedAt": "2026-10-28",
+  "currencyBasis": "Native USD prices; St Barths EUR; no cross-currency comparison applied",
+  "rateNote": "The source index's historical FX rate is 2026-06-05. Native values are retained here.",
+  "markets": [
+    {
+      "id": "nassau",
+      "name": "Nassau",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "turks_caicos",
+      "name": "Turks and Caicos",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "partial"
+    },
+    {
+      "id": "antigua_barbuda",
+      "name": "Antigua and Barbuda",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "grenada",
+      "name": "Grenada",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "st_kitts_nevis",
+      "name": "St Kitts and Nevis",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "barbados",
+      "name": "Barbados",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "st_lucia",
+      "name": "St Lucia",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "anguilla",
+      "name": "Anguilla",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "british_virgin_islands",
+      "name": "British Virgin Islands",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "belize",
+      "name": "Belize",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "cayman_islands",
+      "name": "Cayman Islands",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "not_offered_exception"
+    },
+    {
+      "id": "curacao",
+      "name": "Curacao",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "st_barths",
+      "name": "St Barths",
+      "currency": "EUR",
+      "status": "active",
+      "completeness": "partial"
+    },
+    {
+      "id": "us_virgin_islands",
+      "name": "US Virgin Islands",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "bonaire",
+      "name": "Bonaire",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "st_martin",
+      "name": "St Martin",
+      "currency": "USD",
+      "status": "active",
+      "completeness": "complete"
+    },
+    {
+      "id": "exuma",
+      "name": "Exuma",
+      "currency": "USD",
+      "status": "coming_soon",
+      "completeness": "not_started"
+    },
+    {
+      "id": "st_vincent",
+      "name": "St Vincent",
+      "currency": "USD",
+      "status": "coming_soon",
+      "completeness": "not_started"
+    },
+    {
+      "id": "dominica",
+      "name": "Dominica",
+      "currency": "USD",
+      "status": "coming_soon",
+      "completeness": "not_started"
+    },
+    {
+      "id": "jamaica_montego_bay",
+      "name": "Jamaica / Montego Bay",
+      "currency": "USD",
+      "status": "coming_soon",
+      "completeness": "not_started"
+    }
+  ],
+  "records": [
+    {
+      "marketId": "nassau",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 158,
+        "90": 228
+      }
+    },
+    {
+      "marketId": "nassau",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 170,
+        "90": 245
+      }
+    },
+    {
+      "marketId": "nassau",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 190,
+        "90": 215
+      }
+    },
+    {
+      "marketId": "nassau",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 323,
+        "90": 468
+      }
+    },
+    {
+      "marketId": "turks_caicos",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 140,
+        "90": 200
+      }
+    },
+    {
+      "marketId": "turks_caicos",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 150,
+        "90": 220
+      }
+    },
+    {
+      "marketId": "turks_caicos",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 165,
+        "90": 240
+      }
+    },
+    {
+      "marketId": "turks_caicos",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 290
+      }
+    },
+    {
+      "marketId": "antigua_barbuda",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 135,
+        "90": 185
+      }
+    },
+    {
+      "marketId": "antigua_barbuda",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 145,
+        "90": 200
+      }
+    },
+    {
+      "marketId": "antigua_barbuda",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 160,
+        "90": 240
+      }
+    },
+    {
+      "marketId": "antigua_barbuda",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 290,
+        "90": 400
+      }
+    },
+    {
+      "marketId": "grenada",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 110,
+        "90": 170
+      }
+    },
+    {
+      "marketId": "grenada",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 120,
+        "90": 180
+      }
+    },
+    {
+      "marketId": "grenada",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 155,
+        "90": 230
+      }
+    },
+    {
+      "marketId": "grenada",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 240,
+        "90": 360
+      }
+    },
+    {
+      "marketId": "st_kitts_nevis",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 90,
+        "90": 140
+      }
+    },
+    {
+      "marketId": "st_kitts_nevis",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 115,
+        "90": 160
+      }
+    },
+    {
+      "marketId": "st_kitts_nevis",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 140,
+        "90": 210
+      }
+    },
+    {
+      "marketId": "st_kitts_nevis",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 230,
+        "90": 320
+      }
+    },
+    {
+      "marketId": "barbados",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 110,
+        "90": 150
+      }
+    },
+    {
+      "marketId": "barbados",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 130,
+        "90": 180
+      }
+    },
+    {
+      "marketId": "barbados",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 155,
+        "90": 210
+      }
+    },
+    {
+      "marketId": "barbados",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 260,
+        "90": 360
+      }
+    },
+    {
+      "marketId": "st_lucia",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 105,
+        "90": 155
+      }
+    },
+    {
+      "marketId": "st_lucia",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 120,
+        "90": 180
+      }
+    },
+    {
+      "marketId": "st_lucia",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 135,
+        "90": 200
+      }
+    },
+    {
+      "marketId": "st_lucia",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 215,
+        "90": 320
+      }
+    },
+    {
+      "marketId": "anguilla",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 185,
+        "90": 225
+      }
+    },
+    {
+      "marketId": "anguilla",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 205,
+        "90": 260
+      }
+    },
+    {
+      "marketId": "anguilla",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 205,
+        "90": 260
+      }
+    },
+    {
+      "marketId": "anguilla",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 375,
+        "90": 555
+      }
+    },
+    {
+      "marketId": "british_virgin_islands",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 135,
+        "90": 190
+      }
+    },
+    {
+      "marketId": "british_virgin_islands",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 145,
+        "90": 195
+      }
+    },
+    {
+      "marketId": "british_virgin_islands",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 160,
+        "90": 210
+      }
+    },
+    {
+      "marketId": "british_virgin_islands",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 290,
+        "90": 430
+      }
+    },
+    {
+      "marketId": "belize",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 100,
+        "90": 120
+      }
+    },
+    {
+      "marketId": "belize",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 120,
+        "90": 135
+      }
+    },
+    {
+      "marketId": "belize",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 130,
+        "90": 145
+      }
+    },
+    {
+      "marketId": "belize",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 205,
+        "90": 265
+      }
+    },
+    {
+      "marketId": "cayman_islands",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 145,
+        "90": 185
+      }
+    },
+    {
+      "marketId": "cayman_islands",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 165,
+        "90": 220
+      }
+    },
+    {
+      "marketId": "cayman_islands",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 290,
+        "90": 350
+      }
+    },
+    {
+      "marketId": "curacao",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 105,
+        "90": 155
+      }
+    },
+    {
+      "marketId": "curacao",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 115,
+        "90": 170
+      }
+    },
+    {
+      "marketId": "curacao",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 125,
+        "90": 185
+      }
+    },
+    {
+      "marketId": "curacao",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 215,
+        "90": 330
+      }
+    },
+    {
+      "marketId": "st_barths",
+      "currency": "EUR",
+      "service": "swedish",
+      "prices": {
+        "60": 207,
+        "90": 299
+      }
+    },
+    {
+      "marketId": "st_barths",
+      "currency": "EUR",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 207,
+        "90": 299
+      }
+    },
+    {
+      "marketId": "st_barths",
+      "currency": "EUR",
+      "service": "couples",
+      "prices": {
+        "60": 414,
+        "90": 598
+      }
+    },
+    {
+      "marketId": "us_virgin_islands",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 172.5,
+        "90": 230
+      }
+    },
+    {
+      "marketId": "us_virgin_islands",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 180,
+        "90": 240
+      }
+    },
+    {
+      "marketId": "us_virgin_islands",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 185,
+        "90": 245
+      }
+    },
+    {
+      "marketId": "us_virgin_islands",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 350,
+        "90": 435
+      }
+    },
+    {
+      "marketId": "bonaire",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 145,
+        "90": 215
+      }
+    },
+    {
+      "marketId": "bonaire",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 155,
+        "90": 230
+      }
+    },
+    {
+      "marketId": "bonaire",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 170,
+        "90": 250
+      }
+    },
+    {
+      "marketId": "bonaire",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 310,
+        "90": 460
+      }
+    },
+    {
+      "marketId": "st_martin",
+      "currency": "USD",
+      "service": "swedish",
+      "prices": {
+        "60": 130,
+        "90": 190
+      }
+    },
+    {
+      "marketId": "st_martin",
+      "currency": "USD",
+      "service": "deep_tissue",
+      "prices": {
+        "60": 140,
+        "90": 200
+      }
+    },
+    {
+      "marketId": "st_martin",
+      "currency": "USD",
+      "service": "beach",
+      "prices": {
+        "60": 160,
+        "90": 220
+      }
+    },
+    {
+      "marketId": "st_martin",
+      "currency": "USD",
+      "service": "couples",
+      "prices": {
+        "60": 280,
+        "90": 440
+      }
+    }
+  ]
+}
