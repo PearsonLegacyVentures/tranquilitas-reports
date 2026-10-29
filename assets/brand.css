@@ -151,3 +151,15 @@ tbody tr.current-year{background:#EDF6F2}tbody tr.current-year:hover{background:
  .market-cards{grid-template-columns:repeat(3,minmax(0,1fr))}
  .site-preview{display:none}
 }
+
+/* Interactive data visualization affordances */
+.chart-column rect{transform-origin:center bottom;transition:opacity .16s ease,filter .16s ease;cursor:crosshair}
+.chart-column rect:hover,.chart-column rect:focus{opacity:1;filter:drop-shadow(0 2px 5px rgba(12,131,130,.28));outline:2px solid #0C8382;outline-offset:2px}
+.chart-legend{gap:15px;flex-wrap:wrap;border-top:1px solid #E9E1D5;padding-top:13px}
+.chart-legend .legend-dot.gold-key{background:#C8A156;margin-left:19px}
+#trendChart{background:linear-gradient(180deg,#FFFFFF 0%,#FDFCF9 100%);border-radius:3px}
+#trendChart svg{height:auto;min-height:240px}
+.annual-card::before{content:"";height:3px;left:25px;right:25px;top:0;position:absolute;background:#0C8382;opacity:.9}
+.annual-card:nth-child(2)::before{background:#C8A156}.annual-card:nth-child(3)::before{background:#0A0A0A}
+.year-sales,.kpi-value{font-variant-numeric:tabular-nums}
+@media(max-width:540px){.chart-legend .legend-dot.gold-key{margin-left:11px}.trend-chart{min-height:220px}#trendChart svg{min-height:200px}}
