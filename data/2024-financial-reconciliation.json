@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "year": 2024,
+  "sourceDocuments": [
+    {
+      "id": "annual_management_report",
+      "title": "Tranquilitas Day Spa — Annual Report 2024",
+      "type": "company_prepared_management_report",
+      "file": "Annual Report TRANQUILITAS.pdf",
+      "pages": [
+        1,
+        2
+      ],
+      "status": "user_supplied",
+      "currency": "BSD",
+      "isAudited": false
+    },
+    {
+      "id": "wix_analytics",
+      "title": "Wix Analytics Semantic Models",
+      "type": "operating_system_report",
+      "file": "data/wix-periods.json",
+      "sites": [
+        "main",
+        "legacy"
+      ],
+      "currency": "USD",
+      "isAudited": false
+    }
+  ],
+  "companyReported": {
+    "annualIncomeBSD": 102990.71,
+    "annualNetEarningsBSD": 60387.83,
+    "annualImpliedDifferenceBetweenIncomeAndNetBSD": 42602.88,
+    "annualNetEarningsToIncomeRatio": 0.5863424963280669,
+    "quarterItems": [
+      {
+        "period": "2024-Q1",
+        "incomeBSD": 30375,
+        "netEarningsBSD": 22875,
+        "highlightLabeledGrossProfitBSD": 30375,
+        "impliedIncomeLessNetBSD": 7500
+      },
+      {
+        "period": "2024-Q2",
+        "incomeBSD": 21013,
+        "netEarningsBSD": 12913,
+        "highlightLabeledGrossProfitBSD": 21013,
+        "impliedIncomeLessNetBSD": 8100
+      },
+      {
+        "period": "2024-Q3",
+        "incomeBSD": 17275,
+        "netEarningsBSD": 5771,
+        "highlightLabeledGrossProfitBSD": 16656.25,
+        "impliedIncomeLessNetBSD": 11504
+      },
+      {
+        "period": "2024-Q4",
+        "incomeBSD": 33007.58,
+        "netEarningsBSD": 18828.83,
+        "highlightLabeledGrossProfitBSD": 33007.58,
+        "impliedIncomeLessNetBSD": 14178.75
+      }
+    ],
+    "quarterIncomeSumBSD": 101670.58,
+    "quarterNetEarningsSumBSD": 60387.83,
+    "quarterGrossProfitHighlightSumBSD": 101051.83
+  },
+  "wixReported": {
+    "siteSalesUSD": {
+      "main": 37546.2,
+      "legacy": 16931.98
+    },
+    "combinedSalesValueUSD": 54478.18,
+    "combinedOrderCount": 348,
+    "combinedConfirmedBookings": 301,
+    "sitesRepresentDistinctOperatingHistories": true,
+    "quarterSalesValueUSD": [
+      {
+        "period": "2024-Q1",
+        "main": 0,
+        "legacy": 2554.48,
+        "total": 2554.48
+      },
+      {
+        "period": "2024-Q2",
+        "main": 0,
+        "legacy": 7820.5,
+        "total": 7820.5
+      },
+      {
+        "period": "2024-Q3",
+        "main": 6263,
+        "legacy": 6557,
+        "total": 12820
+      },
+      {
+        "period": "2024-Q4",
+        "main": 31283.2,
+        "legacy": 0,
+        "total": 31283.2
+      }
+    ]
+  },
+  "reconciliation": {
+    "correctPresentation": "Use annual management report total income as the company-reported 2024 figure, NOT Wix-only sales. Keep Wix as an overlapping subset/activity record, not additional revenue.",
+    "annualIncomeMinusQuarterlyIncomeBSD": 1320.13,
+    "q3QuarterlyIncomeMinusFinancialHighlightsLabelBSD": 618.75,
+    "annualNetMinusQuarterlyNetBSD": 0,
+    "annualIncomeMinusWixSalesNumericalDifference": 48512.53,
+    "comparisonDisclaimer": "BSD annual income and USD Wix sales value have different recording bases. Numerical differences do not establish missing sales, additional revenue, or a reconciliation of cash.",
+    "confidence": "management_reported_pending_ledger_reconciliation",
+    "unresolved": [
+      "Annual income B$102,990.71 exceeds sum of four stated quarterly incomes B$101,670.58 by B$1,320.13.",
+      "Q3 is labeled B$16,656.25 'Gross Profit' in highlights but B$17,275.00 'Total income' in quarterly analysis. They are not interchangeable.",
+      "No transaction-level bank, POS, manual booking, cash or expense ledger provided to prove completeness of income or net earnings.",
+      "Wix 2024 reported sales may overlap in part or in full with the management totals. Do not add them."
+    ],
+    "classification": "management_reported_unverified"
+  },
+  "editorialGuidance": {
+    "headline": "2024 management-reported income: B$102,990.71; net earnings: B$60,387.83.",
+    "note": "Quarterly reported income sums to B$101,670.58, leaving B$1,320.13 of the annual figure unreconciled.",
+    "useInAnnualReport": "Clearly mark as management-reported financials, not audited; separately cite Wix operational records. Do not present financial comparisons to 2025 Wix sales as verified company growth.",
+    "sourceTrace": "Uploaded Annual Report TRANQUILITAS.pdf, pages 1-2, Financial Highlights and Quarterly Analysis"
+  }
+}
