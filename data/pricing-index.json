@@ -145,6 +145,14 @@
       "currency": "USD",
       "status": "coming_soon",
       "completeness": "not_started"
+    },
+    {
+      "id": "aruba",
+      "name": "Aruba",
+      "currency": "USD",
+      "status": "website_only",
+      "completeness": "not_started",
+      "note": "Listed as a destination on massagebahamas.com/locations; no corresponding pricing index record."
     }
   ],
   "records": [
@@ -978,5 +986,7 @@
       "market": "St Barths",
       "value": 482
     }
-  }
+  },
+  "marketPresenceSource": "https://www.massagebahamas.com/locations",
+  "marketPresenceStatusNote": "Market listings include published country webpages and pricing benchmarks. They do not prove current delivery capacity."
 }
