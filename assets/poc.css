@@ -1,0 +1,41 @@
+
+/* Private POC / Partner cash-flow desk. Stored only in the current browser. */
+.poc-toolbar,.ledger-toolbar{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;margin:13px 0 18px}
+.poc-actions{display:flex;gap:9px;flex-wrap:wrap}
+.poc-actions button,.poc-actions label,.partner-action{appearance:none;background:#fff;border:1px solid #BED5CD;border-radius:4px;padding:11px 14px;color:#0B6B65;font:800 10px 'Archivo',sans-serif;cursor:pointer}
+.poc-actions button:hover,.partner-action:hover{background:#EAF5F0;border-color:#0C8382}
+.poc-summary{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:15px 0 23px}
+.poc-metric{border:1px solid #E4DBCE;background:#fff;padding:17px 18px;border-radius:5px}
+.poc-metric span{display:block;font:750 10px 'Archivo',sans-serif;text-transform:uppercase;letter-spacing:.05em;color:#7B746C}
+.poc-metric strong{display:block;font:900 20px 'Archivo',sans-serif;color:#0A706B;margin-top:8px}
+.poc-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px}
+.poc-card{padding:20px;background:#fff;border:1px solid #D9D1C5;border-radius:5px;box-shadow:0 3px 14px rgba(0,0,0,.02)}
+.poc-card-top{display:flex;align-items:flex-start;gap:16px}
+.poc-photo{flex:0 0 90px;height:104px;border:1px dashed #B9C9C2;border-radius:4px;background:#F1F4F0;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;font:800 9px 'Archivo',sans-serif;letter-spacing:.05em;color:#6C837A}
+.poc-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.poc-text{min-width:0;flex:1}
+.poc-text h3{font:900 16px 'Archivo',sans-serif;letter-spacing:-.02em;margin:0 0 8px;color:#111A16}
+.poc-sub{font:750 9px 'Archivo',sans-serif;color:#0C8382;text-transform:uppercase;letter-spacing:.06em}
+.poc-meta{font-size:11px;line-height:1.8;color:#494F48;overflow-wrap:anywhere}
+.poc-meta b{color:#111E17}
+.poc-meta a{color:#067872;text-decoration:underline}
+.poc-fin{margin-top:16px;padding-top:14px;border-top:1px solid #E9E1D8;display:grid;grid-template-columns:repeat(3,1fr);gap:9px}
+.poc-fin div{background:#F5F4EE;padding:10px 8px;border-radius:3px}
+.poc-fin small{display:block;font-size:9px;color:#797770;line-height:1.4}
+.poc-fin b{display:block;font-size:13px;font-weight:900;color:#176D66;margin-top:3px;overflow-wrap:anywhere}
+.poc-card-foot{display:flex;flex-wrap:wrap;gap:9px;margin-top:13px;align-items:center}
+.poc-empty{padding:35px 24px;border:1px dashed #C5BBAE;background:#F8F4ED;border-radius:5px;color:#565E55;font-size:12px;line-height:1.8}
+.poc-card select,.poc-form-grid input,.poc-form-grid select{background:#fff;color:#1F2520;border:1px solid #CFC5BA;border-radius:4px;padding:10px 11px;min-width:0;width:100%;font:600 12px 'DM Sans',sans-serif}
+.poc-form-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:13px;padding:22px;border:1px solid #B5D0C5;background:#fff;border-radius:5px;margin:14px 0 25px}
+.poc-form-grid label{font:750 10px 'Archivo',sans-serif;color:#5F615D;display:flex;flex-direction:column;gap:7px}
+.poc-form-grid .wide{grid-column:span 2}.poc-form-grid .full{grid-column:1/-1}
+.poc-ledger-wrap{overflow:auto;border:1px solid #DCD3C8;background:#fff}
+.poc-ledger{width:100%;border-collapse:collapse;min-width:920px}
+.poc-ledger th,.poc-ledger td{text-align:left;border-bottom:1px solid #E8E0D5;padding:12px 13px;white-space:nowrap;font-size:11px}
+.poc-ledger th{background:#F2EDE5;color:#5F5950;font-size:9px;font-weight:800;letter-spacing:.05em}
+.poc-ledger td:first-child{font-weight:800;color:#18362D}
+.poc-ledger button{border:0;color:#9B382A;background:transparent;font-weight:800;cursor:pointer}
+.poc-warning{font-size:11px;color:#756A58;line-height:1.7;background:#FCF5E9;border-left:3px solid #C8A156;padding:12px 15px;margin:14px 0 19px}
+@media(max-width:1080px){.poc-grid{grid-template-columns:1fr}.poc-summary{grid-template-columns:repeat(2,1fr)}.poc-form-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:570px){.poc-grid,.poc-summary,.poc-form-grid{grid-template-columns:1fr}.poc-form-grid .wide{grid-column:span 1}.poc-fin{grid-template-columns:repeat(2,1fr)}.poc-photo{flex-basis:72px;height:87px}}
+@media print{.poc-actions,.poc-form-grid,.poc-card-foot{display:none!important}.poc-card{break-inside:avoid}}
