@@ -35,3 +35,12 @@ Separate 2024–2026 source-site operating histories, quarterly/yearly reporting
 - A per-partner ledger records service date, booking reference (no guest names), market/partner ID, currency, gross receipts, refunds, provider payout owed/paid, direct costs and settlement status. Amounts are not inferred from historical country tracker totals.
 - Only Settled rows count in the cash-flow KPIs. Estimated retained contribution = gross received - refunds - provider payout owed - other direct costs. Outstanding payout = provider payout owed - provider payout paid. Different currencies are NOT combined. This is not an audited profit figure.
 - All private contact and transaction data are **browser-local only** via localStorage. Export private CSV backups before clearing browser data or moving devices. There is no multi-user authentication, sync, or automatic bank reconciliation. Deploy an authenticated database before using as an official ledger or multiuser CRM.
+
+
+### Encrypted, automatically loaded partner roster · November 6, 2026
+
+- `data/poc-directory.enc.json` is AES-256-GCM encrypted and gzip-compressed, protected with a separately supplied passphrase. The source records are not committed as plaintext. The public GitHub repo itself remains public; the passphrase is a shared unlock secret, **not account authentication**.
+- POC section within `markets.html` has a country picker and password-unlock form. After unlocking, all 24 contacts from the 18-page supplied PDF appear under the correct destination without manual CSV import. Blank profile photos may be supplied by management. Counters reflect verified source *entries* only, not evidence that partners remain active.
+- `caribbean.html` now links its country rows to the corresponding POC section, and the main report contains a Partner POCs link. Country view remains available even before unlocking.
+- Browser-only additions, edits, photos, and partner-level financial transactions are **not synchronized across users or devices**. The finance dashboard stays empty until reconciled provider-level transactions are entered; aggregate regional tracker values are not falsely assigned to any partner. Use private CSV export for backups.
+- For a production multiuser CRM, implement Cloudflare Access/Supabase Auth and an access-controlled backend, avoid browser-only accounting and introduce audit logs, role-based permissions and verified settlement imports. Do not put the unlock phrase in repository files, environment configs served to clients, or public URLs.
