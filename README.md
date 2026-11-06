@@ -26,3 +26,12 @@ Separate 2024–2026 source-site operating histories, quarterly/yearly reporting
 
 - For reliable automatic monthly updates, an unattended API credential and server-side scheduled integration must be configured. ChatGPT's temporary Wix connector token is not a credential usable by Cloudflare Pages or GitHub Actions. **The current website serves reporting snapshots.**
 - Cloudflare Access must be enabled in the account and a secured database configured before therapist/contact records can be centrally managed. The Access API currently reports it is not enabled.
+
+
+## Partner POCs and financial attribution (5 November 2026)
+
+- Markets page includes a per-country **Points of contact** section with blank photo slots, contact and payment details, and permanent partner IDs.
+- Contact names, phone numbers, photos, booking references and financial records are **not committed** to this public repository. Import the populated Tranquilitas private contacts CSV on your own device, using the **Import private contacts CSV** control.
+- A per-partner ledger records service date, booking reference (no guest names), market/partner ID, currency, gross receipts, refunds, provider payout owed/paid, direct costs and settlement status. Amounts are not inferred from historical country tracker totals.
+- Only Settled rows count in the cash-flow KPIs. Estimated retained contribution = gross received - refunds - provider payout owed - other direct costs. Outstanding payout = provider payout owed - provider payout paid. Different currencies are NOT combined. This is not an audited profit figure.
+- All private contact and transaction data are **browser-local only** via localStorage. Export private CSV backups before clearing browser data or moving devices. There is no multi-user authentication, sync, or automatic bank reconciliation. Deploy an authenticated database before using as an official ledger or multiuser CRM.
