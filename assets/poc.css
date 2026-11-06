@@ -39,3 +39,25 @@
 @media(max-width:1080px){.poc-grid{grid-template-columns:1fr}.poc-summary{grid-template-columns:repeat(2,1fr)}.poc-form-grid{grid-template-columns:repeat(2,1fr)}}
 @media(max-width:570px){.poc-grid,.poc-summary,.poc-form-grid{grid-template-columns:1fr}.poc-form-grid .wide{grid-column:span 1}.poc-fin{grid-template-columns:repeat(2,1fr)}.poc-photo{flex-basis:72px;height:87px}}
 @media print{.poc-actions,.poc-form-grid,.poc-card-foot{display:none!important}.poc-card{break-inside:avoid}}
+
+/* Encrypted, preloaded country POC directory */
+.poc-lock{display:grid;grid-template-columns:1.1fr 1fr;gap:25px;align-items:center;border:1px solid #B6D2C5;border-left:5px solid #0C8382;background:linear-gradient(125deg,#F8F9F5,#E9F3ED);padding:27px 30px;margin:20px 0 27px}
+.poc-lock-kicker{font:800 10px 'Archivo',sans-serif;letter-spacing:.15em;color:#0C8382}
+.poc-lock h3{font:900 22px 'Archivo',sans-serif;color:#1B2823;margin:9px 0}
+.poc-lock p{font:500 12px/1.7 'DM Sans',sans-serif;color:#515D56;margin:8px 0 0}
+.poc-lock-form{display:flex;flex-direction:column;gap:10px}
+.poc-lock-form>label{font:800 10px 'Archivo',sans-serif;letter-spacing:.05em;color:#51675C;text-transform:uppercase}
+.poc-lock-form>div{display:flex;gap:8px}
+.poc-lock-form input{min-width:0;flex:1;padding:13px 12px;border:1px solid #A9BEB3;background:#fff;border-radius:4px;font-size:12px;color:#1A2620}
+.poc-lock-form .save-button{white-space:nowrap}
+#pocUnlockStatus{font-size:10px;margin:0}
+.poc-selector{display:grid;grid-template-columns:auto minmax(180px,1fr) auto minmax(160px,1fr);align-items:center;gap:11px;margin:16px 0 22px;background:#fff;border:1px solid #E0D9CF;padding:15px}
+.poc-selector label{font:800 9px 'Archivo',sans-serif;color:#656C62;letter-spacing:.06em}
+.poc-selector select,.poc-selector input{padding:12px;border:1px solid #D8D0C4;border-radius:3px;background:#FFFEFA;color:#1B2922;font:600 12px 'DM Sans',sans-serif;width:100%;min-width:0}
+.poc-contact-edit{background:white;border:1px solid #B6D2C5;margin-top:20px;padding:20px}
+.poc-contact-edit>h3{font:900 17px 'Archivo',sans-serif}
+.poc-contact-edit .poc-form-grid{margin:15px 0 0}
+.poc-form-grid textarea{font:500 12px 'DM Sans',sans-serif;color:#1B2922;padding:12px;border:1px solid #D8D0C4;background:white;resize:vertical}
+#pocLockedPanel[hidden],#pocLoadedActions[hidden],#pocContactEditWrap[hidden],#pocLedgerFormWrap[hidden]{display:none!important}
+@media(max-width:850px){.poc-lock{grid-template-columns:1fr}.poc-selector{grid-template-columns:1fr 1fr}}
+@media(max-width:570px){.poc-lock{padding:19px}.poc-lock-form>div{flex-direction:column}.poc-selector{grid-template-columns:1fr;gap:8px}}
