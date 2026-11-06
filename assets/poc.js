@@ -32,7 +32,7 @@ async function unlockRoster(secret){
 if(!window.isSecureContext||!crypto.subtle||typeof DecompressionStream==="undefined")throw Error("Use the HTTPS reports website in a current browser supporting Web Crypto.");
 const res=await fetch("data/poc-directory.enc.json",{cache:"no-cache"});if(!res.ok)throw Error("Encrypted directory file could not be loaded ("+res.status+").");
 const e=await res.json(),material=await crypto.subtle.importKey("raw",new TextEncoder().encode(secret),{name:"PBKDF2"},false,["deriveKey"]);
-const key=await crypto.subtle.deriveKey({name:"PBKDF2",hash:"SHA-256",salt:bytes64(e.salt),iterations:e.iterations},{name:"AES-GCM",length:256},false,["decrypt"]);
+const key=await crypto.subtle.deriveKey({name:"PBKDF2",hash:"SHA-256",salt:bytes64(e.salt),iterations:e.iterations},material,{name:"AES-GCM",length:256},false,["decrypt"]);
 let data;try{const raw=await crypto.subtle.decrypt({name:"AES-GCM",iv:bytes64(e.iv)},key,bytes64(e.ciphertext));const stream=new Blob([raw]).stream().pipeThrough(new DecompressionStream("gzip"));const inflated=await new Response(stream).text();data=JSON.parse(inflated)}catch{throw Error("Access phrase not recognized, or directory data is damaged.")}
 if(!Array.isArray(data.columns)||!Array.isArray(data.rows)||data.rows.length!==24)throw Error("The directory structure is invalid.");
 const loaded=data.rows.map(row=>Object.fromEntries(data.columns.map((col,i)=>[col,row[i]??""])));
