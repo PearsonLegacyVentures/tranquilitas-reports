@@ -16,8 +16,16 @@
       "coverageNote": "Locally operated spa market",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Nassau operation established",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Own /book/ route",
+        "Setmore link",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "anguilla",
@@ -32,8 +40,17 @@
       "coverageNote": "Local provider coverage to verify",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "Setmore reference",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "antigua_barbuda",
@@ -48,8 +65,16 @@
       "coverageNote": "Barbuda requires independent fulfilment",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "aruba",
@@ -64,8 +89,16 @@
       "coverageNote": "Partner outreach in progress",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "barbados",
@@ -80,8 +113,16 @@
       "coverageNote": "East and west coast have distinct provider and journey requirements",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "belize",
@@ -96,8 +137,16 @@
       "coverageNote": "Cayes and inland delivery differ",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Service-specific Setmore links",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "bermuda",
@@ -112,8 +161,16 @@
       "coverageNote": "Local coverage to verify",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "bonaire",
@@ -128,8 +185,16 @@
       "coverageNote": "Local coverage to verify",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Service-specific Setmore links",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "british_virgin_islands",
@@ -144,8 +209,16 @@
       "coverageNote": "Island-specific provider/transfer needs",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "cayman_islands",
@@ -160,8 +233,17 @@
       "coverageNote": "Other islands require independent service check",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "Setmore reference",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "curacao",
@@ -176,8 +258,16 @@
       "coverageNote": "Provider and venue approval to verify",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "dominica",
@@ -192,8 +282,16 @@
       "coverageNote": "Locally qualified operator to verify",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "grenada",
@@ -208,8 +306,16 @@
       "coverageNote": "Carriacou not implied by mainland coverage",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Service-specific Setmore links",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "jamaica_montego_bay",
@@ -224,8 +330,16 @@
       "coverageNote": "Distinct service travel zones",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "st_kitts_nevis",
@@ -240,8 +354,17 @@
       "coverageNote": "Separate island staffing and ferry constraints",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "st_lucia",
@@ -256,8 +379,17 @@
       "coverageNote": "Northern and southern travel zones",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "Setmore reference",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "st_vincent",
@@ -272,8 +404,17 @@
       "coverageNote": "Distinct island staffing requirements",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "Setmore reference",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "st_barths",
@@ -288,8 +429,17 @@
       "coverageNote": "Verified custom domain differs from standard pattern",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "Setmore reference",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "st_martin",
@@ -304,8 +454,16 @@
       "coverageNote": "French/Dutch jurisdictions",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Service-specific Setmore links",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "turks_caicos",
@@ -320,8 +478,16 @@
       "coverageNote": "Grand Turk and other islands not implied",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking-modal markup",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "us_virgin_islands",
@@ -336,8 +502,16 @@
       "coverageNote": "Separate island fulfilment",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Booking action",
+        "Enquiry form",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "No Clarity/GA4/pixel tag confirmed in sampled homepage HTML"
+      ]
     },
     {
       "id": "france",
@@ -352,8 +526,16 @@
       "coverageNote": "Multiple distant regions",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "uk",
@@ -368,8 +550,16 @@
       "coverageNote": "London-focused, not nationwide UK coverage",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "nyc",
@@ -384,8 +574,16 @@
       "coverageNote": "NYC-specific professional licensing",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "miami",
@@ -400,8 +598,16 @@
       "coverageNote": "Florida local licensing/coverage",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "los_angeles",
@@ -416,8 +622,16 @@
       "coverageNote": "Los Angeles region, variable travel",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own request route",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "spain",
@@ -432,8 +646,16 @@
       "coverageNote": "Country hub and five distant destinations",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "italy",
@@ -448,8 +670,16 @@
       "coverageNote": "Transport and venue restrictions",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "uae",
@@ -464,8 +694,16 @@
       "coverageNote": "Emirate-level operating authorisation",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "las_vegas",
@@ -480,8 +718,16 @@
       "coverageNote": "Nevada local provider licensing",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "orlando",
@@ -496,8 +742,16 @@
       "coverageNote": "Florida resort/property entry",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     },
     {
       "id": "palm_beach",
@@ -512,8 +766,16 @@
       "coverageNote": "Florida provider/property coverage",
       "domainStatus": "Custom domain configured",
       "deliveryStatus": "Verify local partner and guest-booking coverage",
-      "analyticsStatus": "Not linked to consolidated site reporting",
-      "funnelStatus": "Market-specific funnel; final handoff needs QA"
+      "analyticsStatus": "No GA4/booking totals integrated in this reporting dashboard",
+      "funnelStatus": "Booking/contact mechanisms identified in source; end-to-end guest submission unverified",
+      "bookingSignals": [
+        "Enquiry form",
+        "Own contact page",
+        "WhatsApp"
+      ],
+      "trackingIndicators": [
+        "Microsoft Clarity referenced in homepage source"
+      ]
     }
   ],
   "otherProperties": [
@@ -550,5 +812,15 @@
     "32 means websites, not 32 confirmed country partners. Spain/Italy/UAE/Las Vegas/Orlando/Palm Beach use independent Pages projects sourced from Aruba/markets/.",
     "Exuma remains a pricing/delivery submarket inside the existing reporting dataset; it is not counted as a 33rd dedicated country website.",
     "These links exist for INTERNAL reporting only; no links or booking CTAs will be added between customer-facing Tranquilitas websites."
-  ]
+  ],
+  "sourceAudit": {
+    "asOf": "2026-11-13",
+    "method": "Inspected index.html from all 32 market source repositories / nested build roots. Booking/marketing tag indications are visible source references, NOT completed form tests, verified third-party installs, authorized local provider fulfilment, or tracked revenue.",
+    "sampledHomepages": 32,
+    "notes": [
+      "One or more pages may load tracking scripts via external JS not detected in an HTML tag scan.",
+      "Some Setmore strings are references rather than direct outbound links; use live guest-journey QA before assigning payments.",
+      "All WhatsApp/contact links are website-specific customer communication, not measured confirmed bookings."
+    ]
+  }
 }
