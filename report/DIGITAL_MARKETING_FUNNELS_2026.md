@@ -87,3 +87,15 @@ CTA click snapshot: `Book In-Spa Service` 1,504; `Book Mobile Service` 536. Thes
 - For tourism partners, record programme approvals, live URLs, tagged referrals and confirmed bookings after local legal/service verification.
 
 **Data refresh:** This is a **manual dated snapshot**, not a background-synced dashboard. Updating the exported source files in GitHub updates the reports. Automation requires separately configured credentials and secure connectors.
+
+## Production browser QA · 2026-11-13
+
+Verified using an actual browser on the deployed `reports.massagebahamas.com` customer-visible report pages (read-only).
+
+- **Portfolio:** load succeeded. KPI counts `32` total, `21` Caribbean and `11` international. Searching `Spain` returned the exact dedicated domain `spain.tranquilitasspa.com`; region filter International returned `11` results.
+- **Digital channels:** GA4 view displayed **992 sessions** and **94 mixed key events** for the stated dates; eight GA4 channel categories loaded. Switching to Wix 2026 YTD updated the data. Choosing the independent-country booking funnel updated all five steps.
+- **Markets & therapists:** page loaded with `32 dedicated websites · 33 delivery/pricing markets incl. Exuma`, with Spain, Italy, France and other missing destinations selectable. No stuck loading state or browser navigation failure.
+- **Existing code:** `assets/markets.js`, `assets/caribbean.js`, `assets/poc.js`, `assets/portfolio.js` and `assets/channels.js` were syntax-checked before GitHub commits. No pricing JSON, encrypted POC roster or partner financial ledger was modified.
+- **Not tested:** full screenshot-level mobile/desktop visual quality across each viewport; 32 independent customer website booking submissions, payment confirmations, ads conversion integrity or account data sync. Reporting datasets remain dated snapshots until a secure automatic refresh is built.
+
+Cloudflare Pages project `tranquilitas-reports` remains bound to its existing GitHub `main` source and custom domain. No migration or external hosting changes.
