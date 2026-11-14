@@ -1,0 +1,952 @@
+{
+  "updatedAt": "2026-11-13",
+  "ga4": {
+    "propertyId": "properties/451831019",
+    "property": "Tranquilitas Day Spa (primary Wix property)",
+    "startDate": "2026-10-14",
+    "endDate": "2026-11-12",
+    "timeZone": "America/New_York",
+    "currencyCode": "USD",
+    "channels": [
+      {
+        "name": "Organic Search",
+        "sessions": 471,
+        "totalUsers": 390,
+        "keyEvents": 27,
+        "totalRevenue": 847
+      },
+      {
+        "name": "Direct",
+        "sessions": 426,
+        "totalUsers": 370,
+        "keyEvents": 57,
+        "totalRevenue": 2256
+      },
+      {
+        "name": "AI Assistant",
+        "sessions": 31,
+        "totalUsers": 24,
+        "keyEvents": 5,
+        "totalRevenue": 423.5
+      },
+      {
+        "name": "Affiliates",
+        "sessions": 29,
+        "totalUsers": 27,
+        "keyEvents": 0,
+        "totalRevenue": 0
+      },
+      {
+        "name": "Unassigned",
+        "sessions": 16,
+        "totalUsers": 15,
+        "keyEvents": 0,
+        "totalRevenue": 0
+      },
+      {
+        "name": "Organic Social",
+        "sessions": 13,
+        "totalUsers": 9,
+        "keyEvents": 3,
+        "totalRevenue": 143
+      },
+      {
+        "name": "Referral",
+        "sessions": 5,
+        "totalUsers": 4,
+        "keyEvents": 2,
+        "totalRevenue": 0
+      },
+      {
+        "name": "Cross-network",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0,
+        "totalRevenue": 0
+      }
+    ],
+    "sources": [
+      {
+        "source": "(direct) / (none)",
+        "sessions": 426,
+        "totalUsers": 370,
+        "keyEvents": 57
+      },
+      {
+        "source": "google / organic",
+        "sessions": 400,
+        "totalUsers": 326,
+        "keyEvents": 25
+      },
+      {
+        "source": "bing / organic",
+        "sessions": 43,
+        "totalUsers": 37,
+        "keyEvents": 2
+      },
+      {
+        "source": "chatgpt.com / ai-assistant",
+        "sessions": 31,
+        "totalUsers": 24,
+        "keyEvents": 5
+      },
+      {
+        "source": "BMM / affiliate",
+        "sessions": 29,
+        "totalUsers": 27,
+        "keyEvents": 0
+      },
+      {
+        "source": "yahoo / organic",
+        "sessions": 16,
+        "totalUsers": 15,
+        "keyEvents": 0
+      },
+      {
+        "source": "duckduckgo / organic",
+        "sessions": 10,
+        "totalUsers": 10,
+        "keyEvents": 0
+      },
+      {
+        "source": "facebook.com / referral",
+        "sessions": 8,
+        "totalUsers": 5,
+        "keyEvents": 0
+      },
+      {
+        "source": "(not set)",
+        "sessions": 7,
+        "totalUsers": 6,
+        "keyEvents": 0
+      },
+      {
+        "source": "(not set) / page_links",
+        "sessions": 6,
+        "totalUsers": 6,
+        "keyEvents": 0
+      },
+      {
+        "source": "ig / social",
+        "sessions": 4,
+        "totalUsers": 3,
+        "keyEvents": 3
+      },
+      {
+        "source": "qr-codes.io / referral",
+        "sessions": 3,
+        "totalUsers": 2,
+        "keyEvents": 0
+      },
+      {
+        "source": "so / mail",
+        "sessions": 2,
+        "totalUsers": 2,
+        "keyEvents": 0
+      },
+      {
+        "source": "(data not available)",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      },
+      {
+        "source": "ecosia.org / organic",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      },
+      {
+        "source": "l.facebook.com / referral",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      },
+      {
+        "source": "l.meta.ai / referral",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 2
+      },
+      {
+        "source": "managewixbooking.com / referral",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      },
+      {
+        "source": "perplexity / (not set)",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      },
+      {
+        "source": "yandex.com.tr / referral",
+        "sessions": 1,
+        "totalUsers": 1,
+        "keyEvents": 0
+      }
+    ],
+    "events": [
+      {
+        "event": "page_view",
+        "eventCount": 2409,
+        "keyEvents": 0
+      },
+      {
+        "event": "user_engagement",
+        "eventCount": 1660,
+        "keyEvents": 0
+      },
+      {
+        "event": "session_start",
+        "eventCount": 992,
+        "keyEvents": 0
+      },
+      {
+        "event": "first_visit",
+        "eventCount": 834,
+        "keyEvents": 0
+      },
+      {
+        "event": "view_item",
+        "eventCount": 545,
+        "keyEvents": 0
+      },
+      {
+        "event": "scroll",
+        "eventCount": 411,
+        "keyEvents": 0
+      },
+      {
+        "event": "select_content",
+        "eventCount": 168,
+        "keyEvents": 0
+      },
+      {
+        "event": "click",
+        "eventCount": 137,
+        "keyEvents": 0
+      },
+      {
+        "event": "Select Date",
+        "eventCount": 41,
+        "keyEvents": 0
+      },
+      {
+        "event": "begin_checkout",
+        "eventCount": 31,
+        "keyEvents": 31
+      },
+      {
+        "event": "form_start",
+        "eventCount": 22,
+        "keyEvents": 0
+      },
+      {
+        "event": "ads_conversion_Purchase_1",
+        "eventCount": 20,
+        "keyEvents": 20
+      },
+      {
+        "event": "Contact Us clicked",
+        "eventCount": 16,
+        "keyEvents": 0
+      },
+      {
+        "event": "ads_conversion_Purchase_Page_load_www__1",
+        "eventCount": 15,
+        "keyEvents": 15
+      },
+      {
+        "event": "schedule",
+        "eventCount": 15,
+        "keyEvents": 0
+      },
+      {
+        "event": "purchase",
+        "eventCount": 14,
+        "keyEvents": 14
+      },
+      {
+        "event": "ads_conversion_Begin_checkout_1",
+        "eventCount": 10,
+        "keyEvents": 10
+      },
+      {
+        "event": "Book Here clicked",
+        "eventCount": 8,
+        "keyEvents": 0
+      },
+      {
+        "event": "checkout_progress",
+        "eventCount": 5,
+        "keyEvents": 0
+      },
+      {
+        "event": "add_payment_info",
+        "eventCount": 4,
+        "keyEvents": 4
+      },
+      {
+        "event": "view_item_list",
+        "eventCount": 4,
+        "keyEvents": 0
+      },
+      {
+        "event": "Location clicked",
+        "eventCount": 3,
+        "keyEvents": 0
+      },
+      {
+        "event": "remove_from_cart",
+        "eventCount": 2,
+        "keyEvents": 0
+      },
+      {
+        "event": "Sign up Submit",
+        "eventCount": 1,
+        "keyEvents": 0
+      }
+    ],
+    "landingPages": [
+      {
+        "path": "/",
+        "sessions": 371,
+        "keyEvents": 62
+      },
+      {
+        "path": "(not set)",
+        "sessions": 102,
+        "keyEvents": 0
+      },
+      {
+        "path": "/in-spa-services-nassau",
+        "sessions": 64,
+        "keyEvents": 9
+      },
+      {
+        "path": "/massage-in-skn",
+        "sessions": 18,
+        "keyEvents": 0
+      },
+      {
+        "path": "/st-barths-massage",
+        "sessions": 18,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-barbados",
+        "sessions": 17,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-belize",
+        "sessions": 15,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-uvi",
+        "sessions": 15,
+        "keyEvents": 0
+      },
+      {
+        "path": "/mobile-massage-nassau",
+        "sessions": 15,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/mens-spa-retreat-nassau-bahamas",
+        "sessions": 15,
+        "keyEvents": 1
+      },
+      {
+        "path": "/massage-in-cayman-islands",
+        "sessions": 14,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-exuma",
+        "sessions": 13,
+        "keyEvents": 2
+      },
+      {
+        "path": "/in-spa-services-nassau?category=aedc72a8-90bc-4d2e-975b-ac4e3bb3978c&page=?category=aedc72a8-90bc-4d2e-975b-ac4e3bb3978c&page=",
+        "sessions": 12,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-stlucia",
+        "sessions": 12,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-curacao",
+        "sessions": 11,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-turks-and-caicos",
+        "sessions": 11,
+        "keyEvents": 1
+      },
+      {
+        "path": "/massage-in-jamaica",
+        "sessions": 10,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-st-vincent",
+        "sessions": 10,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-grenada",
+        "sessions": 9,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-antigua",
+        "sessions": 8,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/lympahtic-drainage-massage-nassau-bahamas",
+        "sessions": 8,
+        "keyEvents": 0
+      },
+      {
+        "path": "/spa-giftcards-nassau",
+        "sessions": 8,
+        "keyEvents": 11
+      },
+      {
+        "path": "/massage-in-dominica",
+        "sessions": 7,
+        "keyEvents": 0
+      },
+      {
+        "path": "/blog",
+        "sessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "path": "/gallery",
+        "sessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-st-martin",
+        "sessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massages-services-nassau",
+        "sessions": 6,
+        "keyEvents": 0
+      },
+      {
+        "path": "/spa-packages-nassau",
+        "sessions": 6,
+        "keyEvents": 1
+      },
+      {
+        "path": "",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/booking-calendar/swedish-massage-50-minutes",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/faq",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/friends",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-anguilla",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-bonaire",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/couples-spa-package-nassau-bahamas",
+        "sessions": 5,
+        "keyEvents": 0
+      },
+      {
+        "path": "/contact-tranquilitas",
+        "sessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/massage-in-the-us-virgin-islands-your-guide-to-relaxation-in-st-thomas-st-john-st-croix",
+        "sessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/massage-spa-in-barbados",
+        "sessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/island-sole-revival-reflexology-1",
+        "sessions": 4,
+        "keyEvents": 0
+      },
+      {
+        "path": "/gallery?pgid=m0k9uryv2-cdc3a47b-c31b-4f39-be14-890b119c0c50?pgid=m0k9uryv2-cdc3a47b-c31b-4f39-be14-890b119c0c50",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-bvi",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/luxury-mobile-massage-spa-in-grenada-tranquilitas",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/luxury-mobile-massage-spa-in-st-kitts-tranquilitas",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/luxury-mobile-massage-spa-in-turks-caicos-tranquilitas",
+        "sessions": 3,
+        "keyEvents": 1
+      },
+      {
+        "path": "/service-page/couples-spa-package-nassau-bahamas?page=&referral=service_list_widget?page=&referral=service_list_widget",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/deep-tissue-massage-80-min",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/mobile-swedish-massage-nassau-bahamas",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/service-page/womens-spa-package-nassau-bahamas",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/swedish-massage",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/testimonials-nassau-spa",
+        "sessions": 3,
+        "keyEvents": 0
+      },
+      {
+        "path": "/booking-calendar/bahama-bliss-massage-50-minutes?referral=service_list_widget?referral=service_list_widget",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/booking-calendar/couples-swedish-massage-50-min?referral=service_list_widget&fbclid=IwVERDUAVFudJleHRuA2FlbQIxMABwZG9mAWZkaWQWUQsVFmCyDYAc3px_sL6N4NK5tw6OgXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4RLdW39IXsaSKAiu0UbFYEDeRZVa5sRoTHo3PLehyXWgufccEOsgyMewPeug_aem_hr9wagjj9oBsWD1L5OTYpA?referral=service_list_widget&fbclid=IwVERDUAVFudJleHRuA2FlbQIxMABwZG9mAWZkaWQWUQsVFmCyDYAc3px_sL6N4NK5tw6OgXNydGMGYXBwX2lkCjY2Mjg1NjgzNzkAAR4RLdW39IXsaSKAiu0UbFYEDeRZVa5sRoTHo3PLehyXWgufccEOsgyMewPeug_aem_hr9wagjj9oBsWD1L5OTYpA",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/booking-calendar/swedish-massage-nassau-bahamas",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/facials-nassau-bahamas",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/in-spa-services-nassau?category=aedc72a8-90bc-4d2e-975b-ac4e3bb3978c?category=aedc72a8-90bc-4d2e-975b-ac4e3bb3978c",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-aruba",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/massage-in-stlucia?hl=en-US?hl=en-US",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/luxury-mobile-massage-spa-in-antigua-tranquilitas",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/massage-in-anguilla-where-luxury-meets-relaxation-by-the-sea",
+        "sessions": 2,
+        "keyEvents": 0
+      },
+      {
+        "path": "/post/massage-in-the-cayman-islands-where-island-luxury-meets-total-relaxation",
+        "sessions": 2,
+        "keyEvents": 0
+      }
+    ],
+    "totalSessions": 992,
+    "totalKeyEvents": 94,
+    "note": "GA4 events are not completed appointments: several configured key-event types measure checkout starts or ad page-load events. Do not sum them as purchases or reconciled revenue. Revenue here is GA4-attributed, not collected cash."
+  },
+  "wix2026": {
+    "site": "Main Wix only",
+    "year": 2026,
+    "through": "2026-10-28",
+    "trafficSources": [
+      {
+        "name": "organic_search",
+        "sessions": 6511,
+        "views": 14452
+      },
+      {
+        "name": "direct",
+        "sessions": 4129,
+        "views": 8099
+      },
+      {
+        "name": "paid_ads",
+        "sessions": 805,
+        "views": 876
+      },
+      {
+        "name": "social",
+        "sessions": 531,
+        "views": 1368
+      },
+      {
+        "name": "referral",
+        "sessions": 85,
+        "views": 190
+      },
+      {
+        "name": "ai_platform",
+        "sessions": 74,
+        "views": 248
+      },
+      {
+        "name": "wix_automations",
+        "sessions": 20,
+        "views": 33
+      },
+      {
+        "name": "wix_google_ads",
+        "sessions": 5,
+        "views": 5
+      }
+    ],
+    "conversionSources": [
+      {
+        "name": "organic_search",
+        "sessions": 7314,
+        "confirmedBookings": 132,
+        "wixSalesAmount": 23760.1
+      },
+      {
+        "name": "direct",
+        "sessions": 3232,
+        "confirmedBookings": 76,
+        "wixSalesAmount": 15463.8
+      },
+      {
+        "name": "paid_ads",
+        "sessions": 811,
+        "confirmedBookings": 0,
+        "wixSalesAmount": 0
+      },
+      {
+        "name": "social",
+        "sessions": 595,
+        "confirmedBookings": 16,
+        "wixSalesAmount": 2684
+      },
+      {
+        "name": "referral",
+        "sessions": 105,
+        "confirmedBookings": 3,
+        "wixSalesAmount": 280.5
+      },
+      {
+        "name": "ai_platform",
+        "sessions": 77,
+        "confirmedBookings": 1,
+        "wixSalesAmount": 445.5
+      },
+      {
+        "name": "wix_automations",
+        "sessions": 21,
+        "confirmedBookings": 0,
+        "wixSalesAmount": 0
+      },
+      {
+        "name": "wix_google_ads",
+        "sessions": 5,
+        "confirmedBookings": 0,
+        "wixSalesAmount": 0
+      }
+    ],
+    "ctaClicks": [
+      {
+        "name": "Book In-Spa Service",
+        "clicks": 1504
+      },
+      {
+        "name": "Book Mobile Service",
+        "clicks": 536
+      },
+      {
+        "name": "Menu",
+        "clicks": 386
+      },
+      {
+        "name": "Read more",
+        "clicks": 329
+      },
+      {
+        "name": "n_a",
+        "clicks": 228
+      },
+      {
+        "name": "BOOK NOW",
+        "clicks": 217
+      },
+      {
+        "name": "Plan Our Duo Time",
+        "clicks": 215
+      },
+      {
+        "name": "Reserve The Shoreline",
+        "clicks": 204
+      },
+      {
+        "name": "Release My Knots",
+        "clicks": 132
+      },
+      {
+        "name": "In-Spa",
+        "clicks": 123
+      },
+      {
+        "name": "60 Min Swedish Massage",
+        "clicks": 115
+      },
+      {
+        "name": "Mobile",
+        "clicks": 111
+      },
+      {
+        "name": "Float Me Away",
+        "clicks": 108
+      },
+      {
+        "name": "Chat Now",
+        "clicks": 102
+      },
+      {
+        "name": "Book Massage Now",
+        "clicks": 95
+      },
+      {
+        "name": "Beach",
+        "clicks": 87
+      },
+      {
+        "name": "60 Min Deep Tissue",
+        "clicks": 81
+      },
+      {
+        "name": "Gallery",
+        "clicks": 70
+      },
+      {
+        "name": "60 Min Couples Massage",
+        "clicks": 70
+      },
+      {
+        "name": "Start My Glow",
+        "clicks": 69
+      },
+      {
+        "name": "90 Min Couples Massage",
+        "clicks": 69
+      },
+      {
+        "name": "#7 Fourth Terrace, Collins Ave",
+        "clicks": 66
+      },
+      {
+        "name": "+1 (242) 816-8286",
+        "clicks": 65
+      },
+      {
+        "name": "FAQ",
+        "clicks": 61
+      },
+      {
+        "name": "90 Min Swedish Massage",
+        "clicks": 60
+      }
+    ],
+    "note": "Separate Wix Analytics annual snapshot. Different collection definitions and period from GA4; never add to GA4 totals. Wix-confirmed booking counts may not represent settled cash."
+  },
+  "marketingChannels": [
+    {
+      "id": "organic",
+      "name": "Organic search",
+      "stage": "Acquisition",
+      "confirmed": "Measured",
+      "evidence": "GA4: Google, Bing, Yahoo, DuckDuckGo, Ecosia; Wix Analytics source classifications",
+      "primaryAction": "SEO result → the queried site's own landing/service page → its booking funnel",
+      "next": "Connect Search Console properties and conversions individually for 32 destination sites"
+    },
+    {
+      "id": "ai",
+      "name": "AI assistant discovery",
+      "stage": "Acquisition",
+      "confirmed": "Measured on Wix domain",
+      "evidence": "GA4 ChatGPT/referral rows; Wix AI Visibility report is a separate prompt visibility sample",
+      "primaryAction": "AI answer/link → destination site → native booking",
+      "next": "Capture country-specific AI/referral attribution; don't treat AI mentions as guest bookings"
+    },
+    {
+      "id": "direct",
+      "name": "Direct and brand traffic",
+      "stage": "Acquisition",
+      "confirmed": "Measured on Wix domain",
+      "evidence": "Wix/GA4 direct session classification",
+      "primaryAction": "Typed URL or unattributed link → owned site",
+      "next": "Tag inbound links to reduce unattributed direct"
+    },
+    {
+      "id": "social",
+      "name": "Facebook and Instagram organic",
+      "stage": "Acquisition",
+      "confirmed": "Partially measured",
+      "evidence": "GA4 Instagram/social and Facebook referral traffic; Wix social category",
+      "primaryAction": "Social profile/post → relevant independent site → booking",
+      "next": "Use consistent UTM links for each business website"
+    },
+    {
+      "id": "meta_ads",
+      "name": "Meta paid ads",
+      "stage": "Acquisition",
+      "confirmed": "Ad account not selected in reporting connector",
+      "evidence": "Wix broad paid_ads category; cannot attribute all paid_ads to Meta",
+      "primaryAction": "Ad → independent destination site and its own native booking",
+      "next": "Select Meta account for spend, campaigns and ad conversions; verify pixel/CAPI per website"
+    },
+    {
+      "id": "google_ads",
+      "name": "Google Ads / paid search",
+      "stage": "Acquisition",
+      "confirmed": "Not connected at account level",
+      "evidence": "Historical Wix wix_google_ads and paid_search categories, not account spend",
+      "primaryAction": "Paid search → matching service page and booking",
+      "next": "Connect Google Ads account and conversion mappings"
+    },
+    {
+      "id": "affiliate",
+      "name": "Affiliates and referral partners",
+      "stage": "Acquisition",
+      "confirmed": "Measured on Wix domain only",
+      "evidence": "GA4 'BMM / affiliate' referrer source; existing regional affiliate programme",
+      "primaryAction": "Partner link/code → the intended property → booking → commission reconciliation",
+      "next": "Record partner/source IDs and actual settled bookings without exposing guest data"
+    },
+    {
+      "id": "directories",
+      "name": "Tourism directories and hospitality partners",
+      "stage": "Acquisition",
+      "confirmed": "Outreach activity, no attributed listing traffic yet",
+      "evidence": "10 tourism eligibility enquiries sent; Bahamas.com enquiry pending; no approved listings verified",
+      "primaryAction": "Official listing/hotel concierge → the correct country site → booking",
+      "next": "Record listing URL, acceptance, UTM/partner attribution and bookings"
+    },
+    {
+      "id": "whatsapp",
+      "name": "WhatsApp and direct enquiries",
+      "stage": "Conversion",
+      "confirmed": "Site CTAs identified; central event data incomplete",
+      "evidence": "Independent markets use WhatsApp, request forms or externally configured booking links",
+      "primaryAction": "Site CTA → WhatsApp/form → human confirmation → local provider",
+      "next": "Event instrument click, form receipt and confirmed booking separately"
+    },
+    {
+      "id": "booking",
+      "name": "Wix Bookings / country booking flows",
+      "stage": "Conversion",
+      "confirmed": "Wix GA4 events, destination confirmation not centrally linked",
+      "evidence": "GA4 begin_checkout/purchase plus Wix booking signals; distinct market-site systems",
+      "primaryAction": "Service selection → date/time → confirmation → payment/settlement",
+      "next": "Audit all 32 funnels; match booking reference and payment status securely"
+    },
+    {
+      "id": "email",
+      "name": "Email and automated follow-ups",
+      "stage": "Nurture",
+      "confirmed": "Partially measured",
+      "evidence": "Wix legacy email_marketing/wix_automations; public site enquiries",
+      "primaryAction": "Consent-based follow-up → same market site or confirmed appointment",
+      "next": "Implement source- and consent-aware attribution; exclude operational email signatures"
+    },
+    {
+      "id": "qr",
+      "name": "QR codes and offline-to-digital",
+      "stage": "Acquisition",
+      "confirmed": "Limited referrer evidence",
+      "evidence": "GA4 qr-codes.io referrals; offline placement not established",
+      "primaryAction": "QR signage/collateral → dedicated service/country landing",
+      "next": "Create unique tracked QR links per placement"
+    },
+    {
+      "id": "retention",
+      "name": "Repeat bookings and reactivation",
+      "stage": "Retention",
+      "confirmed": "No consolidated attribution",
+      "evidence": "Wix CRM/booking service history stored separately",
+      "primaryAction": "Completed service → approved follow-up → next booking",
+      "next": "Consent, campaign labels and repeat booking match"
+    },
+    {
+      "id": "offline",
+      "name": "Walk-in, phone, yacht and concierge referrals",
+      "stage": "Assisted / offline",
+      "confirmed": "Bookings can occur off-site, no unified attribution",
+      "evidence": "Operational services and partner discussions; Wix phone/contact click data",
+      "primaryAction": "Call/concierge/third-party request → qualified booking → payment",
+      "next": "Add simple lead-source selector to internal reconciled booking ledger"
+    }
+  ],
+  "inventoryWarnings": [
+    "32 independent country/city websites were inventoried from Cloudflare custom domains. No country-by-country GA4 analytics is connected to this consolidated reporting dashboard.",
+    "Meta Ads account is not selected in the ad connector. Google Ads account-level reporting unavailable. Paid traffic-source categories are not authenticated spend, ROAS, or bookings.",
+    "Search Console country property index/visibility results are not currently connected to this report. Only Wix's own GSC integration was verified.",
+    "Customer-facing websites must keep their own booking CTAs and architecture; this is internal reporting only."
+  ]
+}
