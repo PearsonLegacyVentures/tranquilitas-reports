@@ -22,7 +22,7 @@
   const linkMeta = sourceLinks.map(link => {
     const labelNode = link.cloneNode(true);
     labelNode.querySelectorAll('.nav-icon,.ux-nav-symbol').forEach(el => el.remove());
-    return {link, name:labelNode.textContent.trim().replace(/\\s+/g,' '), group:category(link)};
+    return {link, name:labelNode.textContent.trim().replace(/\s+/g,' '), group:category(link)};
   });
 
   nav.replaceChildren();
