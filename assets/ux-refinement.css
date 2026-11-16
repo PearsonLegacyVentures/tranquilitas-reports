@@ -1,0 +1,54 @@
+/* Tranquilitas Intelligence · shared UX refinements. Brand-safe, data-independent. */
+.ux-nav-group { margin: 8px 0 12px; border-bottom: 1px solid rgba(10,10,10,.08); padding-bottom: 7px; }
+.ux-nav-group:last-child { border-bottom: 0; }
+.ux-nav-group summary { list-style: none; cursor: pointer; display:flex; align-items:center; justify-content:space-between; gap:8px; padding:10px 9px; color:#5d6862; font:800 10px/1.4 'Archivo',sans-serif; letter-spacing:.11em; text-transform:uppercase; border-radius:5px; }
+.ux-nav-group summary::-webkit-details-marker { display:none; }
+.ux-nav-group summary::after { content:'⌄'; display:inline-block; font-size:17px; line-height:1; transition:transform .18s ease; }
+.ux-nav-group[open] summary::after { transform:rotate(180deg); }
+.ux-nav-group summary:hover { color:#0a504f; background:rgba(12,131,130,.06); }
+.ux-nav-group .ux-nav-items { display:grid; gap:3px; padding:0 2px 8px; }
+.ux-nav-group .nav-link { min-height:38px; display:flex; align-items:center; gap:10px; }
+.ux-nav-group .ux-nav-symbol { display:inline-flex; flex:none; align-items:center; justify-content:center; width:19px; font-size:15px; color:#317d74; }
+.ux-nav-group .nav-icon { display:inline-flex; flex:none; align-items:center; justify-content:center; width:19px; }
+.side-nav.ux-nav-ready { overflow-y:auto; min-height:0; scrollbar-width:thin; }
+.ux-search-trigger { display:inline-flex; align-items:center; gap:9px; background:#fffdf9; color:#21423e; padding:9px 12px; border:1px solid #d2cbc0; border-radius:7px; font:700 12px 'DM Sans',sans-serif; white-space:nowrap; transition:border-color .18s ease,box-shadow .18s ease; }
+.ux-search-trigger:hover, .ux-search-trigger:focus-visible { border-color:#0c8382; box-shadow:0 0 0 3px rgba(12,131,130,.10); }
+.ux-search-trigger kbd { margin-left:4px; padding:3px 5px; font:700 10px 'DM Sans',sans-serif; border:1px solid #d6d1c8; border-radius:4px; color:#6b706a; }
+.ux-command-dialog { width:min(580px,calc(100% - 24px)); max-height:min(80vh,720px); border:1px solid #d9d0c1; border-radius:13px; background:#fdfbf7; color:#101f1b; padding:0; box-shadow:0 22px 90px rgba(10,32,30,.28); }
+.ux-command-dialog::backdrop { background:rgba(8,22,22,.57); backdrop-filter:blur(3px); }
+.ux-command-shell { padding:17px; }
+.ux-command-label { display:block; font:800 10px 'Archivo',sans-serif; color:#54827a; letter-spacing:.10em; text-transform:uppercase; margin-bottom:9px; }
+.ux-command-search { width:100%; padding:14px; min-height:48px; background:#fff; color:#121c19; border:1px solid #c9cec8; border-radius:7px; font:600 16px 'DM Sans',sans-serif; }
+.ux-command-search:focus-visible { outline:3px solid rgba(12,131,130,.23); border-color:#0c8382; }
+.ux-command-results { max-height:52vh; overflow:auto; display:grid; gap:4px; margin-top:15px; }
+.ux-command-item { width:100%; padding:12px; border:0; border-radius:7px; background:transparent; text-align:left; display:flex; justify-content:space-between; align-items:center; gap:12px; color:#142621; cursor:pointer; }
+.ux-command-item:hover,.ux-command-item:focus-visible { background:#e8f4ef; outline-color:#0c8382; }
+.ux-command-item span { font:700 13px 'DM Sans',sans-serif; }
+.ux-command-item small { font:600 10px 'DM Sans',sans-serif; color:#66837b; }
+.ux-command-empty { color:#667671; padding:15px 10px; }
+.ux-command-foot { display:flex; justify-content:space-between; gap:10px; color:#6e7672; font-size:11px; padding-top:13px; border-top:1px solid #e5e1d9; margin-top:10px; }
+.ux-mobile-nav-toggle { display:none; }
+@media (min-width:851px) {
+  body.ux-refined .panel { background:rgba(255,255,255,.92); -webkit-backdrop-filter:blur(10px); backdrop-filter:blur(10px); box-shadow:0 8px 25px rgba(26,46,40,.045); }
+  body.ux-refined .content { background:radial-gradient(ellipse 520px 480px at 80% 12%,rgba(12,131,130,.055),transparent 78%); }
+}
+@media (max-width:850px) {
+  .ux-mobile-nav-toggle { display:flex; align-items:center; gap:7px; width:max-content; min-height:42px; padding:10px 13px; margin:10px 0 0; background:#fffaf2; color:#0b5550; border:1px solid #c9d3cc; border-radius:5px; font-weight:800; }
+  .sidebar.ux-mobile-nav-open .side-nav.ux-nav-ready { display:block; width:100%; margin-top:11px; overflow:visible; }
+  .sidebar.ux-mobile-nav-open .sidebar-label { display:block; margin-top:12px; }
+  .ux-search-trigger { min-height:40px; }
+  .ux-search-trigger kbd { display:none; }
+}
+@media (max-width:540px) {
+  .ux-search-trigger { font-size:11px; padding:8px 10px; }
+  .ux-command-shell { padding:12px; }
+  .ux-command-foot { flex-wrap:wrap; }
+}
+@media (prefers-reduced-motion:reduce) {
+  .ux-nav-group summary::after,.ux-search-trigger { transition:none!important; }
+  .ux-command-dialog::backdrop { backdrop-filter:none; }
+}
+@media print {
+  .ux-mobile-nav-toggle,.ux-search-trigger,.ux-command-dialog { display:none!important; }
+  body.ux-refined .panel { background:#fff!important; box-shadow:none!important; backdrop-filter:none!important; }
+}
