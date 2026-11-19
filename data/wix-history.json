@@ -1,6 +1,6 @@
 {
-  "extractedAt": "2026-10-28",
-  "through": "2026-10-28",
+  "extractedAt": "2026-11-18",
+  "through": "2026-11-17",
   "sites": [
     {
       "key": "main",
@@ -198,44 +198,52 @@
           "month": "2026-06",
           "sessions_count": 899,
           "visitors_count": 737,
-          "views_count": 1985,
-          "site_bounce_ratio": 0.54,
+          "views_count": 2150,
+          "site_bounce_ratio": 0.52,
           "pages_per_session_avg": 2
         },
         {
           "month": "2026-07",
           "sessions_count": 1031,
           "visitors_count": 860,
-          "views_count": 2148,
-          "site_bounce_ratio": 0.55,
+          "views_count": 2340,
+          "site_bounce_ratio": 0.53,
           "pages_per_session_avg": 2
         },
         {
           "month": "2026-08",
           "sessions_count": 973,
           "visitors_count": 819,
-          "views_count": 2106,
-          "site_bounce_ratio": 0.57,
+          "views_count": 2213,
+          "site_bounce_ratio": 0.55,
           "pages_per_session_avg": 2
         },
         {
           "month": "2026-09",
           "sessions_count": 1041,
           "visitors_count": 911,
-          "views_count": 2032,
-          "site_bounce_ratio": 0.63,
+          "views_count": 2169,
+          "site_bounce_ratio": 0.62,
           "pages_per_session_avg": 2
         },
         {
           "month": "2026-10",
-          "sessions_count": 906,
-          "visitors_count": 767,
-          "views_count": 1908,
+          "sessions_count": 1006,
+          "visitors_count": 858,
+          "views_count": 2278,
+          "site_bounce_ratio": 0.55,
+          "pages_per_session_avg": 2
+        },
+        {
+          "month": "2026-11",
+          "sessions_count": 630,
+          "visitors_count": 545,
+          "views_count": 1450,
           "site_bounce_ratio": 0.56,
           "pages_per_session_avg": 2
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -519,27 +527,38 @@
         {
           "month": "2026-09",
           "sales_count": 48,
-          "total_sales_amount": 10317.45,
+          "total_sales_amount": 10174.45,
           "total_paid_amount": 855,
           "total_revenue_amount": 855,
           "total_discount_amount": 0,
           "total_refunded_amount": 0,
-          "order_value_avg": 214.946875,
+          "order_value_avg": 211.967708333,
           "total_tips_amount": 0
         },
         {
           "month": "2026-10",
-          "sales_count": 33,
-          "total_sales_amount": 8269.5,
+          "sales_count": 34,
+          "total_sales_amount": 8369.5,
           "total_paid_amount": 0,
           "total_revenue_amount": 0,
           "total_discount_amount": 0,
           "total_refunded_amount": 0,
-          "order_value_avg": 250.590909091,
+          "order_value_avg": 246.161764706,
+          "total_tips_amount": 0
+        },
+        {
+          "month": "2026-11",
+          "sales_count": 42,
+          "total_sales_amount": 10908.4,
+          "total_paid_amount": 259.5,
+          "total_revenue_amount": 259.5,
+          "total_discount_amount": 0,
+          "total_refunded_amount": 0,
+          "order_value_avg": 259.723809524,
           "total_tips_amount": 0
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -773,23 +792,32 @@
         {
           "month": "2026-09",
           "bookings_count": 53,
-          "confirmed_bookings_count": 44,
-          "canceled_bookings_count": 6,
+          "confirmed_bookings_count": 40,
+          "canceled_bookings_count": 10,
           "customers_count": 33,
-          "total_items_sales_amount": 10476.95,
+          "total_items_sales_amount": 10333.95,
           "proportional_paid_amount": 605
         },
         {
           "month": "2026-10",
-          "bookings_count": 39,
-          "confirmed_bookings_count": 34,
+          "bookings_count": 40,
+          "confirmed_bookings_count": 35,
           "canceled_bookings_count": 2,
           "customers_count": 23,
-          "total_items_sales_amount": 8621.5,
+          "total_items_sales_amount": 8721.5,
           "proportional_paid_amount": 0
+        },
+        {
+          "month": "2026-11",
+          "bookings_count": 62,
+          "confirmed_bookings_count": 49,
+          "canceled_bookings_count": 2,
+          "customers_count": 27,
+          "total_items_sales_amount": 11364.9,
+          "proportional_paid_amount": 159.5
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -998,21 +1026,29 @@
         {
           "month": "2026-09",
           "sales_count": 48,
-          "total_items_sales_amount": 10567.45,
+          "total_items_sales_amount": 10424.45,
           "total_items_quantity": 51,
           "total_items_discount_amount": 0,
           "total_items_profit_amount": null
         },
         {
           "month": "2026-10",
-          "sales_count": 33,
-          "total_items_sales_amount": 8269.5,
-          "total_items_quantity": 35,
+          "sales_count": 34,
+          "total_items_sales_amount": 8369.5,
+          "total_items_quantity": 36,
+          "total_items_discount_amount": 0,
+          "total_items_profit_amount": null
+        },
+        {
+          "month": "2026-11",
+          "sales_count": 42,
+          "total_items_sales_amount": 11008.4,
+          "total_items_quantity": 50,
           "total_items_discount_amount": 0,
           "total_items_profit_amount": null
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -1021,187 +1057,194 @@
         {
           "month": "2024-09",
           "clicks_count": 122,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 76
         },
         {
           "month": "2024-10",
           "clicks_count": 540,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 288
         },
         {
           "month": "2024-11",
           "clicks_count": 568,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 305
         },
         {
           "month": "2024-12",
           "clicks_count": 398,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 227
         },
         {
           "month": "2025-01",
           "clicks_count": 393,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 206
         },
         {
           "month": "2025-02",
           "clicks_count": 436,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 207
         },
         {
           "month": "2025-03",
           "clicks_count": 366,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 201
         },
         {
           "month": "2025-04",
           "clicks_count": 351,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 176
         },
         {
           "month": "2025-05",
           "clicks_count": 548,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 252
         },
         {
           "month": "2025-06",
           "clicks_count": 409,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 210
         },
         {
           "month": "2025-07",
           "clicks_count": 325,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 201
         },
         {
           "month": "2025-08",
           "clicks_count": 401,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 200
         },
         {
           "month": "2025-09",
           "clicks_count": 370,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 210
         },
         {
           "month": "2025-10",
           "clicks_count": 446,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 270
         },
         {
           "month": "2025-11",
           "clicks_count": 608,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 355
         },
         {
           "month": "2025-12",
           "clicks_count": 771,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 463
         },
         {
           "month": "2026-01",
           "clicks_count": 847,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 529
         },
         {
           "month": "2026-02",
           "clicks_count": 833,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 542
         },
         {
           "month": "2026-03",
           "clicks_count": 784,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 508
         },
         {
           "month": "2026-04",
           "clicks_count": 677,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 398
         },
         {
           "month": "2026-05",
           "clicks_count": 621,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 352
         },
         {
           "month": "2026-06",
           "clicks_count": 524,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 336
         },
         {
           "month": "2026-07",
           "clicks_count": 568,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 348
         },
         {
           "month": "2026-08",
           "clicks_count": 540,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 335
         },
         {
           "month": "2026-09",
           "clicks_count": 446,
-          "sessions_count": 30248,
-          "views_count": 70650,
+          "sessions_count": 30978,
+          "views_count": 72971,
           "unique_visitors_clicks_count": 284
         },
         {
           "month": "2026-10",
-          "clicks_count": 499,
-          "sessions_count": 30248,
-          "views_count": 70650,
-          "unique_visitors_clicks_count": 313
+          "clicks_count": 543,
+          "sessions_count": 30978,
+          "views_count": 72971,
+          "unique_visitors_clicks_count": 343
+        },
+        {
+          "month": "2026-11",
+          "clicks_count": 368,
+          "sessions_count": 30978,
+          "views_count": 72971,
+          "unique_visitors_clicks_count": 221
         }
       ],
-      "returnCount": 26
+      "returnCount": 27
     },
     {
       "site": "main",
@@ -1447,11 +1490,20 @@
           "confirmed_bookings_count": 13,
           "total_sales_amount": 2534.5,
           "leads_count": 0,
-          "sessions_count": 906,
-          "conversion_sales_ratio": 0.012141
+          "sessions_count": 1006,
+          "conversion_sales_ratio": 0.010934
+        },
+        {
+          "month": "2026-11",
+          "orders_count": 11,
+          "confirmed_bookings_count": 13,
+          "total_sales_amount": 2277,
+          "leads_count": 0,
+          "sessions_count": 630,
+          "conversion_sales_ratio": 0.01746
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -1641,13 +1693,20 @@
         },
         {
           "month": "2026-10",
-          "clicks_count": 264,
-          "impressions_count": 17406,
-          "click_through_ratio": 0.01516718373,
-          "position_avg": 20.69723084
+          "clicks_count": 314,
+          "impressions_count": 20668,
+          "click_through_ratio": 0.01519256822,
+          "position_avg": 20.087962067
+        },
+        {
+          "month": "2026-11",
+          "clicks_count": 210,
+          "impressions_count": 11763,
+          "click_through_ratio": 0.01785258863,
+          "position_avg": 17.496982062
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -1670,15 +1729,15 @@
         {
           "month": "2024-10",
           "contacts_count": 79,
-          "total_orders_count": 162,
-          "total_sales_amount": 27873.79,
+          "total_orders_count": 164,
+          "total_sales_amount": 28214.79,
           "total_paid_amount": 557.7
         },
         {
           "month": "2024-11",
           "contacts_count": 77,
-          "total_orders_count": 63,
-          "total_sales_amount": 10588.06,
+          "total_orders_count": 64,
+          "total_sales_amount": 10758.56,
           "total_paid_amount": 25
         },
         {
@@ -1712,8 +1771,8 @@
         {
           "month": "2025-04",
           "contacts_count": 78,
-          "total_orders_count": 80,
-          "total_sales_amount": 15960.45,
+          "total_orders_count": 81,
+          "total_sales_amount": 16273.95,
           "total_paid_amount": 0
         },
         {
@@ -1740,15 +1799,15 @@
         {
           "month": "2025-08",
           "contacts_count": 32,
-          "total_orders_count": 47,
-          "total_sales_amount": 9966.66,
+          "total_orders_count": 50,
+          "total_sales_amount": 10457.46,
           "total_paid_amount": 379.5
         },
         {
           "month": "2025-09",
           "contacts_count": 30,
-          "total_orders_count": 43,
-          "total_sales_amount": 12971.2,
+          "total_orders_count": 45,
+          "total_sales_amount": 13553.7,
           "total_paid_amount": 253
         },
         {
@@ -1761,15 +1820,15 @@
         {
           "month": "2025-11",
           "contacts_count": 45,
-          "total_orders_count": 115,
-          "total_sales_amount": 29606.5,
+          "total_orders_count": 123,
+          "total_sales_amount": 31444,
           "total_paid_amount": 0
         },
         {
           "month": "2025-12",
           "contacts_count": 42,
-          "total_orders_count": 42,
-          "total_sales_amount": 7458,
+          "total_orders_count": 43,
+          "total_sales_amount": 7612,
           "total_paid_amount": 525.5
         },
         {
@@ -1782,8 +1841,8 @@
         {
           "month": "2026-02",
           "contacts_count": 50,
-          "total_orders_count": 82,
-          "total_sales_amount": 17101.06,
+          "total_orders_count": 90,
+          "total_sales_amount": 18321.06,
           "total_paid_amount": 0
         },
         {
@@ -1803,8 +1862,8 @@
         {
           "month": "2026-05",
           "contacts_count": 55,
-          "total_orders_count": 52,
-          "total_sales_amount": 11691.9,
+          "total_orders_count": 53,
+          "total_sales_amount": 11916.9,
           "total_paid_amount": 469
         },
         {
@@ -1824,15 +1883,15 @@
         {
           "month": "2026-08",
           "contacts_count": 28,
-          "total_orders_count": 37,
-          "total_sales_amount": 8759.25,
+          "total_orders_count": 38,
+          "total_sales_amount": 9658.45,
           "total_paid_amount": 315.5
         },
         {
           "month": "2026-09",
           "contacts_count": 29,
           "total_orders_count": 25,
-          "total_sales_amount": 4991.8,
+          "total_sales_amount": 4848.8,
           "total_paid_amount": 855
         },
         {
@@ -1841,9 +1900,16 @@
           "total_orders_count": 13,
           "total_sales_amount": 3200,
           "total_paid_amount": 0
+        },
+        {
+          "month": "2026-11",
+          "contacts_count": 17,
+          "total_orders_count": 15,
+          "total_sales_amount": 4774.4,
+          "total_paid_amount": 259.5
         }
       ],
-      "returnCount": 27
+      "returnCount": 28
     },
     {
       "site": "main",
@@ -2002,9 +2068,16 @@
           "successful_payments": 5,
           "total_paid_amount": 1055,
           "total_refunds_amount": null
+        },
+        {
+          "month": "2026-11",
+          "transactions_count": 2,
+          "successful_payments": 2,
+          "total_paid_amount": 259.5,
+          "total_refunds_amount": null
         }
       ],
-      "returnCount": 22
+      "returnCount": 23
     },
     {
       "site": "main",
@@ -2507,100 +2580,8 @@
     {
       "site": "legacy",
       "model": "contacts",
-      "rows": [
-        {
-          "month": "2024-01",
-          "contacts_count": 12,
-          "total_orders_count": 3,
-          "total_sales_amount": 300,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2024-02",
-          "contacts_count": 7,
-          "total_orders_count": 8,
-          "total_sales_amount": 950,
-          "total_paid_amount": 0
-        },
-        {
-          "month": "2024-03",
-          "contacts_count": 8,
-          "total_orders_count": 7,
-          "total_sales_amount": 910,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2024-04",
-          "contacts_count": 8,
-          "total_orders_count": 7,
-          "total_sales_amount": 1155,
-          "total_paid_amount": 0
-        },
-        {
-          "month": "2024-05",
-          "contacts_count": 29,
-          "total_orders_count": 25,
-          "total_sales_amount": 3218,
-          "total_paid_amount": 783
-        },
-        {
-          "month": "2024-06",
-          "contacts_count": 17,
-          "total_orders_count": 10,
-          "total_sales_amount": 1530,
-          "total_paid_amount": 0
-        },
-        {
-          "month": "2024-07",
-          "contacts_count": 14,
-          "total_orders_count": 16,
-          "total_sales_amount": 2605,
-          "total_paid_amount": 120
-        },
-        {
-          "month": "2024-08",
-          "contacts_count": 21,
-          "total_orders_count": 19,
-          "total_sales_amount": 2902,
-          "total_paid_amount": 105
-        },
-        {
-          "month": "2025-04",
-          "contacts_count": 1,
-          "total_orders_count": null,
-          "total_sales_amount": null,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2025-07",
-          "contacts_count": 2,
-          "total_orders_count": null,
-          "total_sales_amount": null,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2025-08",
-          "contacts_count": 1,
-          "total_orders_count": null,
-          "total_sales_amount": null,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2025-09",
-          "contacts_count": 1,
-          "total_orders_count": null,
-          "total_sales_amount": null,
-          "total_paid_amount": null
-        },
-        {
-          "month": "2026-02",
-          "contacts_count": 1,
-          "total_orders_count": null,
-          "total_sales_amount": null,
-          "total_paid_amount": null
-        }
-      ],
-      "returnCount": 13
+      "rows": [],
+      "returnCount": 0
     },
     {
       "site": "legacy",
@@ -2646,9 +2627,12 @@
   ],
   "definitions": {
     "source": "Wix Analytics Semantic Models API",
-    "dateRange": "2024-01-01 to 2026-10-28",
+    "dateRange": "2024-01-01 to 2026-11-17",
     "frequency": "calendar month",
     "timezone": "America/Nassau",
-    "warning": "Aggregate data only. Unique counts and ratio metrics are not additive across months or sites. Sales values are NOT audited cash receipts or P&L. Legacy and current Wix site records are independent sources."
+    "warning": "November 2026 is partial through 17 November. Sales value is Wix-reported commerce, not audited or collected revenue; 2024 company income is stored separately. Unique people must not be summed across sites/months.",
+    "dateRangeEndExclusive": "2026-11-18T05:00:00Z",
+    "extractionDate": "2026-11-18",
+    "partialMonth": "2026-11"
   }
 }
