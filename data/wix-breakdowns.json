@@ -2582,1313 +2582,6 @@
       "count": 3
     },
     {
-      "site": "main",
-      "year": "2026",
-      "report": "traffic_sources",
-      "rows": [
-        {
-          "label": "organic_search",
-          "sessions_count": 6511,
-          "views_count": 14452
-        },
-        {
-          "label": "direct",
-          "sessions_count": 4129,
-          "views_count": 8099
-        },
-        {
-          "label": "paid_ads",
-          "sessions_count": 805,
-          "views_count": 876
-        },
-        {
-          "label": "social",
-          "sessions_count": 531,
-          "views_count": 1368
-        },
-        {
-          "label": "referral",
-          "sessions_count": 85,
-          "views_count": 190
-        },
-        {
-          "label": "ai_platform",
-          "sessions_count": 74,
-          "views_count": 248
-        },
-        {
-          "label": "wix_automations",
-          "sessions_count": 20,
-          "views_count": 33
-        },
-        {
-          "label": "wix_google_ads",
-          "sessions_count": 5,
-          "views_count": 5
-        }
-      ],
-      "count": 8
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "countries",
-      "rows": [
-        {
-          "label": "United States",
-          "sessions_count": 5325,
-          "views_count": 11910
-        },
-        {
-          "label": "Bahamas",
-          "sessions_count": 4249,
-          "views_count": 9325
-        },
-        {
-          "label": "Canada",
-          "sessions_count": 330,
-          "views_count": 639
-        },
-        {
-          "label": "Singapore",
-          "sessions_count": 238,
-          "views_count": 247
-        },
-        {
-          "label": "United Kingdom",
-          "sessions_count": 148,
-          "views_count": 265
-        },
-        {
-          "label": "Barbados",
-          "sessions_count": 139,
-          "views_count": 202
-        },
-        {
-          "label": "Cayman Islands",
-          "sessions_count": 139,
-          "views_count": 211
-        },
-        {
-          "label": "China",
-          "sessions_count": 111,
-          "views_count": 114
-        },
-        {
-          "label": "Saint Kitts and Nevis",
-          "sessions_count": 108,
-          "views_count": 163
-        },
-        {
-          "label": "Antigua and Barbuda",
-          "sessions_count": 85,
-          "views_count": 130
-        },
-        {
-          "label": "Grenada",
-          "sessions_count": 81,
-          "views_count": 131
-        },
-        {
-          "label": "Dominica",
-          "sessions_count": 71,
-          "views_count": 102
-        },
-        {
-          "label": "Saint Lucia",
-          "sessions_count": 69,
-          "views_count": 94
-        },
-        {
-          "label": "Curacao",
-          "sessions_count": 66,
-          "views_count": 82
-        },
-        {
-          "label": "Turks and Caicos Islands",
-          "sessions_count": 57,
-          "views_count": 98
-        },
-        {
-          "label": "British Antarctic Territory",
-          "sessions_count": 51,
-          "views_count": 73
-        },
-        {
-          "label": "Belize",
-          "sessions_count": 49,
-          "views_count": 60
-        },
-        {
-          "label": "Germany",
-          "sessions_count": 48,
-          "views_count": 114
-        },
-        {
-          "label": "Netherlands",
-          "sessions_count": 43,
-          "views_count": 84
-        },
-        {
-          "label": "Virgin Islands (U.S.)",
-          "sessions_count": 43,
-          "views_count": 58
-        },
-        {
-          "label": "Saint Vincent and the Grenadines",
-          "sessions_count": 42,
-          "views_count": 63
-        },
-        {
-          "label": "Jamaica",
-          "sessions_count": 41,
-          "views_count": 53
-        },
-        {
-          "label": "Anguilla",
-          "sessions_count": 36,
-          "views_count": 58
-        },
-        {
-          "label": "Puerto Rico",
-          "sessions_count": 33,
-          "views_count": 73
-        },
-        {
-          "label": "South Korea",
-          "sessions_count": 30,
-          "views_count": 31
-        },
-        {
-          "label": "Sint Maarten (Dutch part)",
-          "sessions_count": 29,
-          "views_count": 37
-        },
-        {
-          "label": "France",
-          "sessions_count": 28,
-          "views_count": 67
-        },
-        {
-          "label": "India",
-          "sessions_count": 28,
-          "views_count": 31
-        },
-        {
-          "label": "Trinidad and Tobago",
-          "sessions_count": 25,
-          "views_count": 36
-        },
-        {
-          "label": "Russia",
-          "sessions_count": 25,
-          "views_count": 25
-        },
-        {
-          "label": "Guadeloupe",
-          "sessions_count": 23,
-          "views_count": 34
-        },
-        {
-          "label": "Virgin Islands (British)",
-          "sessions_count": 23,
-          "views_count": 31
-        },
-        {
-          "label": "Spain",
-          "sessions_count": 21,
-          "views_count": 39
-        },
-        {
-          "label": "Colombia",
-          "sessions_count": 18,
-          "views_count": 32
-        },
-        {
-          "label": "Sweden",
-          "sessions_count": 16,
-          "views_count": 37
-        },
-        {
-          "label": "Switzerland",
-          "sessions_count": 15,
-          "views_count": 36
-        },
-        {
-          "label": "Australia",
-          "sessions_count": 14,
-          "views_count": 29
-        },
-        {
-          "label": "Hong Kong",
-          "sessions_count": 14,
-          "views_count": 14
-        },
-        {
-          "label": "Italy",
-          "sessions_count": 14,
-          "views_count": 20
-        },
-        {
-          "label": "Japan",
-          "sessions_count": 12,
-          "views_count": 18
-        }
-      ],
-      "count": 40
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "devices",
-      "rows": [
-        {
-          "label": "mobile",
-          "sessions_count": 8854
-        },
-        {
-          "label": "desktop",
-          "sessions_count": 3198
-        },
-        {
-          "label": "tablet",
-          "sessions_count": 108
-        }
-      ],
-      "count": 3
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "service_sales",
-      "rows": [
-        {
-          "label": "Deep Tissue  80-min (Most Popular🔥 )",
-          "total_items_sales_amount": 13517.8,
-          "total_items_quantity": 87,
-          "sales_count": 84
-        },
-        {
-          "label": "Couples Relaxation Package",
-          "total_items_sales_amount": 11110,
-          "total_items_quantity": 30,
-          "sales_count": 30
-        },
-        {
-          "label": "Couples Beach Massage (1 Hr)",
-          "total_items_sales_amount": 9432.5,
-          "total_items_quantity": 27,
-          "sales_count": 25
-        },
-        {
-          "label": "Mobile Deep Tissue Massage-80 min",
-          "total_items_sales_amount": 8184,
-          "total_items_quantity": 34,
-          "sales_count": 28
-        },
-        {
-          "label": "Couples Swedish Massage-50 min",
-          "total_items_sales_amount": 8096,
-          "total_items_quantity": 36,
-          "sales_count": 36
-        },
-        {
-          "label": "Customized Spa Package",
-          "total_items_sales_amount": 6499.68,
-          "total_items_quantity": 20,
-          "sales_count": 20
-        },
-        {
-          "label": "Deep Tissue Massage -  50 minutes",
-          "total_items_sales_amount": 6355.25,
-          "total_items_quantity": 48,
-          "sales_count": 48
-        },
-        {
-          "label": "Swedish Massage - 50 minutes",
-          "total_items_sales_amount": 5252.5,
-          "total_items_quantity": 47,
-          "sales_count": 44
-        },
-        {
-          "label": "Bahama Bliss Massage - 80 Minutes",
-          "total_items_sales_amount": 4944.5,
-          "total_items_quantity": 35,
-          "sales_count": 27
-        },
-        {
-          "label": "Mobile Swedish Massage -80 min",
-          "total_items_sales_amount": 4526.5,
-          "total_items_quantity": 21,
-          "sales_count": 16
-        },
-        {
-          "label": "Couples Swedish Massage-80 min",
-          "total_items_sales_amount": 4389,
-          "total_items_quantity": 16,
-          "sales_count": 16
-        },
-        {
-          "label": "Men’s Spa Retreat",
-          "total_items_sales_amount": 4221.8,
-          "total_items_quantity": 19,
-          "sales_count": 18
-        },
-        {
-          "label": "Couples 80 Min Swedish Massage (mobile)",
-          "total_items_sales_amount": 3987.5,
-          "total_items_quantity": 10,
-          "sales_count": 9
-        },
-        {
-          "label": "Couples Deep Tissue Massage - 50 min",
-          "total_items_sales_amount": 3663,
-          "total_items_quantity": 14,
-          "sales_count": 14
-        },
-        {
-          "label": "Swedish Massage - 80 Minutes",
-          "total_items_sales_amount": 3584.9,
-          "total_items_quantity": 23,
-          "sales_count": 22
-        },
-        {
-          "label": "Corporate Wellness Packages",
-          "total_items_sales_amount": 2993.8,
-          "total_items_quantity": 10,
-          "sales_count": 10
-        },
-        {
-          "label": "Women’s Spa Package",
-          "total_items_sales_amount": 2508,
-          "total_items_quantity": 13,
-          "sales_count": 13
-        },
-        {
-          "label": "Couples Deep Tissue Massage-80 min",
-          "total_items_sales_amount": 2337.5,
-          "total_items_quantity": 10,
-          "sales_count": 10
-        },
-        {
-          "label": "Bahama Bliss Massage - 50 Minutes",
-          "total_items_sales_amount": 2152.7,
-          "total_items_quantity": 17,
-          "sales_count": 13
-        },
-        {
-          "label": "Beach Massage (1 Hour)",
-          "total_items_sales_amount": 2145,
-          "total_items_quantity": 10,
-          "sales_count": 7
-        },
-        {
-          "label": "Couples Customizable Spa Package",
-          "total_items_sales_amount": 2118.6,
-          "total_items_quantity": 5,
-          "sales_count": 5
-        },
-        {
-          "label": "Mobile Deep Tissue Massage 50-min",
-          "total_items_sales_amount": 1930.5,
-          "total_items_quantity": 12,
-          "sales_count": 11
-        },
-        {
-          "label": "Beach Massage (90 Minutes)",
-          "total_items_sales_amount": 1881,
-          "total_items_quantity": 7,
-          "sales_count": 5
-        },
-        {
-          "label": "Relaxation Package",
-          "total_items_sales_amount": 1809.5,
-          "total_items_quantity": 9,
-          "sales_count": 9
-        },
-        {
-          "label": "Coconut Wave Massage (60 Min)",
-          "total_items_sales_amount": 1683,
-          "total_items_quantity": 9,
-          "sales_count": 7
-        },
-        {
-          "label": "Express Massage - 30 Minutes",
-          "total_items_sales_amount": 1574.1,
-          "total_items_quantity": 20,
-          "sales_count": 14
-        },
-        {
-          "label": "Mobile Swedish Massage-50 min",
-          "total_items_sales_amount": 1523.5,
-          "total_items_quantity": 17,
-          "sales_count": 14
-        },
-        {
-          "label": "Sports Massage - 90 minutes",
-          "total_items_sales_amount": 1452,
-          "total_items_quantity": 8,
-          "sales_count": 8
-        },
-        {
-          "label": "1 Hour Mobile Massage",
-          "total_items_sales_amount": 1122,
-          "total_items_quantity": 6,
-          "sales_count": 1
-        },
-        {
-          "label": "Couples 80 Min Deep Tissue Massage (mobile)",
-          "total_items_sales_amount": 957,
-          "total_items_quantity": 2,
-          "sales_count": 2
-        },
-        {
-          "label": "Couples 50 min Deep Tissue Massage (mobile)",
-          "total_items_sales_amount": 940.5,
-          "total_items_quantity": 3,
-          "sales_count": 3
-        },
-        {
-          "label": "Couples 50 min Swedish Massage (mobile)",
-          "total_items_sales_amount": 880,
-          "total_items_quantity": 4,
-          "sales_count": 4
-        },
-        {
-          "label": "90 min Coconut Wave (mobile)",
-          "total_items_sales_amount": 858,
-          "total_items_quantity": 3,
-          "sales_count": 2
-        },
-        {
-          "label": "Island Sole Revival (Reflexology)",
-          "total_items_sales_amount": 825,
-          "total_items_quantity": 10,
-          "sales_count": 9
-        },
-        {
-          "label": "Mobile Chair Massage",
-          "total_items_sales_amount": 798.95,
-          "total_items_quantity": 4,
-          "sales_count": 4
-        },
-        {
-          "label": "Customized (Enzyme) Facial",
-          "total_items_sales_amount": 742.5,
-          "total_items_quantity": 9,
-          "sales_count": 7
-        },
-        {
-          "label": "The Perfect Spa Gift – Tranquilitas Spa Gift Cards",
-          "total_items_sales_amount": 705,
-          "total_items_quantity": 6,
-          "sales_count": 6
-        },
-        {
-          "label": "Cancellation fee @50%",
-          "total_items_sales_amount": 654.5,
-          "total_items_quantity": 7,
-          "sales_count": 1
-        },
-        {
-          "label": "60 min Deep Tissue Mobile",
-          "total_items_sales_amount": 561,
-          "total_items_quantity": 3,
-          "sales_count": 1
-        },
-        {
-          "label": "80 min Coconut Wave (mobile)",
-          "total_items_sales_amount": 499.96,
-          "total_items_quantity": 2,
-          "sales_count": 1
-        }
-      ],
-      "count": 40
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "booking_services",
-      "rows": [
-        {
-          "label": "Deep Tissue  80-min (Most Popular🔥 )",
-          "confirmed_bookings_count": 79,
-          "canceled_bookings_count": 10,
-          "total_items_sales_amount": 13517.8
-        },
-        {
-          "label": "Swedish Massage - 50 minutes",
-          "confirmed_bookings_count": 51,
-          "canceled_bookings_count": 4,
-          "total_items_sales_amount": 6061
-        },
-        {
-          "label": "Deep Tissue Massage -  50 minutes",
-          "confirmed_bookings_count": 45,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 6355.25
-        },
-        {
-          "label": "Couples Swedish Massage-50 min",
-          "confirmed_bookings_count": 36,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 8096
-        },
-        {
-          "label": "Mobile Deep Tissue Massage-80 min",
-          "confirmed_bookings_count": 32,
-          "canceled_bookings_count": 2,
-          "total_items_sales_amount": 8184
-        },
-        {
-          "label": "Bahama Bliss Massage - 80 Minutes",
-          "confirmed_bookings_count": 30,
-          "canceled_bookings_count": 7,
-          "total_items_sales_amount": 4944.5
-        },
-        {
-          "label": "Couples Relaxation Package",
-          "confirmed_bookings_count": 23,
-          "canceled_bookings_count": 8,
-          "total_items_sales_amount": 11110
-        },
-        {
-          "label": "Couples Beach Massage (1 Hr)",
-          "confirmed_bookings_count": 23,
-          "canceled_bookings_count": 5,
-          "total_items_sales_amount": 9856
-        },
-        {
-          "label": "Swedish Massage - 80 Minutes",
-          "confirmed_bookings_count": 21,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 3744.4
-        },
-        {
-          "label": "Mobile Swedish Massage -80 min",
-          "confirmed_bookings_count": 20,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 4526.5
-        },
-        {
-          "label": "Customized Spa Package",
-          "confirmed_bookings_count": 20,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 6499.68
-        },
-        {
-          "label": "Men’s Spa Retreat",
-          "confirmed_bookings_count": 19,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 4221.8
-        },
-        {
-          "label": "Express Massage - 30 Minutes",
-          "confirmed_bookings_count": 17,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 1574.1
-        },
-        {
-          "label": "Bahama Bliss Massage - 50 Minutes",
-          "confirmed_bookings_count": 15,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 2152.7
-        },
-        {
-          "label": "Couples Deep Tissue Massage - 50 min",
-          "confirmed_bookings_count": 13,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 3663
-        },
-        {
-          "label": "Couples Swedish Massage-80 min",
-          "confirmed_bookings_count": 13,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 4389
-        },
-        {
-          "label": "Mobile Swedish Massage-50 min",
-          "confirmed_bookings_count": 13,
-          "canceled_bookings_count": 4,
-          "total_items_sales_amount": 1523.5
-        },
-        {
-          "label": "Mobile Deep Tissue Massage 50-min",
-          "confirmed_bookings_count": 12,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 2090
-        },
-        {
-          "label": "Beach Massage (1 Hour)",
-          "confirmed_bookings_count": 12,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 2145
-        },
-        {
-          "label": "Women’s Spa Package",
-          "confirmed_bookings_count": 11,
-          "canceled_bookings_count": 2,
-          "total_items_sales_amount": 2508
-        },
-        {
-          "label": "Corporate Wellness Packages",
-          "confirmed_bookings_count": 10,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 2993.8
-        },
-        {
-          "label": "Relaxation Package",
-          "confirmed_bookings_count": 9,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 1809.5
-        },
-        {
-          "label": "Mobile Coconut Wave Massage (60 Min)",
-          "confirmed_bookings_count": 9,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 1683
-        },
-        {
-          "label": "Island Sole Revival (Reflexology)",
-          "confirmed_bookings_count": 8,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 907.5
-        },
-        {
-          "label": "Couples 80 Min Swedish Massage (mobile)",
-          "confirmed_bookings_count": 8,
-          "canceled_bookings_count": 2,
-          "total_items_sales_amount": 3987.5
-        },
-        {
-          "label": "Beach Massage (90 Minutes)",
-          "confirmed_bookings_count": 7,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 1881
-        },
-        {
-          "label": "Sports Massage - 90 minutes",
-          "confirmed_bookings_count": 7,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 1452
-        },
-        {
-          "label": "Couples Deep Tissue Massage-80 min",
-          "confirmed_bookings_count": 7,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 2337.5
-        },
-        {
-          "label": "Customized (Enzyme) Facial",
-          "confirmed_bookings_count": 6,
-          "canceled_bookings_count": 3,
-          "total_items_sales_amount": 742.5
-        },
-        {
-          "label": "90 min Coconut Wave (mobile)",
-          "confirmed_bookings_count": 5,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 1357.96
-        },
-        {
-          "label": "Couples Customizable Spa Package",
-          "confirmed_bookings_count": 4,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 2118.6
-        },
-        {
-          "label": "Lymphatic Drainage Massage",
-          "confirmed_bookings_count": 4,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 638
-        },
-        {
-          "label": "Refresher Facial",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 330
-        },
-        {
-          "label": "Couples 50 min Swedish Massage (mobile)",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 880
-        },
-        {
-          "label": "Men's Facial",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 396
-        },
-        {
-          "label": "60 min Deep Tissue Mobile",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 561
-        },
-        {
-          "label": "Mobile Chair Massage",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 798.95
-        },
-        {
-          "label": "Couples 50 min Deep Tissue Massage (mobile)",
-          "confirmed_bookings_count": 3,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 940.5
-        },
-        {
-          "label": "Tranquil Tuesdays",
-          "confirmed_bookings_count": 2,
-          "canceled_bookings_count": 0,
-          "total_items_sales_amount": 209
-        },
-        {
-          "label": "Couples 80 Min Deep Tissue Massage (mobile)",
-          "confirmed_bookings_count": 2,
-          "canceled_bookings_count": 1,
-          "total_items_sales_amount": 957
-        }
-      ],
-      "count": 40
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "cta_clicks",
-      "rows": [
-        {
-          "label": "Book In-Spa Service",
-          "clicks_count": 1504,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book Mobile Service",
-          "clicks_count": 536,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Menu",
-          "clicks_count": 386,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Read more",
-          "clicks_count": 329,
-          "sessions_count": 12160
-        },
-        {
-          "label": "n_a",
-          "clicks_count": 228,
-          "sessions_count": 12160
-        },
-        {
-          "label": "BOOK NOW",
-          "clicks_count": 217,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Plan Our Duo Time",
-          "clicks_count": 215,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Reserve The Shoreline",
-          "clicks_count": 204,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Release My Knots",
-          "clicks_count": 132,
-          "sessions_count": 12160
-        },
-        {
-          "label": "In-Spa",
-          "clicks_count": 123,
-          "sessions_count": 12160
-        },
-        {
-          "label": "60 Min Swedish Massage",
-          "clicks_count": 115,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Mobile",
-          "clicks_count": 111,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Float Me Away",
-          "clicks_count": 108,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Chat Now",
-          "clicks_count": 102,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book Massage Now",
-          "clicks_count": 95,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Beach",
-          "clicks_count": 87,
-          "sessions_count": 12160
-        },
-        {
-          "label": "60 Min Deep Tissue",
-          "clicks_count": 81,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Gallery",
-          "clicks_count": 70,
-          "sessions_count": 12160
-        },
-        {
-          "label": "60 Min Couples Massage",
-          "clicks_count": 70,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Start My Glow",
-          "clicks_count": 69,
-          "sessions_count": 12160
-        },
-        {
-          "label": "90 Min Couples Massage",
-          "clicks_count": 69,
-          "sessions_count": 12160
-        },
-        {
-          "label": "#7 Fourth Terrace, Collins Ave",
-          "clicks_count": 66,
-          "sessions_count": 12160
-        },
-        {
-          "label": "+1 (242) 816-8286",
-          "clicks_count": 65,
-          "sessions_count": 12160
-        },
-        {
-          "label": "FAQ",
-          "clicks_count": 61,
-          "sessions_count": 12160
-        },
-        {
-          "label": "90 Min Swedish Massage",
-          "clicks_count": 60,
-          "sessions_count": 12160
-        },
-        {
-          "label": "90 Min Deep Tissue",
-          "clicks_count": 56,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Get Availability Near Me",
-          "clicks_count": 54,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book Couples Massage",
-          "clicks_count": 48,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Get an Instant Quote",
-          "clicks_count": 44,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book Curacao Massage",
-          "clicks_count": 42,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Packages",
-          "clicks_count": 42,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book UVI Massage",
-          "clicks_count": 42,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Send a Therapist",
-          "clicks_count": 41,
-          "sessions_count": 12160
-        },
-        {
-          "label": "60 Min Beach Massage",
-          "clicks_count": 38,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Save Moonlight Spot",
-          "clicks_count": 36,
-          "sessions_count": 12160
-        },
-        {
-          "label": "About",
-          "clicks_count": 31,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book St. Vincent Massage",
-          "clicks_count": 30,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Upgrade My Routine",
-          "clicks_count": 29,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Testimonials",
-          "clicks_count": 27,
-          "sessions_count": 12160
-        },
-        {
-          "label": "Book Cayman Massage",
-          "clicks_count": 27,
-          "sessions_count": 12160
-        }
-      ],
-      "count": 40
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "google_queries",
-      "rows": [
-        {
-          "label": "tranquilitas day spa",
-          "clicks_count": 181,
-          "impressions_count": 566,
-          "position_avg": 1.14664311
-        },
-        {
-          "label": "lymphatic drainage massage nassau",
-          "clicks_count": 47,
-          "impressions_count": 378,
-          "position_avg": 3.473544974
-        },
-        {
-          "label": "nassau massage",
-          "clicks_count": 39,
-          "impressions_count": 1344,
-          "position_avg": 5.619791667
-        },
-        {
-          "label": "massage nassau bahamas",
-          "clicks_count": 38,
-          "impressions_count": 2865,
-          "position_avg": 20.712739965
-        },
-        {
-          "label": "massage nassau",
-          "clicks_count": 36,
-          "impressions_count": 1946,
-          "position_avg": 10.563720452
-        },
-        {
-          "label": "tranquilitas spa",
-          "clicks_count": 33,
-          "impressions_count": 103,
-          "position_avg": 1.116504854
-        },
-        {
-          "label": "bahamas massage",
-          "clicks_count": 28,
-          "impressions_count": 2024,
-          "position_avg": 24.102766798
-        },
-        {
-          "label": "nassau bahamas massage",
-          "clicks_count": 28,
-          "impressions_count": 1823,
-          "position_avg": 30.555677455
-        },
-        {
-          "label": "massage bahamas",
-          "clicks_count": 26,
-          "impressions_count": 1882,
-          "position_avg": 30.300743889
-        },
-        {
-          "label": "tranquilitas",
-          "clicks_count": 26,
-          "impressions_count": 81,
-          "position_avg": 4.234567901
-        },
-        {
-          "label": "massage near me",
-          "clicks_count": 25,
-          "impressions_count": 4709,
-          "position_avg": 15.389254619
-        },
-        {
-          "label": "erotic massage nassau bahamas",
-          "clicks_count": 22,
-          "impressions_count": 228,
-          "position_avg": 12.978070175
-        },
-        {
-          "label": "massage in nassau bahamas",
-          "clicks_count": 17,
-          "impressions_count": 2024,
-          "position_avg": 29.022727273
-        },
-        {
-          "label": "erotic massage nassau",
-          "clicks_count": 16,
-          "impressions_count": 247,
-          "position_avg": 9.255060729
-        },
-        {
-          "label": "couples massage nassau bahamas",
-          "clicks_count": 15,
-          "impressions_count": 1384,
-          "position_avg": 39.177023121
-        },
-        {
-          "label": "couples massage nassau",
-          "clicks_count": 15,
-          "impressions_count": 285,
-          "position_avg": 9.880701754
-        },
-        {
-          "label": "tranquility spa",
-          "clicks_count": 15,
-          "impressions_count": 114,
-          "position_avg": 3.131578947
-        },
-        {
-          "label": "massages in nassau bahamas",
-          "clicks_count": 12,
-          "impressions_count": 409,
-          "position_avg": 5.569682152
-        },
-        {
-          "label": "massage in nassau bahamas near cruise port",
-          "clicks_count": 12,
-          "impressions_count": 1444,
-          "position_avg": 30.248614958
-        },
-        {
-          "label": "massage st kitts",
-          "clicks_count": 11,
-          "impressions_count": 348,
-          "position_avg": 6.922413793
-        },
-        {
-          "label": "swedish massage",
-          "clicks_count": 10,
-          "impressions_count": 746,
-          "position_avg": 3.611260054
-        },
-        {
-          "label": "nassau bahamas erotic massage",
-          "clicks_count": 9,
-          "impressions_count": 57,
-          "position_avg": 8.929824561
-        },
-        {
-          "label": "nassau erotic massage",
-          "clicks_count": 9,
-          "impressions_count": 91,
-          "position_avg": 8.857142857
-        },
-        {
-          "label": "mobile massage nassau bahamas",
-          "clicks_count": 8,
-          "impressions_count": 1332,
-          "position_avg": 35.538288288
-        },
-        {
-          "label": "massage in bahamas",
-          "clicks_count": 8,
-          "impressions_count": 300,
-          "position_avg": 11.753333333
-        },
-        {
-          "label": "mobile massage bahamas",
-          "clicks_count": 7,
-          "impressions_count": 312,
-          "position_avg": 24.887820513
-        },
-        {
-          "label": "massages in nassau",
-          "clicks_count": 7,
-          "impressions_count": 127,
-          "position_avg": 4.472440945
-        },
-        {
-          "label": "massage nassau bahamas near cruise port",
-          "clicks_count": 7,
-          "impressions_count": 137,
-          "position_avg": 3.525547445
-        },
-        {
-          "label": "lymphatic drainage massage",
-          "clicks_count": 7,
-          "impressions_count": 635,
-          "position_avg": 18.719685039
-        },
-        {
-          "label": "spa in nassau bahamas",
-          "clicks_count": 7,
-          "impressions_count": 1282,
-          "position_avg": 33.029641186
-        },
-        {
-          "label": "spas in nassau bahamas",
-          "clicks_count": 6,
-          "impressions_count": 1549,
-          "position_avg": 31.103938025
-        },
-        {
-          "label": "massage curacao",
-          "clicks_count": 6,
-          "impressions_count": 268,
-          "position_avg": 19.805970149
-        },
-        {
-          "label": "cheap massage nassau bahamas",
-          "clicks_count": 6,
-          "impressions_count": 1530,
-          "position_avg": 39.218954248
-        },
-        {
-          "label": "spa nassau bahamas",
-          "clicks_count": 6,
-          "impressions_count": 266,
-          "position_avg": 15.372180451
-        },
-        {
-          "label": "st kitts massage",
-          "clicks_count": 6,
-          "impressions_count": 166,
-          "position_avg": 8.006024096
-        },
-        {
-          "label": "massages nassau bahamas",
-          "clicks_count": 5,
-          "impressions_count": 212,
-          "position_avg": 4.278301887
-        },
-        {
-          "label": "dominica massage",
-          "clicks_count": 5,
-          "impressions_count": 305,
-          "position_avg": 9.485245902
-        },
-        {
-          "label": "nuru massage near me",
-          "clicks_count": 5,
-          "impressions_count": 27,
-          "position_avg": 4.555555556
-        },
-        {
-          "label": "best spa in nassau bahamas",
-          "clicks_count": 5,
-          "impressions_count": 134,
-          "position_avg": 12.007462687
-        },
-        {
-          "label": "massage dominica",
-          "clicks_count": 5,
-          "impressions_count": 311,
-          "position_avg": 8.147909968
-        }
-      ],
-      "count": 40
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "conversion_sources",
-      "rows": [
-        {
-          "label": "organic_search",
-          "sessions_count": 7314,
-          "confirmed_bookings_count": 132,
-          "total_sales_amount": 23760.1
-        },
-        {
-          "label": "direct",
-          "sessions_count": 3232,
-          "confirmed_bookings_count": 76,
-          "total_sales_amount": 15463.8
-        },
-        {
-          "label": "paid_ads",
-          "sessions_count": 811,
-          "confirmed_bookings_count": 0,
-          "total_sales_amount": 0
-        },
-        {
-          "label": "social",
-          "sessions_count": 595,
-          "confirmed_bookings_count": 16,
-          "total_sales_amount": 2684
-        },
-        {
-          "label": "referral",
-          "sessions_count": 105,
-          "confirmed_bookings_count": 3,
-          "total_sales_amount": 280.5
-        },
-        {
-          "label": "ai_platform",
-          "sessions_count": 77,
-          "confirmed_bookings_count": 1,
-          "total_sales_amount": 445.5
-        },
-        {
-          "label": "wix_automations",
-          "sessions_count": 21,
-          "confirmed_bookings_count": 0,
-          "total_sales_amount": 0
-        },
-        {
-          "label": "wix_google_ads",
-          "sessions_count": 5,
-          "confirmed_bookings_count": 0,
-          "total_sales_amount": 0
-        }
-      ],
-      "count": 8
-    },
-    {
-      "site": "main",
-      "year": "2026",
-      "report": "payment_methods",
-      "rows": [
-        {
-          "label": "payment_method_payPal",
-          "transactions_count": 10,
-          "total_paid_amount": 2610.5
-        },
-        {
-          "label": "payment_method_offline",
-          "transactions_count": 9,
-          "total_paid_amount": 1812
-        },
-        {
-          "label": "payment_method_inPerson",
-          "transactions_count": 2,
-          "total_paid_amount": 1976.5
-        }
-      ],
-      "count": 3
-    },
-    {
       "site": "legacy",
       "year": "2024",
       "report": "traffic_sources",
@@ -4870,6 +3563,1313 @@
       "count": 0
     },
     {
+      "site": "main",
+      "year": "2026",
+      "report": "traffic_sources",
+      "rows": [
+        {
+          "label": "organic_search",
+          "sessions_count": 6927,
+          "views_count": 16035
+        },
+        {
+          "label": "direct",
+          "sessions_count": 4413,
+          "views_count": 8820
+        },
+        {
+          "label": "paid_ads",
+          "sessions_count": 805,
+          "views_count": 878
+        },
+        {
+          "label": "social",
+          "sessions_count": 549,
+          "views_count": 1452
+        },
+        {
+          "label": "referral",
+          "sessions_count": 88,
+          "views_count": 193
+        },
+        {
+          "label": "ai_platform",
+          "sessions_count": 83,
+          "views_count": 276
+        },
+        {
+          "label": "wix_automations",
+          "sessions_count": 20,
+          "views_count": 33
+        },
+        {
+          "label": "wix_google_ads",
+          "sessions_count": 5,
+          "views_count": 5
+        }
+      ],
+      "count": 8
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "countries",
+      "rows": [
+        {
+          "label": "United States",
+          "sessions_count": 5674,
+          "views_count": 13164
+        },
+        {
+          "label": "Bahamas",
+          "sessions_count": 4426,
+          "views_count": 10130
+        },
+        {
+          "label": "Canada",
+          "sessions_count": 349,
+          "views_count": 703
+        },
+        {
+          "label": "Singapore",
+          "sessions_count": 254,
+          "views_count": 263
+        },
+        {
+          "label": "United Kingdom",
+          "sessions_count": 164,
+          "views_count": 295
+        },
+        {
+          "label": "Cayman Islands",
+          "sessions_count": 152,
+          "views_count": 235
+        },
+        {
+          "label": "Barbados",
+          "sessions_count": 148,
+          "views_count": 214
+        },
+        {
+          "label": "China",
+          "sessions_count": 124,
+          "views_count": 127
+        },
+        {
+          "label": "Saint Kitts and Nevis",
+          "sessions_count": 116,
+          "views_count": 172
+        },
+        {
+          "label": "Antigua and Barbuda",
+          "sessions_count": 91,
+          "views_count": 143
+        },
+        {
+          "label": "Grenada",
+          "sessions_count": 86,
+          "views_count": 136
+        },
+        {
+          "label": "Dominica",
+          "sessions_count": 75,
+          "views_count": 124
+        },
+        {
+          "label": "Saint Lucia",
+          "sessions_count": 74,
+          "views_count": 101
+        },
+        {
+          "label": "Curacao",
+          "sessions_count": 71,
+          "views_count": 87
+        },
+        {
+          "label": "Turks and Caicos Islands",
+          "sessions_count": 59,
+          "views_count": 101
+        },
+        {
+          "label": "Belize",
+          "sessions_count": 52,
+          "views_count": 63
+        },
+        {
+          "label": "British Antarctic Territory",
+          "sessions_count": 51,
+          "views_count": 73
+        },
+        {
+          "label": "Germany",
+          "sessions_count": 51,
+          "views_count": 121
+        },
+        {
+          "label": "Virgin Islands (U.S.)",
+          "sessions_count": 50,
+          "views_count": 77
+        },
+        {
+          "label": "Netherlands",
+          "sessions_count": 47,
+          "views_count": 92
+        },
+        {
+          "label": "Jamaica",
+          "sessions_count": 46,
+          "views_count": 61
+        },
+        {
+          "label": "Saint Vincent and the Grenadines",
+          "sessions_count": 45,
+          "views_count": 66
+        },
+        {
+          "label": "Anguilla",
+          "sessions_count": 39,
+          "views_count": 61
+        },
+        {
+          "label": "South Korea",
+          "sessions_count": 38,
+          "views_count": 39
+        },
+        {
+          "label": "Puerto Rico",
+          "sessions_count": 36,
+          "views_count": 76
+        },
+        {
+          "label": "Trinidad and Tobago",
+          "sessions_count": 36,
+          "views_count": 51
+        },
+        {
+          "label": "France",
+          "sessions_count": 32,
+          "views_count": 77
+        },
+        {
+          "label": "Sint Maarten (Dutch part)",
+          "sessions_count": 31,
+          "views_count": 40
+        },
+        {
+          "label": "India",
+          "sessions_count": 30,
+          "views_count": 33
+        },
+        {
+          "label": "Russia",
+          "sessions_count": 25,
+          "views_count": 25
+        },
+        {
+          "label": "Guadeloupe",
+          "sessions_count": 24,
+          "views_count": 37
+        },
+        {
+          "label": "Virgin Islands (British)",
+          "sessions_count": 24,
+          "views_count": 32
+        },
+        {
+          "label": "Spain",
+          "sessions_count": 22,
+          "views_count": 40
+        },
+        {
+          "label": "Colombia",
+          "sessions_count": 18,
+          "views_count": 32
+        },
+        {
+          "label": "Hong Kong",
+          "sessions_count": 16,
+          "views_count": 16
+        },
+        {
+          "label": "Sweden",
+          "sessions_count": 16,
+          "views_count": 37
+        },
+        {
+          "label": "Australia",
+          "sessions_count": 15,
+          "views_count": 30
+        },
+        {
+          "label": "Italy",
+          "sessions_count": 15,
+          "views_count": 21
+        },
+        {
+          "label": "Japan",
+          "sessions_count": 15,
+          "views_count": 21
+        },
+        {
+          "label": "Switzerland",
+          "sessions_count": 15,
+          "views_count": 39
+        }
+      ],
+      "count": 40
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "devices",
+      "rows": [
+        {
+          "label": "mobile",
+          "sessions_count": 9324
+        },
+        {
+          "label": "desktop",
+          "sessions_count": 3436
+        },
+        {
+          "label": "tablet",
+          "sessions_count": 130
+        }
+      ],
+      "count": 3
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "service_sales",
+      "rows": [
+        {
+          "label": "Deep Tissue  80-min (Most Popular🔥 )",
+          "total_items_sales_amount": 15319.3,
+          "total_items_quantity": 100,
+          "sales_count": 96
+        },
+        {
+          "label": "Couples Relaxation Package",
+          "total_items_sales_amount": 11110,
+          "total_items_quantity": 30,
+          "sales_count": 30
+        },
+        {
+          "label": "Couples Beach Massage (1 Hr)",
+          "total_items_sales_amount": 9856,
+          "total_items_quantity": 28,
+          "sales_count": 26
+        },
+        {
+          "label": "Couples Swedish Massage-50 min",
+          "total_items_sales_amount": 9002.5,
+          "total_items_quantity": 41,
+          "sales_count": 41
+        },
+        {
+          "label": "Mobile Deep Tissue Massage-80 min",
+          "total_items_sales_amount": 8426,
+          "total_items_quantity": 35,
+          "sales_count": 29
+        },
+        {
+          "label": "Customized Spa Package",
+          "total_items_sales_amount": 7898.08,
+          "total_items_quantity": 21,
+          "sales_count": 21
+        },
+        {
+          "label": "Deep Tissue Massage -  50 minutes",
+          "total_items_sales_amount": 6629.25,
+          "total_items_quantity": 50,
+          "sales_count": 50
+        },
+        {
+          "label": "Bahama Bliss Massage - 80 Minutes",
+          "total_items_sales_amount": 5664.5,
+          "total_items_quantity": 39,
+          "sales_count": 29
+        },
+        {
+          "label": "Swedish Massage - 50 minutes",
+          "total_items_sales_amount": 5252.5,
+          "total_items_quantity": 47,
+          "sales_count": 44
+        },
+        {
+          "label": "Men’s Spa Retreat",
+          "total_items_sales_amount": 4848.8,
+          "total_items_quantity": 22,
+          "sales_count": 21
+        },
+        {
+          "label": "Mobile Swedish Massage -80 min",
+          "total_items_sales_amount": 4751.5,
+          "total_items_quantity": 22,
+          "sales_count": 17
+        },
+        {
+          "label": "Couples Swedish Massage-80 min",
+          "total_items_sales_amount": 4702.5,
+          "total_items_quantity": 17,
+          "sales_count": 17
+        },
+        {
+          "label": "Couples 80 Min Swedish Massage (mobile)",
+          "total_items_sales_amount": 3987.5,
+          "total_items_quantity": 10,
+          "sales_count": 9
+        },
+        {
+          "label": "Couples Deep Tissue Massage - 50 min",
+          "total_items_sales_amount": 3921.5,
+          "total_items_quantity": 15,
+          "sales_count": 15
+        },
+        {
+          "label": "Swedish Massage - 80 Minutes",
+          "total_items_sales_amount": 3744.4,
+          "total_items_quantity": 24,
+          "sales_count": 23
+        },
+        {
+          "label": "Beach Massage (1 Hour)",
+          "total_items_sales_amount": 3001,
+          "total_items_quantity": 14,
+          "sales_count": 8
+        },
+        {
+          "label": "Corporate Wellness Packages",
+          "total_items_sales_amount": 2993.8,
+          "total_items_quantity": 10,
+          "sales_count": 10
+        },
+        {
+          "label": "Women’s Spa Package",
+          "total_items_sales_amount": 2717,
+          "total_items_quantity": 14,
+          "sales_count": 14
+        },
+        {
+          "label": "Bahama Bliss Massage - 50 Minutes",
+          "total_items_sales_amount": 2573.5,
+          "total_items_quantity": 21,
+          "sales_count": 17
+        },
+        {
+          "label": "Couples Deep Tissue Massage-80 min",
+          "total_items_sales_amount": 2337.5,
+          "total_items_quantity": 10,
+          "sales_count": 10
+        },
+        {
+          "label": "Couples Customizable Spa Package",
+          "total_items_sales_amount": 2118.6,
+          "total_items_quantity": 5,
+          "sales_count": 5
+        },
+        {
+          "label": "Mobile Deep Tissue Massage 50-min",
+          "total_items_sales_amount": 2090,
+          "total_items_quantity": 13,
+          "sales_count": 12
+        },
+        {
+          "label": "Beach Massage (90 Minutes)",
+          "total_items_sales_amount": 1881,
+          "total_items_quantity": 7,
+          "sales_count": 5
+        },
+        {
+          "label": "Relaxation Package",
+          "total_items_sales_amount": 1809.5,
+          "total_items_quantity": 9,
+          "sales_count": 9
+        },
+        {
+          "label": "Mobile Chair Massage",
+          "total_items_sales_amount": 1698.15,
+          "total_items_quantity": 6,
+          "sales_count": 5
+        },
+        {
+          "label": "Coconut Wave Massage (60 Min)",
+          "total_items_sales_amount": 1683,
+          "total_items_quantity": 9,
+          "sales_count": 7
+        },
+        {
+          "label": "Express Massage - 30 Minutes",
+          "total_items_sales_amount": 1674.1,
+          "total_items_quantity": 21,
+          "sales_count": 15
+        },
+        {
+          "label": "Mobile Swedish Massage-50 min",
+          "total_items_sales_amount": 1523.5,
+          "total_items_quantity": 17,
+          "sales_count": 14
+        },
+        {
+          "label": "Sports Massage - 90 minutes",
+          "total_items_sales_amount": 1452,
+          "total_items_quantity": 8,
+          "sales_count": 8
+        },
+        {
+          "label": "1 Hour Mobile Massage",
+          "total_items_sales_amount": 1122,
+          "total_items_quantity": 6,
+          "sales_count": 1
+        },
+        {
+          "label": "Couples 80 Min Deep Tissue Massage (mobile)",
+          "total_items_sales_amount": 957,
+          "total_items_quantity": 2,
+          "sales_count": 2
+        },
+        {
+          "label": "Couples 50 min Deep Tissue Massage (mobile)",
+          "total_items_sales_amount": 940.5,
+          "total_items_quantity": 3,
+          "sales_count": 3
+        },
+        {
+          "label": "Couples 50 min Swedish Massage (mobile)",
+          "total_items_sales_amount": 880,
+          "total_items_quantity": 4,
+          "sales_count": 4
+        },
+        {
+          "label": "90 min Coconut Wave (mobile)",
+          "total_items_sales_amount": 858,
+          "total_items_quantity": 3,
+          "sales_count": 2
+        },
+        {
+          "label": "Island Sole Revival (Reflexology)",
+          "total_items_sales_amount": 825,
+          "total_items_quantity": 10,
+          "sales_count": 9
+        },
+        {
+          "label": "The Perfect Spa Gift – Tranquilitas Spa Gift Cards",
+          "total_items_sales_amount": 805,
+          "total_items_quantity": 7,
+          "sales_count": 7
+        },
+        {
+          "label": "Customized (Enzyme) Facial",
+          "total_items_sales_amount": 742.5,
+          "total_items_quantity": 9,
+          "sales_count": 7
+        },
+        {
+          "label": "Cancellation fee @50%",
+          "total_items_sales_amount": 654.5,
+          "total_items_quantity": 7,
+          "sales_count": 1
+        },
+        {
+          "label": "Lymphatic Drainage Massage",
+          "total_items_sales_amount": 638,
+          "total_items_quantity": 4,
+          "sales_count": 4
+        },
+        {
+          "label": "60 min Deep Tissue Mobile",
+          "total_items_sales_amount": 561,
+          "total_items_quantity": 3,
+          "sales_count": 1
+        }
+      ],
+      "count": 40
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "booking_services",
+      "rows": [
+        {
+          "label": "Deep Tissue  80-min (Most Popular🔥 )",
+          "confirmed_bookings_count": 91,
+          "canceled_bookings_count": 11,
+          "total_items_sales_amount": 15319.3
+        },
+        {
+          "label": "Swedish Massage - 50 minutes",
+          "confirmed_bookings_count": 51,
+          "canceled_bookings_count": 4,
+          "total_items_sales_amount": 6061
+        },
+        {
+          "label": "Deep Tissue Massage -  50 minutes",
+          "confirmed_bookings_count": 47,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 6629.25
+        },
+        {
+          "label": "Couples Swedish Massage-50 min",
+          "confirmed_bookings_count": 40,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 9002.5
+        },
+        {
+          "label": "Bahama Bliss Massage - 80 Minutes",
+          "confirmed_bookings_count": 34,
+          "canceled_bookings_count": 7,
+          "total_items_sales_amount": 5664.5
+        },
+        {
+          "label": "Mobile Deep Tissue Massage-80 min",
+          "confirmed_bookings_count": 33,
+          "canceled_bookings_count": 2,
+          "total_items_sales_amount": 8426
+        },
+        {
+          "label": "Couples Beach Massage (1 Hr)",
+          "confirmed_bookings_count": 24,
+          "canceled_bookings_count": 5,
+          "total_items_sales_amount": 10279.5
+        },
+        {
+          "label": "Couples Relaxation Package",
+          "confirmed_bookings_count": 23,
+          "canceled_bookings_count": 8,
+          "total_items_sales_amount": 11110
+        },
+        {
+          "label": "Swedish Massage - 80 Minutes",
+          "confirmed_bookings_count": 22,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 3903.9
+        },
+        {
+          "label": "Customized Spa Package",
+          "confirmed_bookings_count": 21,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 7898.08
+        },
+        {
+          "label": "Men’s Spa Retreat",
+          "confirmed_bookings_count": 21,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 4848.8
+        },
+        {
+          "label": "Mobile Swedish Massage -80 min",
+          "confirmed_bookings_count": 21,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 4751.5
+        },
+        {
+          "label": "Bahama Bliss Massage - 50 Minutes",
+          "confirmed_bookings_count": 19,
+          "canceled_bookings_count": 4,
+          "total_items_sales_amount": 2716.5
+        },
+        {
+          "label": "Beach Massage (1 Hour)",
+          "confirmed_bookings_count": 16,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 3001
+        },
+        {
+          "label": "Express Massage - 30 Minutes",
+          "confirmed_bookings_count": 16,
+          "canceled_bookings_count": 5,
+          "total_items_sales_amount": 1674.1
+        },
+        {
+          "label": "Couples Swedish Massage-80 min",
+          "confirmed_bookings_count": 15,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 5016
+        },
+        {
+          "label": "Couples Deep Tissue Massage - 50 min",
+          "confirmed_bookings_count": 14,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 3921.5
+        },
+        {
+          "label": "Mobile Deep Tissue Massage 50-min",
+          "confirmed_bookings_count": 13,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 2249.5
+        },
+        {
+          "label": "Mobile Swedish Massage-50 min",
+          "confirmed_bookings_count": 13,
+          "canceled_bookings_count": 4,
+          "total_items_sales_amount": 1523.5
+        },
+        {
+          "label": "Women’s Spa Package",
+          "confirmed_bookings_count": 12,
+          "canceled_bookings_count": 2,
+          "total_items_sales_amount": 2717
+        },
+        {
+          "label": "Corporate Wellness Packages",
+          "confirmed_bookings_count": 10,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 2993.8
+        },
+        {
+          "label": "Mobile Coconut Wave Massage (60 Min)",
+          "confirmed_bookings_count": 9,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 1683
+        },
+        {
+          "label": "Relaxation Package",
+          "confirmed_bookings_count": 9,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 1809.5
+        },
+        {
+          "label": "Couples 80 Min Swedish Massage (mobile)",
+          "confirmed_bookings_count": 8,
+          "canceled_bookings_count": 2,
+          "total_items_sales_amount": 3987.5
+        },
+        {
+          "label": "Island Sole Revival (Reflexology)",
+          "confirmed_bookings_count": 8,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 907.5
+        },
+        {
+          "label": "Beach Massage (90 Minutes)",
+          "confirmed_bookings_count": 7,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 1881
+        },
+        {
+          "label": "Couples Deep Tissue Massage-80 min",
+          "confirmed_bookings_count": 7,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 2337.5
+        },
+        {
+          "label": "Sports Massage - 90 minutes",
+          "confirmed_bookings_count": 7,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 1452
+        },
+        {
+          "label": "Customized (Enzyme) Facial",
+          "confirmed_bookings_count": 6,
+          "canceled_bookings_count": 3,
+          "total_items_sales_amount": 742.5
+        },
+        {
+          "label": "90 min Coconut Wave (mobile)",
+          "confirmed_bookings_count": 5,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 1357.96
+        },
+        {
+          "label": "Lymphatic Drainage Massage",
+          "confirmed_bookings_count": 5,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 797.5
+        },
+        {
+          "label": "Mobile Chair Massage",
+          "confirmed_bookings_count": 5,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 1698.15
+        },
+        {
+          "label": "Couples Customizable Spa Package",
+          "confirmed_bookings_count": 4,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 2118.6
+        },
+        {
+          "label": "60 min Deep Tissue Mobile",
+          "confirmed_bookings_count": 3,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 561
+        },
+        {
+          "label": "Couples 50 min Deep Tissue Massage (mobile)",
+          "confirmed_bookings_count": 3,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 940.5
+        },
+        {
+          "label": "Couples 50 min Swedish Massage (mobile)",
+          "confirmed_bookings_count": 3,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 880
+        },
+        {
+          "label": "Men's Facial",
+          "confirmed_bookings_count": 3,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 396
+        },
+        {
+          "label": "Refresher Facial",
+          "confirmed_bookings_count": 3,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 330
+        },
+        {
+          "label": "Couples 80 Min Deep Tissue Massage (mobile)",
+          "confirmed_bookings_count": 2,
+          "canceled_bookings_count": 1,
+          "total_items_sales_amount": 957
+        },
+        {
+          "label": "Four Hands Massage - 50 Minutes",
+          "confirmed_bookings_count": 2,
+          "canceled_bookings_count": 0,
+          "total_items_sales_amount": 495
+        }
+      ],
+      "count": 40
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "cta_clicks",
+      "rows": [
+        {
+          "label": "Book In-Spa Service",
+          "clicks_count": 1613,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book Mobile Service",
+          "clicks_count": 572,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Menu",
+          "clicks_count": 408,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Read more",
+          "clicks_count": 343,
+          "sessions_count": 12890
+        },
+        {
+          "label": "BOOK NOW",
+          "clicks_count": 243,
+          "sessions_count": 12890
+        },
+        {
+          "label": "n_a",
+          "clicks_count": 240,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Plan Our Duo Time",
+          "clicks_count": 222,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Reserve The Shoreline",
+          "clicks_count": 218,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Release My Knots",
+          "clicks_count": 140,
+          "sessions_count": 12890
+        },
+        {
+          "label": "In-Spa",
+          "clicks_count": 134,
+          "sessions_count": 12890
+        },
+        {
+          "label": "60 Min Swedish Massage",
+          "clicks_count": 124,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Float Me Away",
+          "clicks_count": 117,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Chat Now",
+          "clicks_count": 114,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Mobile",
+          "clicks_count": 112,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book Massage Now",
+          "clicks_count": 102,
+          "sessions_count": 12890
+        },
+        {
+          "label": "60 Min Deep Tissue",
+          "clicks_count": 91,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Beach",
+          "clicks_count": 90,
+          "sessions_count": 12890
+        },
+        {
+          "label": "60 Min Couples Massage",
+          "clicks_count": 76,
+          "sessions_count": 12890
+        },
+        {
+          "label": "90 Min Couples Massage",
+          "clicks_count": 74,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Gallery",
+          "clicks_count": 74,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Start My Glow",
+          "clicks_count": 73,
+          "sessions_count": 12890
+        },
+        {
+          "label": "#7 Fourth Terrace, Collins Ave",
+          "clicks_count": 68,
+          "sessions_count": 12890
+        },
+        {
+          "label": "+1 (242) 816-8286",
+          "clicks_count": 66,
+          "sessions_count": 12890
+        },
+        {
+          "label": "FAQ",
+          "clicks_count": 65,
+          "sessions_count": 12890
+        },
+        {
+          "label": "90 Min Swedish Massage",
+          "clicks_count": 64,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Get Availability Near Me",
+          "clicks_count": 61,
+          "sessions_count": 12890
+        },
+        {
+          "label": "90 Min Deep Tissue",
+          "clicks_count": 58,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book Couples Massage",
+          "clicks_count": 49,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Get an Instant Quote",
+          "clicks_count": 44,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Send a Therapist",
+          "clicks_count": 44,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Packages",
+          "clicks_count": 43,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book Curacao Massage",
+          "clicks_count": 42,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book UVI Massage",
+          "clicks_count": 42,
+          "sessions_count": 12890
+        },
+        {
+          "label": "60 Min Beach Massage",
+          "clicks_count": 39,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Save Moonlight Spot",
+          "clicks_count": 38,
+          "sessions_count": 12890
+        },
+        {
+          "label": "About",
+          "clicks_count": 37,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book St. Vincent Massage",
+          "clicks_count": 32,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Upgrade My Routine",
+          "clicks_count": 31,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Close",
+          "clicks_count": 30,
+          "sessions_count": 12890
+        },
+        {
+          "label": "Book Cayman Massage",
+          "clicks_count": 28,
+          "sessions_count": 12890
+        }
+      ],
+      "count": 40
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "google_queries",
+      "rows": [
+        {
+          "label": "tranquilitas day spa",
+          "clicks_count": 188,
+          "impressions_count": 599,
+          "position_avg": 1.140233723
+        },
+        {
+          "label": "lymphatic drainage massage nassau",
+          "clicks_count": 48,
+          "impressions_count": 396,
+          "position_avg": 3.424242424
+        },
+        {
+          "label": "massage nassau bahamas",
+          "clicks_count": 42,
+          "impressions_count": 3091,
+          "position_avg": 21.059527661
+        },
+        {
+          "label": "nassau massage",
+          "clicks_count": 42,
+          "impressions_count": 1456,
+          "position_avg": 5.633241758
+        },
+        {
+          "label": "massage nassau",
+          "clicks_count": 40,
+          "impressions_count": 2071,
+          "position_avg": 10.560598745
+        },
+        {
+          "label": "tranquilitas spa",
+          "clicks_count": 33,
+          "impressions_count": 103,
+          "position_avg": 1.116504854
+        },
+        {
+          "label": "bahamas massage",
+          "clicks_count": 32,
+          "impressions_count": 2241,
+          "position_avg": 24.642124052
+        },
+        {
+          "label": "nassau bahamas massage",
+          "clicks_count": 30,
+          "impressions_count": 1973,
+          "position_avg": 30.399898632
+        },
+        {
+          "label": "tranquilitas",
+          "clicks_count": 28,
+          "impressions_count": 83,
+          "position_avg": 4.156626506
+        },
+        {
+          "label": "massage bahamas",
+          "clicks_count": 27,
+          "impressions_count": 2058,
+          "position_avg": 30.735179786
+        },
+        {
+          "label": "massage near me",
+          "clicks_count": 27,
+          "impressions_count": 5127,
+          "position_avg": 15.886483324
+        },
+        {
+          "label": "erotic massage nassau bahamas",
+          "clicks_count": 22,
+          "impressions_count": 231,
+          "position_avg": 13.212121212
+        },
+        {
+          "label": "massage in nassau bahamas",
+          "clicks_count": 20,
+          "impressions_count": 2171,
+          "position_avg": 29.221096269
+        },
+        {
+          "label": "couples massage nassau",
+          "clicks_count": 17,
+          "impressions_count": 300,
+          "position_avg": 9.606666667
+        },
+        {
+          "label": "couples massage nassau bahamas",
+          "clicks_count": 17,
+          "impressions_count": 1405,
+          "position_avg": 38.698220641
+        },
+        {
+          "label": "erotic massage nassau",
+          "clicks_count": 16,
+          "impressions_count": 247,
+          "position_avg": 9.255060729
+        },
+        {
+          "label": "tranquility spa",
+          "clicks_count": 16,
+          "impressions_count": 118,
+          "position_avg": 3.13559322
+        },
+        {
+          "label": "massage in nassau bahamas near cruise port",
+          "clicks_count": 13,
+          "impressions_count": 1583,
+          "position_avg": 30.939987366
+        },
+        {
+          "label": "massages in nassau bahamas",
+          "clicks_count": 13,
+          "impressions_count": 435,
+          "position_avg": 5.901149425
+        },
+        {
+          "label": "massage st kitts",
+          "clicks_count": 12,
+          "impressions_count": 363,
+          "position_avg": 6.922865014
+        },
+        {
+          "label": "swedish massage",
+          "clicks_count": 11,
+          "impressions_count": 784,
+          "position_avg": 3.586734694
+        },
+        {
+          "label": "nassau erotic massage",
+          "clicks_count": 10,
+          "impressions_count": 94,
+          "position_avg": 9.276595745
+        },
+        {
+          "label": "nassau bahamas erotic massage",
+          "clicks_count": 9,
+          "impressions_count": 57,
+          "position_avg": 8.929824561
+        },
+        {
+          "label": "massage in bahamas",
+          "clicks_count": 8,
+          "impressions_count": 320,
+          "position_avg": 11.559375
+        },
+        {
+          "label": "mobile massage bahamas",
+          "clicks_count": 8,
+          "impressions_count": 335,
+          "position_avg": 25.391044776
+        },
+        {
+          "label": "mobile massage nassau bahamas",
+          "clicks_count": 8,
+          "impressions_count": 1349,
+          "position_avg": 35.149740549
+        },
+        {
+          "label": "spa in nassau bahamas",
+          "clicks_count": 8,
+          "impressions_count": 1405,
+          "position_avg": 32.835587189
+        },
+        {
+          "label": "cheap massage nassau bahamas",
+          "clicks_count": 7,
+          "impressions_count": 1558,
+          "position_avg": 38.639922978
+        },
+        {
+          "label": "lymphatic drainage massage",
+          "clicks_count": 7,
+          "impressions_count": 690,
+          "position_avg": 17.630434783
+        },
+        {
+          "label": "massage nassau bahamas near cruise port",
+          "clicks_count": 7,
+          "impressions_count": 148,
+          "position_avg": 3.72972973
+        },
+        {
+          "label": "massages in nassau",
+          "clicks_count": 7,
+          "impressions_count": 139,
+          "position_avg": 4.474820144
+        },
+        {
+          "label": "spas in nassau bahamas",
+          "clicks_count": 7,
+          "impressions_count": 1640,
+          "position_avg": 30.454268293
+        },
+        {
+          "label": "best spa in nassau bahamas",
+          "clicks_count": 6,
+          "impressions_count": 141,
+          "position_avg": 11.588652482
+        },
+        {
+          "label": "massage curacao",
+          "clicks_count": 6,
+          "impressions_count": 273,
+          "position_avg": 20.003663004
+        },
+        {
+          "label": "spa nassau bahamas",
+          "clicks_count": 6,
+          "impressions_count": 271,
+          "position_avg": 15.20295203
+        },
+        {
+          "label": "st kitts massage",
+          "clicks_count": 6,
+          "impressions_count": 171,
+          "position_avg": 8.01754386
+        },
+        {
+          "label": "beach massage nassau bahamas",
+          "clicks_count": 5,
+          "impressions_count": 221,
+          "position_avg": 9.764705882
+        },
+        {
+          "label": "dominica massage",
+          "clicks_count": 5,
+          "impressions_count": 321,
+          "position_avg": 9.417445483
+        },
+        {
+          "label": "erotic massage bahamas",
+          "clicks_count": 5,
+          "impressions_count": 114,
+          "position_avg": 10.745614035
+        },
+        {
+          "label": "grenada massage",
+          "clicks_count": 5,
+          "impressions_count": 195,
+          "position_avg": 11.707692308
+        }
+      ],
+      "count": 40
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "conversion_sources",
+      "rows": [
+        {
+          "label": "organic_search",
+          "sessions_count": 7773,
+          "confirmed_bookings_count": 139,
+          "total_sales_amount": 25311.1
+        },
+        {
+          "label": "direct",
+          "sessions_count": 3469,
+          "confirmed_bookings_count": 81,
+          "total_sales_amount": 16030.3
+        },
+        {
+          "label": "paid_ads",
+          "sessions_count": 811,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0
+        },
+        {
+          "label": "social",
+          "sessions_count": 615,
+          "confirmed_bookings_count": 17,
+          "total_sales_amount": 2684
+        },
+        {
+          "label": "referral",
+          "sessions_count": 109,
+          "confirmed_bookings_count": 3,
+          "total_sales_amount": 280.5
+        },
+        {
+          "label": "ai_platform",
+          "sessions_count": 88,
+          "confirmed_bookings_count": 1,
+          "total_sales_amount": 605
+        },
+        {
+          "label": "wix_automations",
+          "sessions_count": 21,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0
+        },
+        {
+          "label": "wix_google_ads",
+          "sessions_count": 5,
+          "confirmed_bookings_count": 0,
+          "total_sales_amount": 0
+        }
+      ],
+      "count": 8
+    },
+    {
+      "site": "main",
+      "year": "2026",
+      "report": "payment_methods",
+      "rows": [
+        {
+          "label": "payment_method_payPal",
+          "transactions_count": 11,
+          "total_paid_amount": 2770
+        },
+        {
+          "label": "payment_method_offline",
+          "transactions_count": 10,
+          "total_paid_amount": 1912
+        },
+        {
+          "label": "payment_method_inPerson",
+          "transactions_count": 2,
+          "total_paid_amount": 1976.5
+        }
+      ],
+      "count": 3
+    },
+    {
       "site": "legacy",
       "year": "2026",
       "report": "traffic_sources",
@@ -4933,5 +4933,5 @@
       "count": 0
     }
   ],
-  "notes": "Aggregated annual top-40 groups by Wix source site. Ranked lists are truncated to 40 rows; values from different reporting models must not be summed indiscriminately. No private customer identifiers are exported."
+  "notes": "Wix Analytics annual top-40 grouped results. 2026 updated through November 17, 2026 (partial Nov). 2024/2025 historical grouping retained. Individual model counts and channel attribution are not directly additive across sources or sites. Private customer details not collected."
 }
