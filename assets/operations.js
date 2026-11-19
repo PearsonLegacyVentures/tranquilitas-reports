@@ -38,7 +38,7 @@ function render(d){
  $("commissionRows").innerHTML=d.commissionRecords.filter(x=>x.includeInDocumentedInvoiced).map(c=>'<tr><td>'+esc(c.country)+'</td><td>'+esc(c.period)+'</td><td>'+usd(c.USD)+'</td><td><span class="source-tag '+(c.paymentState==="REPORTED_PAID"?"paid":c.paymentState==="INVOICED_DUE"?"due":"")+'">'+esc(statusLabel(c.paymentState))+'</span></td><td><span class="ops-note">'+esc(c.notes)+'</span></td></tr>').join("");
  $("pendingReports").innerHTML=d.emailedReportsLocatedButNotRead.map(x=>'<div class="pending-report"><span>'+esc(x.period.replaceAll("_"," "))+'</span><strong>'+esc(x.source.replace("Zoho Mail attachment: ",""))+'</strong><small>Attachment verified in spa mailbox · content not yet read</small></div>').join("");
  $("auditRules").innerHTML=[
-  insight("01","No duplicate revenue recognition","Manual collections are not added to the $147,713.94 Wix YTD sales value. Booking-level matching is required."),
+  insight("01","No duplicate revenue recognition","Manual collections are not added to Wix year-to-date sales value. Booking-level matching is required."),
   insight("02","Caribbean tracker ≠ commission received","The separate '+usd(c.trackerModeledCommissionsNotVerifiedUSD)+' modeled commission total is excluded from the verified receipt and invoiced summary."),
   insight("03","Tip treatment is explicit","The regular 10% gratuity is already in guest totals and therapist payouts. Stated extra tips were also included in the reported sums; no second addition."),
   insight("04","November awaits actual PDFs","Alex’s Nov 2–8 and Nov 9–15 reports have been found in the mail attachments but their numbers were not accessible via this mail connection. Wix November 1–17 remains independently reported.")
