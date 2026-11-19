@@ -12,6 +12,11 @@ function bsd(v){return typeof v==='number'&&Number.isFinite(v)?'B'+new Intl.Numb
 function shortMoney(v){if(!Number.isFinite(v))return '—';return Math.abs(v)>=100000?'$'+(v/1000).toFixed(1)+'K':money(v);}
 function esc(v){return String(v??'').replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c];});}
 function change(a,b){return typeof a==='number'&&typeof b==='number'&&b>0?(a/b-1)*100:null;}
+function dataAsOf(){return state.data?.history?.through || '2026-11-17';}
+function asOfDate(){return new Date(dataAsOf()+'T12:00:00');}
+function asOfFull(){return asOfDate().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});}
+function asOfShort(){return asOfDate().toLocaleDateString('en-US',{month:'short',day:'numeric'});}
+function asOfAllCaps(){return asOfDate().toLocaleDateString('en-US',{month:'long',day:'numeric'}).toUpperCase();}
 function changeLabel(a,b,suffix){var v=change(a,b);return v===null?'No valid comparison':(v>=0?'+':'')+v.toFixed(1)+'% '+(suffix||'vs comparison period');}
 function siteKeys(){return state.site==='combined'?['main','legacy']:[state.site];}
 function periodMetric(period,model){
@@ -63,14 +68,14 @@ function renderKpis(){
   ];
   $('kpiGrid').innerHTML=cells.map(function(c){return kpi(c.label,c.val,changeLabel(c.v,c.p,note),c.h,change(c.v,c.p));}).join('');
  }
- $('periodDescription').textContent=state.year==='2026'?'Year to date · Jan 1 – Oct 28, 2026':'Full calendar year · '+state.year;
- $('coveragePill').textContent=state.year==='2026'?'Partial year · as of Oct 28':'Full calendar year';
+ $('periodDescription').textContent=state.year==='2026'?'Year to date · Jan 1 – '+asOfShort()+', 2026':'Full calendar year · '+state.year;
+ $('coveragePill').textContent=state.year==='2026'?'Partial year · through '+asOfShort():'Full calendar year';
 }
 function renderTrend(){
  var model=state.metric==='sales'?'sales':state.metric==='bookings'?'bookings':'traffic';
  var field=state.metric==='sales'?'total_sales_amount':state.metric==='bookings'?'confirmed_bookings_count':'sessions_count';
  var series=monthRows(model),all=[];
- var count=state.year==='2026'?10:12;
+ var count=state.year==='2026'?Number(dataAsOf().slice(5,7)):12;
  var monthLabels=['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
  for(var i=1;i<=count;i++){
   var key=state.year+'-'+String(i).padStart(2,'0');
@@ -97,7 +102,7 @@ function renderTrend(){
  svg+='<line x1="'+left+'" x2="'+(w-right)+'" y1="'+(top+plotH)+'" y2="'+(top+plotH)+'" stroke="#BFB5A9"/>';
  all.forEach(function(a,i){
   var x=left+i*eachW+(eachW-barW)/2,height=Math.max(0,a.value/topValue*plotH),yy=y(a.value),peak=(i===largest&&a.value>0);
-  var color=peak?'#C8A156':'#0C8382',formatted=state.metric==='sales'?money(a.value):nfmt(a.value),isPartial=state.year==='2026'&&i===9;
+  var color=peak?'#C8A156':'#0C8382',formatted=state.metric==='sales'?money(a.value):nfmt(a.value),isPartial=state.year==='2026'&&i===count-1;
   svg+='<g class="chart-column"><rect x="'+x.toFixed(2)+'" y="'+yy.toFixed(2)+'" width="'+barW.toFixed(2)+'" height="'+Math.max(1,height).toFixed(2)+'" rx="3" fill="'+color+'" opacity="'+(peak?'1':'.88')+'" tabindex="0" role="graphics-symbol" aria-label="'+esc(a.label+' '+state.year+', '+formatted+(isPartial?', partial month':'') )+'"><title>'+esc(a.label+' '+state.year+' · '+formatted+(isPartial?' (partial month)':''))+'</title></rect></g>';
   svg+='<text x="'+(left+(i+.5)*eachW).toFixed(2)+'" y="'+(h-13)+'" text-anchor="middle" fill="#696864" font-family="Archivo, sans-serif" font-size="11" font-weight="'+(peak?'900':'600')+'">'+a.label+(isPartial?'*':'')+'</text>';
   if(peak){svg+='<text x="'+(x+barW/2).toFixed(2)+'" y="'+Math.max(15,yy-13).toFixed(2)+'" text-anchor="middle" fill="#80602A" font-family="Archivo, sans-serif" font-size="14" font-weight="900">'+esc(shortFmt(a.value))+'</text>';}
@@ -106,14 +111,14 @@ function renderTrend(){
  $('trendChart').innerHTML=svg;
  $('trendChart').closest('.panel').querySelector('h3').textContent=metricLabel+' by month';
  var legend=document.querySelector('.chart-legend');
- if(legend)legend.innerHTML='<span><i class="legend-dot sea"></i>Wix '+esc(metricLabel)+'<i class="legend-dot gold-key"></i>Peak month</span><span class="method-note">'+(state.year==='2026'?'* October through the 28th · ':'')+'Wix reported, not total company income</span>';
+ if(legend)legend.innerHTML='<span><i class="legend-dot sea"></i>Wix '+esc(metricLabel)+'<i class="legend-dot gold-key"></i>Peak month</span><span class="method-note">'+(state.year==='2026'?'* '+asOfFull()+' · partial month · ':'')+'Wix reported, not total company income</span>';
 }
 
 function renderInsights(){
  var items=[],s=periodMetric(state.year,'sales'),t=periodMetric(state.year,'traffic'),b=periodMetric(state.year,'bookings');
  if(state.year==='2026'){
   var ps=periodMetric('2025-YTD-matched','sales'),pt=periodMetric('2025-YTD-matched','traffic'),pb=periodMetric('2025-YTD-matched','bookings');
-  items.push({title:'More sales value, fewer transactions',body:'Through October 28, Wix sales value is '+changeLabel(s.total_sales_amount,ps.total_sales_amount,'year over year')+' while orders are '+changeLabel(s.sales_count,ps.sales_count,'year over year')+'. Pricing and product mix matter more than raw order volume.'});
+  items.push({title:'More sales value, fewer transactions',body:'Through '+asOfFull()+', Wix sales value is '+changeLabel(s.total_sales_amount,ps.total_sales_amount,'year over year')+' while orders are '+changeLabel(s.sales_count,ps.sales_count,'year over year')+'. Pricing and product mix matter more than raw order volume.'});
   items.push({title:'Traffic growth is not yet booking growth',body:'Sessions are '+changeLabel(t.sessions_count,pt.sessions_count,'vs 2025')+' while confirmed bookings are '+changeLabel(b.confirmed_bookings_count,pb.confirmed_bookings_count,'vs 2025')+'. Investigate the booking funnel and channel quality before increasing acquisition spend.'});
   items.push({title:'Higher recorded Wix order value',body:'Average Wix order value moved from '+money(ps.order_value_avg)+' to '+money(s.order_value_avg)+'. Prioritize contribution per completed booking, not discount-led volume.'});
  }else if(state.year==='2025'){
@@ -142,7 +147,7 @@ function renderQuarters(){
   var main=management?bsd(fin.annualIncomeBSD):money(s.total_sales_amount);
   var subtitle=management?'Management-reported income · unaudited':'Wix-reported sales value · not audited revenue';
   var desc=management?'<div class="annual-source">Wix sales activity: '+money(s.total_sales_amount)+' (overlapping source)</div>':'';
-  return '<article class="annual-card'+(state.year===y?' active':'')+'"><div class="year">'+y+'</div><div class="year-caption">'+(y==='2026'?'YEAR TO DATE · THROUGH OCTOBER 28':'FULL CALENDAR YEAR')+'</div><div class="year-sales">'+main+'</div><span class="subtle">'+subtitle+'</span>'+desc+'<div class="year-foot"><span><strong>'+nfmt(s.sales_count)+'</strong> Wix orders</span><span><strong>'+nfmt(b.confirmed_bookings_count)+'</strong> confirmed Wix bookings</span></div></article>';
+  return '<article class="annual-card'+(state.year===y?' active':'')+'"><div class="year">'+y+'</div><div class="year-caption">'+(y==='2026'?'YEAR TO DATE · THROUGH '+asOfAllCaps():'FULL CALENDAR YEAR')+'</div><div class="year-sales">'+main+'</div><span class="subtle">'+subtitle+'</span>'+desc+'<div class="year-foot"><span><strong>'+nfmt(s.sales_count)+'</strong> Wix orders</span><span><strong>'+nfmt(b.confirmed_bookings_count)+'</strong> confirmed Wix bookings</span></div></article>';
  });
  $('annualCards').innerHTML=cards.join('')+'<p class="cross-year-caveat">Financial basis differs: the 2024 headline is management-reported company income; 2025 and 2026 figures are Wix sales activity only. These three amounts must not be used as a verified company revenue growth series.</p>';
 }
@@ -191,6 +196,7 @@ function renderMethod(){
 function render(){
  if(!state.data)return;
  document.querySelectorAll('[data-year]').forEach(function(b){b.classList.toggle('selected',b.dataset.year===state.year);});
+ if($('reportAsOf'))$('reportAsOf').textContent='DATA THROUGH '+asOfAllCaps()+' · 2026';
  renderKpis();renderTrend();renderInsights();renderQuarters();render2024Financials();renderServices();renderAcquisition();renderBookings();renderMethod();
 }
 function activateNav(){
