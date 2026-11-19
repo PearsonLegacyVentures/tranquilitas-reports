@@ -34,7 +34,7 @@
   <div class="topbar"><div class="breadcrumb">MANAGEMENT REPORTING <span>/</span> OVERVIEW</div><div class="top-actions"><span class="private-label">◉ &nbsp;Internal reporting</span><button id="printButton" class="button-outline" type="button">↧ &nbsp;Print report</button></div></div>
   <div class="main-inner">
    <header class="hero" id="overview">
-    <div class="hero-top"><span class="eyebrow"><span class="tiny-diamond"></span> 2024 — 2026 · HISTORICAL INTELLIGENCE</span><span class="vintage">RESEARCH EDITION 01 <span> / </span> 28 OCT 2026</span></div>
+    <div class="hero-top"><span class="eyebrow"><span class="tiny-diamond"></span> 2024 — 2026 · HISTORICAL INTELLIGENCE</span><span class="vintage">WIX INTELLIGENCE <span> / </span> <span id="reportAsOf">DATA THROUGH 17 NOV 2026</span></span></div>
     <h1>The business,<br><em>in perspective.</em></h1>
     <p>Three years of commercial performance, guest demand, digital acquisition, and operational intelligence — organized to support better decisions.</p>
     <div class="filter-bar"><div class="filter-group"><span>REPORTING YEAR</span><div class="segmented" id="yearTabs"><button type="button" data-year="2024">2024</button><button type="button" data-year="2025">2025</button><button type="button" class="selected" data-year="2026">2026 YTD</button></div></div><div class="filter-group"><label for="siteSelect">DATA SOURCE</label><select id="siteSelect"><option value="combined">Both websites · Combined</option><option value="main">Current website only</option><option value="legacy">Legacy website only</option></select></div><span id="coveragePill" class="coverage-pill">Through 28 Oct 2026</span></div>
@@ -51,8 +51,8 @@
       </div>
     </section>
     <section class="section" id="quarters">
-      <div class="section-head"><div><span class="section-index">02 / THE RECORD</span><h2>Quarter by quarter</h2></div><span class="subtle">Verified period totals · no annualized estimates</span></div>
-      <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Period</th><th>Company income*</th><th>Net earnings*</th><th>Wix sales value</th><th>Sales orders</th><th>Avg. order</th><th>Bookings</th><th>Confirmed</th><th>Sessions</th></tr></thead><tbody id="quarterTable"></tbody></table></div><div class="table-footnote">*Company income and net earnings: uploaded 2024 management annual report, unaudited. Wix sales activity is a separate, potentially overlapping metric; do not add it to company income. Q4 2026 is partial through October 28.</div></article>
+      <div class="section-head"><div><span class="section-index">02 / THE RECORD</span><h2>Quarter by quarter</h2></div><span class="subtle">Source-labelled period totals · no annualized estimates</span></div>
+      <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>Period</th><th>Company income*</th><th>Net earnings*</th><th>Wix sales value</th><th>Sales orders</th><th>Avg. order</th><th>Bookings</th><th>Confirmed</th><th>Sessions</th></tr></thead><tbody id="quarterTable"></tbody></table></div><div class="table-footnote">*Company income and net earnings: uploaded 2024 management annual report, unaudited. Wix sales activity is a separate, potentially overlapping metric; do not add it to company income. Q4 2026 is partial <span id="quarterPartialAsOf">through November 17</span>.</div></article>
       <div class="section-head annual-head"><div><span class="section-index">03 / YEARLY COMPARISON</span><h2>Annual operating record</h2></div></div>
       <div id="annualCards" class="annual-cards"></div>
       <div id="financial2024" class="financial-baseline">
