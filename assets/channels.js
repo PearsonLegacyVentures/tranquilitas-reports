@@ -13,7 +13,7 @@ const funnels=[
 ];
 function bars(rows,k,label){const max=Math.max(1,...rows.map(x=>Number(x[k]||0)));return rows.map(x=>'<tr><td><strong>'+esc(x[label])+'</strong></td><td>'+num(x[k])+'</td><td><div class="dp-bar"><span style="width:'+Math.max(0,Math.min(100,Number(x[k]||0)/max*100)).toFixed(1)+'%"></span></div></td></tr>').join("")}
 function renderSource(){const isWix=$("sourceWindow").value==="wix",set=isWix?intel.wix2026.trafficSources:intel.ga4.channels;const recent=intel.ga4;
-$("periodTitle").textContent=isWix?"Wix Analytics · 2026 YTD to Oct 28":"GA4 · Oct 14 – Nov 12, 2026";
+$("periodTitle").textContent=isWix?"Wix Analytics · Jan 1 – "+new Date(intel.wix2026.through+"T12:00:00").toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"}):"GA4 · Oct 14 – Nov 12, 2026";
 $("scopeNote").textContent=isWix?"Main Wix site only. The 2026 snapshot is not the combined country-site traffic.":"Main Wix site's connected GA4 property only. This is not the 32-site portfolio total.";
 $("sessionsKpi").textContent=num(set.reduce((a,x)=>a+x.sessions,0));
 $("channelKpi").textContent=num(set.filter(x=>x.sessions>0).length);
