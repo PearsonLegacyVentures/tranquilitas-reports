@@ -1,0 +1,247 @@
+{
+  "reportName": "Tranquilitas weekly operations vs Wix reconciliation, plus Caribbean commissions",
+  "version": 1,
+  "reviewDate": "2026-11-18",
+  "coverage": "Non-contiguous source weeks: 2026-08-01–30, 2026-09-21–27, and 2026-10-05–11; distinct 2026-11-02–15 PDF attachments located in Zoho but contents not yet accessible through connected mail read actions.",
+  "sourceTypes": [
+    "Uploaded management weekly report PDFs",
+    "Wix Analytics date-scoped independent period aggregates",
+    "User-supplied St Barths invoice details",
+    "Google Sheets Caribbean activity tracker",
+    "Zoho message attachment metadata (unread source)"
+  ],
+  "currency": "USD unless noted. Guest-payment values may be B$ at Bahamian 1:1 peg but original weekly PDFs use $. Never convert St Barths guest EUR into USD without an FX basis.",
+  "crucialAccountingNote": "The standard 10% gratuity is already included in recorded guest totals and therapist payouts. Extra tips listed in weekly reports are already within the recorded totals and MUST NOT be added again.",
+  "weekly": [
+    {
+      "key": "2026-08-01_to_09",
+      "start": "2026-08-01",
+      "end": "2026-08-09",
+      "source": "Tranquilitas_Aug_1-9_2026_Report(1).pdf",
+      "reportVersion": "Backdated reconstruction",
+      "nassauCompleted": 20,
+      "regionalCompleted": 0,
+      "knownCollectionsUSD": 4963.8,
+      "therapistPayoutsUSD": 2155.5,
+      "additionalTipsUSD": null,
+      "collectionNotes": "Sources: service-recorded collections; therapist-level assignments incomplete.",
+      "wixConfirmed": 16,
+      "wixSalesCount": 15,
+      "wixSalesValueUSD": 3245,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 2808.3,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    },
+    {
+      "key": "2026-08-10_to_16",
+      "start": "2026-08-10",
+      "end": "2026-08-16",
+      "source": "Tranquilitas Weekly Report(August 10-16)(1).pdf",
+      "reportVersion": "Updated copy",
+      "nassauCompleted": 14,
+      "regionalCompleted": 1,
+      "knownCollectionsUSD": 3589.5,
+      "therapistPayoutsUSD": 1691.6,
+      "additionalTipsUSD": 39.5,
+      "collectionNotes": "Includes $200 JA event transfer explicitly pending/expected in original notes, $980.50 Viator payout and $1,746.50 reader total; $27.50 reader-vs-handwriting variance outstanding. Regional Bonaire booking ($145 gross service value) and $21 commission are SEPARATE from Nassau collections.",
+      "wixConfirmed": 16,
+      "wixSalesCount": 14,
+      "wixSalesValueUSD": 2977.5,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 1897.9,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    },
+    {
+      "key": "2026-08-17_to_23",
+      "start": "2026-08-17",
+      "end": "2026-08-23",
+      "source": "Tranquilitas weekly report August 17-23 UPDATED.pdf",
+      "reportVersion": "UPDATED — supersedes original $1,217.80 payout version",
+      "nassauCompleted": 10,
+      "regionalCompleted": 0,
+      "knownCollectionsUSD": 2554.5,
+      "therapistPayoutsUSD": 1277.8,
+      "additionalTipsUSD": 98.5,
+      "collectionNotes": "Includes $30 room rental (non-treatment revenue), $202 Viator net payout rather than gross booking, and $98.50 extra tips already contained in collections. Earlier $1,217.80 payout report superseded.",
+      "wixConfirmed": 10,
+      "wixSalesCount": 11,
+      "wixSalesValueUSD": 2718.1,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 1276.7,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    },
+    {
+      "key": "2026-08-24_to_30",
+      "start": "2026-08-24",
+      "end": "2026-08-30",
+      "source": "Tranquilitas Weekly report Aug 24-30th (1).pdf",
+      "reportVersion": "Latest copy",
+      "nassauCompleted": 7,
+      "regionalCompleted": 0,
+      "knownCollectionsUSD": 1687.2,
+      "therapistPayoutsUSD": 758,
+      "additionalTipsUSD": 30,
+      "collectionNotes": "Includes $299.20 corporate chair engagement and $30 extra tip already in the guest total; no corporate participant count available.",
+      "wixConfirmed": 16,
+      "wixSalesCount": 16,
+      "wixSalesValueUSD": 3448.5,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 929.2,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    },
+    {
+      "key": "2026-09-21_to_27",
+      "start": "2026-09-21",
+      "end": "2026-09-27",
+      "source": "Tranquilitas_Weekly_Report_Sep_21-27_2026_FINAL_CORRECTED.pdf",
+      "reportVersion": "FINAL CORRECTED — supersedes $1,196.00+ / $657 provisional",
+      "nassauCompleted": 8,
+      "regionalCompleted": 0,
+      "knownCollectionsUSD": 1786,
+      "therapistPayoutsUSD": 764.5,
+      "additionalTipsUSD": 40,
+      "collectionNotes": "Includes $40 extra tips already in guest payment. Provisional report superseded; the Q3 $1,196+ tally must never be added separately.",
+      "wixConfirmed": 19,
+      "wixSalesCount": 22,
+      "wixSalesValueUSD": 4130.5,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 1021.5,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    },
+    {
+      "key": "2026-10-05_to_11",
+      "start": "2026-10-05",
+      "end": "2026-10-11",
+      "source": "Tranquilitas_Weekly_Report_Oct_5-11_2026.pdf",
+      "reportVersion": "Latest identified copy",
+      "nassauCompleted": 7,
+      "regionalCompleted": 0,
+      "knownCollectionsUSD": 1519.5,
+      "therapistPayoutsUSD": 721.75,
+      "additionalTipsUSD": 19,
+      "collectionNotes": "Includes $19 extra tip already in $466 customized package guest collection; no collection method breakdown reliably stated.",
+      "wixConfirmed": 18,
+      "wixSalesCount": 17,
+      "wixSalesValueUSD": 4603.5,
+      "collectionsLessPayoutsBeforeOtherCostsUSD": 797.75,
+      "countsComparable": false,
+      "crossSystemStatus": "UNMATCHED_BY_BOOKING_ID",
+      "comparisonCaution": "Wix confirmed bookings are an independent site model measure; weekly reports describe manually recorded completed engagements. Wix sales value and manually recorded collections overlap and use different recognition/payment methods. Differences are audit flags, not newly discovered revenue."
+    }
+  ],
+  "sourceWeekSummary": {
+    "periods": 6,
+    "handRecordedCompletedNassauEngagements": 66,
+    "handRecordedKnownCollectionIncludingNonserviceAndPendingUSD": 16100.5,
+    "handRecordedTherapistPayoutUSD": 7369.15,
+    "residualBeforeOperatingCostsUSD": 8731.35,
+    "wixPeriodConfirmedBookingSum": 95,
+    "wixPeriodOrderCountSum": 95,
+    "wixPeriodSaleValueSumUSD": 21123.1,
+    "comparisonScope": "Non-consecutive, non-exhaustive windows. DO NOT treat weekly sum as full-quarter or year revenue or add manual collections to Wix sales."
+  },
+  "emailedReportsLocatedButNotRead": [
+    {
+      "period": "2026-09-07_to_13",
+      "messageDate": "2026-09-21",
+      "source": "Zoho Mail attachment: Tranquilitas Weekly Report September 7-14.pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    },
+    {
+      "period": "2026-09-14_to_20",
+      "messageDate": "2026-09-21",
+      "source": "Zoho Mail attachment: Tranquilitas weekly report sept 14-20.pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    },
+    {
+      "period": "2026-09_month",
+      "messageDate": "2026-11-05",
+      "source": "Zoho Mail attachment: September report- Tranquilitas .pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    },
+    {
+      "period": "2026-10_month",
+      "messageDate": "2026-11-05",
+      "source": "Zoho Mail attachment: October 2026 report .pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    },
+    {
+      "period": "2026-11-02_to_08",
+      "messageDate": "2026-11-17",
+      "source": "Zoho Mail attachment: November 2-8 report .pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    },
+    {
+      "period": "2026-11-09_to_15",
+      "messageDate": "2026-11-17",
+      "source": "Zoho Mail attachment: Nov9-15 report .pdf",
+      "status": "ATTACHMENT_NOT_READ"
+    }
+  ],
+  "commissionRecords": [
+    {
+      "period": "2026-01_to_03",
+      "country": "Caribbean aggregate",
+      "type": "modeled_tracker",
+      "USD": 3778.8,
+      "source": "Tranquilitas_Caribbean_Tracker_Simplified — LOG_ENTRIES",
+      "paymentState": "NOT_VERIFIED",
+      "serviceValueUSD": 25192,
+      "notes": "Tracker applies modeled 15% to logged values, some duplicate/mismatched; exclude from earned, received, and invoiced commission totals.",
+      "includeInDocumentedInvoiced": false
+    },
+    {
+      "period": "2026-08-12",
+      "country": "Bonaire",
+      "type": "reported_booking_commission",
+      "USD": 21,
+      "source": "Tranquilitas Weekly Report(August 10-16)(1).pdf",
+      "paymentState": "NOT_VERIFIED",
+      "serviceValueUSD": 145,
+      "notes": "One completed Bonaire Swedish massage is mentioned; regional commission of $21 recorded, not confirmed remitted. Service value excluded from Nassau weekly collection.",
+      "includeInDocumentedInvoiced": true
+    },
+    {
+      "period": "2026-10-16",
+      "country": "St Barths",
+      "type": "partner_commission",
+      "USD": 100,
+      "source": "User-supplied invoice instruction, Pure Massage St Barths dated Oct 16, 2026",
+      "paymentState": "REPORTED_PAID",
+      "serviceValueEUR": 598,
+      "notes": "90-minute couples massage, guest paid partner €598; user reported that partner paid Tranquilitas US$100 commission. No bank/processor receipt independently verified.",
+      "includeInDocumentedInvoiced": true
+    },
+    {
+      "period": "2026-11-06",
+      "country": "St Barths",
+      "type": "partner_commission",
+      "USD": 173,
+      "source": "User-supplied invoice instruction, Pure Massage St Barths dated Nov 6, 2026",
+      "paymentState": "INVOICED_DUE",
+      "serviceValueEUR": 1035,
+      "notes": "Five one-hour lymphatic massages, guests paid partner €1,035; US$173 commission due to Tranquilitas. Not received in source material.",
+      "includeInDocumentedInvoiced": true
+    }
+  ],
+  "commissionSummary": {
+    "distinctExplicitBookingCommissionsUSD": 294,
+    "reportedPaidByUserUSD": 100,
+    "reportedInvoicedDueUSD": 173,
+    "recordedWithoutPaymentEvidenceUSD": 21,
+    "trackerModeledCommissionsNotVerifiedUSD": 3778.8,
+    "note": "The $294 is a sum of distinct user/reported commission entries, not proven settled cash. Excludes unverified $3,778.80 tracker modeled commissions. $100 paid is user's report, not independently bank matched."
+  },
+  "limitations": [
+    "Weekly payment totals can include $200 pending/expected transfer, net Viator payouts, extra tips already in amounts, $30 nonservice room rental, and corporate activities outside Wix.",
+    "One booking ID or transaction reference is required to prove whether a manual weekly entry is already in Wix. No transaction-level crosswalk exists yet.",
+    "The two November weekly attachments and September/October monthly PDFs are visible in Zoho but the currently connected mail tools list attachments without returning their bytes. Numbers cannot be claimed from unread attachments.",
+    "Some historical weekly report versions are superseded; latest corrected reports are used only.",
+    "Do not post private patient/customer identities or individual therapists' contacts in public repo."
+  ]
+}
