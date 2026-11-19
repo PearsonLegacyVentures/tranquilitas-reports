@@ -2580,8 +2580,102 @@
     {
       "site": "legacy",
       "model": "contacts",
-      "rows": [],
-      "returnCount": 0
+      "rows": [
+        {
+          "month": "2024-01",
+          "contacts_count": 12,
+          "total_orders_count": 3,
+          "total_sales_amount": 300,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2024-02",
+          "contacts_count": 7,
+          "total_orders_count": 8,
+          "total_sales_amount": 950,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-03",
+          "contacts_count": 8,
+          "total_orders_count": 7,
+          "total_sales_amount": 910,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2024-04",
+          "contacts_count": 8,
+          "total_orders_count": 7,
+          "total_sales_amount": 1155,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-05",
+          "contacts_count": 29,
+          "total_orders_count": 25,
+          "total_sales_amount": 3218,
+          "total_paid_amount": 783
+        },
+        {
+          "month": "2024-06",
+          "contacts_count": 17,
+          "total_orders_count": 10,
+          "total_sales_amount": 1530,
+          "total_paid_amount": 0
+        },
+        {
+          "month": "2024-07",
+          "contacts_count": 14,
+          "total_orders_count": 16,
+          "total_sales_amount": 2605,
+          "total_paid_amount": 120
+        },
+        {
+          "month": "2024-08",
+          "contacts_count": 21,
+          "total_orders_count": 19,
+          "total_sales_amount": 2902,
+          "total_paid_amount": 105
+        },
+        {
+          "month": "2025-04",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-07",
+          "contacts_count": 2,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-08",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2025-09",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        },
+        {
+          "month": "2026-02",
+          "contacts_count": 1,
+          "total_orders_count": null,
+          "total_sales_amount": null,
+          "total_paid_amount": null
+        }
+      ],
+      "returnCount": 0,
+      "dataQuality": "October 28 2026 historical extract preserved; Nov 18 2026 refresh unexpectedly returned no contact rows. Not freshly verified.",
+      "lastVerifiedExtract": "2026-10-28"
     },
     {
       "site": "legacy",
@@ -2633,6 +2727,9 @@
     "warning": "November 2026 is partial through 17 November. Sales value is Wix-reported commerce, not audited or collected revenue; 2024 company income is stored separately. Unique people must not be summed across sites/months.",
     "dateRangeEndExclusive": "2026-11-18T05:00:00Z",
     "extractionDate": "2026-11-18",
-    "partialMonth": "2026-11"
+    "partialMonth": "2026-11",
+    "knownExceptions": [
+      "Legacy Wix CRM contact monthly rows from Oct 28 2026 archive were preserved because Wix Nov 18 refresh unexpectedly returned no rows. Contact data should be treated as historical/last-verified, not newly reconfirmed."
+    ]
   }
 }
