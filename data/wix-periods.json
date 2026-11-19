@@ -33,14 +33,6 @@
       "end": "2025-01-01T05:00:00.000Z"
     },
     {
-      "key": "2024",
-      "type": "annual",
-      "year": 2024,
-      "partial": false,
-      "start": "2024-01-01T05:00:00.000Z",
-      "end": "2025-01-01T05:00:00.000Z"
-    },
-    {
       "key": "2025-Q1",
       "type": "quarter",
       "year": 2025,
@@ -73,60 +65,68 @@
       "end": "2026-01-01T05:00:00.000Z"
     },
     {
+      "key": "2024",
+      "type": "annual",
+      "year": 2024,
+      "start": "2024-01-01T05:00:00.000Z",
+      "end": "2025-01-01T05:00:00.000Z",
+      "partial": false
+    },
+    {
       "key": "2025",
       "type": "annual",
       "year": 2025,
-      "partial": false,
       "start": "2025-01-01T05:00:00.000Z",
-      "end": "2026-01-01T05:00:00.000Z"
-    },
-    {
-      "key": "2026-Q1",
-      "type": "quarter",
-      "year": 2026,
-      "partial": false,
-      "start": "2026-01-01T05:00:00.000Z",
-      "end": "2026-04-01T04:00:00.000Z"
-    },
-    {
-      "key": "2026-Q2",
-      "type": "quarter",
-      "year": 2026,
-      "partial": false,
-      "start": "2026-04-01T04:00:00.000Z",
-      "end": "2026-07-01T04:00:00.000Z"
-    },
-    {
-      "key": "2026-Q3",
-      "type": "quarter",
-      "year": 2026,
-      "partial": false,
-      "start": "2026-07-01T04:00:00.000Z",
-      "end": "2026-10-01T04:00:00.000Z"
-    },
-    {
-      "key": "2026-Q4",
-      "type": "quarter",
-      "year": 2026,
-      "partial": true,
-      "start": "2026-10-01T04:00:00.000Z",
-      "end": "2026-10-29T04:00:00.000Z"
-    },
-    {
-      "key": "2026",
-      "type": "annual",
-      "year": 2026,
-      "partial": true,
-      "start": "2026-01-01T05:00:00.000Z",
-      "end": "2026-10-29T04:00:00.000Z"
+      "end": "2026-01-01T05:00:00.000Z",
+      "partial": false
     },
     {
       "key": "2025-YTD-matched",
       "type": "matched",
       "year": 2025,
-      "partial": true,
       "start": "2025-01-01T05:00:00.000Z",
-      "end": "2025-10-29T04:00:00.000Z"
+      "end": "2025-11-18T05:00:00.000Z",
+      "partial": true
+    },
+    {
+      "key": "2026-Q1",
+      "type": "quarter",
+      "year": 2026,
+      "start": "2026-01-01T05:00:00.000Z",
+      "end": "2026-04-01T04:00:00.000Z",
+      "partial": false
+    },
+    {
+      "key": "2026-Q2",
+      "type": "quarter",
+      "year": 2026,
+      "start": "2026-04-01T04:00:00.000Z",
+      "end": "2026-07-01T04:00:00.000Z",
+      "partial": false
+    },
+    {
+      "key": "2026-Q3",
+      "type": "quarter",
+      "year": 2026,
+      "start": "2026-07-01T04:00:00.000Z",
+      "end": "2026-10-01T04:00:00.000Z",
+      "partial": false
+    },
+    {
+      "key": "2026-Q4",
+      "type": "quarter",
+      "year": 2026,
+      "start": "2026-10-01T04:00:00.000Z",
+      "end": "2026-11-18T05:00:00.000Z",
+      "partial": true
+    },
+    {
+      "key": "2026",
+      "type": "annual",
+      "year": 2026,
+      "start": "2026-01-01T05:00:00.000Z",
+      "end": "2026-11-18T05:00:00.000Z",
+      "partial": true
     }
   ],
   "records": [
@@ -292,46 +292,6 @@
     },
     {
       "site": "main",
-      "period": "2024",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 6518,
-        "visitors_count": 4901,
-        "views_count": 19482,
-        "site_bounce_ratio": 0.4,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2024",
-      "model": "sales",
-      "values": {
-        "sales_count": 225,
-        "customers_count": 136,
-        "total_sales_amount": 37546.2,
-        "total_paid_amount": 1076.95,
-        "total_revenue_amount": 1051.95,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 381.75,
-        "order_value_avg": 166.872
-      }
-    },
-    {
-      "site": "main",
-      "period": "2024",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 237,
-        "confirmed_bookings_count": 189,
-        "canceled_bookings_count": 48,
-        "customers_count": 136,
-        "total_items_sales_amount": 37688.5,
-        "proportional_paid_amount": 1051.95
-      }
-    },
-    {
-      "site": "main",
       "period": "2025-Q1",
       "model": "traffic",
       "values": {
@@ -488,286 +448,6 @@
         "customers_count": 121,
         "total_items_sales_amount": 37658.5,
         "proportional_paid_amount": 319
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 11570,
-        "visitors_count": 9210,
-        "views_count": 28314,
-        "site_bounce_ratio": 0.59,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025",
-      "model": "sales",
-      "values": {
-        "sales_count": 787,
-        "customers_count": 512,
-        "total_sales_amount": 156983.37,
-        "total_paid_amount": 3661.5,
-        "total_revenue_amount": 2966.5,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 227.5,
-        "order_value_avg": 199.470609911
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 929,
-        "confirmed_bookings_count": 755,
-        "canceled_bookings_count": 138,
-        "customers_count": 503,
-        "total_items_sales_amount": 157373.87,
-        "proportional_paid_amount": 2381.5
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q1",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 5118,
-        "visitors_count": 4264,
-        "views_count": 10286,
-        "site_bounce_ratio": 0.6,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q1",
-      "model": "sales",
-      "values": {
-        "sales_count": 185,
-        "customers_count": 145,
-        "total_sales_amount": 44448.71,
-        "total_paid_amount": 2768.5,
-        "total_revenue_amount": 2768.5,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 240.263297297
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q1",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 246,
-        "confirmed_bookings_count": 192,
-        "canceled_bookings_count": 30,
-        "customers_count": 144,
-        "total_items_sales_amount": 42672.21,
-        "proportional_paid_amount": 737
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q2",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 3091,
-        "visitors_count": 2435,
-        "views_count": 6791,
-        "site_bounce_ratio": 0.55,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q2",
-      "model": "sales",
-      "values": {
-        "sales_count": 203,
-        "customers_count": 127,
-        "total_sales_amount": 43138.48,
-        "total_paid_amount": 1046.5,
-        "total_revenue_amount": 1046.5,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 212.504827586
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q2",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 261,
-        "confirmed_bookings_count": 216,
-        "canceled_bookings_count": 24,
-        "customers_count": 127,
-        "total_items_sales_amount": 43572.98,
-        "proportional_paid_amount": 896.5
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q3",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 3045,
-        "visitors_count": 2554,
-        "views_count": 6286,
-        "site_bounce_ratio": 0.58,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q3",
-      "model": "sales",
-      "values": {
-        "sales_count": 169,
-        "customers_count": 114,
-        "total_sales_amount": 40991.85,
-        "total_paid_amount": 2584,
-        "total_revenue_amount": 2584,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 242.555325444
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q3",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 212,
-        "confirmed_bookings_count": 180,
-        "canceled_bookings_count": 27,
-        "customers_count": 119,
-        "total_items_sales_amount": 41613.35,
-        "proportional_paid_amount": 2334
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q4",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 906,
-        "visitors_count": 767,
-        "views_count": 1908,
-        "site_bounce_ratio": 0.56,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q4",
-      "model": "sales",
-      "values": {
-        "sales_count": 33,
-        "customers_count": 22,
-        "total_sales_amount": 8269.5,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 250.590909091
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026-Q4",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 39,
-        "confirmed_bookings_count": 34,
-        "canceled_bookings_count": 2,
-        "customers_count": 23,
-        "total_items_sales_amount": 8621.5,
-        "proportional_paid_amount": 0
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 12160,
-        "visitors_count": 9877,
-        "views_count": 25271,
-        "site_bounce_ratio": 0.58,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026",
-      "model": "sales",
-      "values": {
-        "sales_count": 590,
-        "customers_count": 369,
-        "total_sales_amount": 136848.54,
-        "total_paid_amount": 6399,
-        "total_revenue_amount": 6399,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 231.946677966
-      }
-    },
-    {
-      "site": "main",
-      "period": "2026",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 758,
-        "confirmed_bookings_count": 622,
-        "canceled_bookings_count": 83,
-        "customers_count": 374,
-        "total_items_sales_amount": 136480.04,
-        "proportional_paid_amount": 3967.5
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025-YTD-matched",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 8151,
-        "visitors_count": 6297,
-        "views_count": 21857,
-        "site_bounce_ratio": 0.55,
-        "pages_per_session_avg": 2
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025-YTD-matched",
-      "model": "sales",
-      "values": {
-        "sales_count": 664,
-        "customers_count": 442,
-        "total_sales_amount": 128077.57,
-        "total_paid_amount": 3136,
-        "total_revenue_amount": 2441,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 227.5,
-        "order_value_avg": 192.887906627
-      }
-    },
-    {
-      "site": "main",
-      "period": "2025-YTD-matched",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 776,
-        "confirmed_bookings_count": 629,
-        "canceled_bookings_count": 122,
-        "customers_count": 435,
-        "total_items_sales_amount": 128468.07,
-        "proportional_paid_amount": 2211
       }
     },
     {
@@ -932,6 +612,486 @@
     },
     {
       "site": "legacy",
+      "period": "2025-Q1",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 1,
+        "visitors_count": 1,
+        "views_count": 1,
+        "site_bounce_ratio": 1,
+        "pages_per_session_avg": 1
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q1",
+      "model": "sales",
+      "values": {
+        "sales_count": 0,
+        "customers_count": 0,
+        "total_sales_amount": 0,
+        "total_paid_amount": 0,
+        "total_revenue_amount": 0,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 0
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q1",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 0,
+        "confirmed_bookings_count": 0,
+        "canceled_bookings_count": 0,
+        "customers_count": 0,
+        "total_items_sales_amount": null,
+        "proportional_paid_amount": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q2",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 0,
+        "visitors_count": 0,
+        "views_count": 0,
+        "site_bounce_ratio": 0,
+        "pages_per_session_avg": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q2",
+      "model": "sales",
+      "values": {
+        "sales_count": 0,
+        "customers_count": 0,
+        "total_sales_amount": 0,
+        "total_paid_amount": 0,
+        "total_revenue_amount": 0,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 0
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q2",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 0,
+        "confirmed_bookings_count": 0,
+        "canceled_bookings_count": 0,
+        "customers_count": 0,
+        "total_items_sales_amount": null,
+        "proportional_paid_amount": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q3",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 0,
+        "visitors_count": 0,
+        "views_count": 0,
+        "site_bounce_ratio": 0,
+        "pages_per_session_avg": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q3",
+      "model": "sales",
+      "values": {
+        "sales_count": 0,
+        "customers_count": 0,
+        "total_sales_amount": 0,
+        "total_paid_amount": 0,
+        "total_revenue_amount": 0,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 0
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q3",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 0,
+        "confirmed_bookings_count": 0,
+        "canceled_bookings_count": 0,
+        "customers_count": 0,
+        "total_items_sales_amount": null,
+        "proportional_paid_amount": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q4",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 0,
+        "visitors_count": 0,
+        "views_count": 0,
+        "site_bounce_ratio": 0,
+        "pages_per_session_avg": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q4",
+      "model": "sales",
+      "values": {
+        "sales_count": 0,
+        "customers_count": 0,
+        "total_sales_amount": 0,
+        "total_paid_amount": 0,
+        "total_revenue_amount": 0,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 0
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-Q4",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 0,
+        "confirmed_bookings_count": 0,
+        "canceled_bookings_count": 0,
+        "customers_count": 0,
+        "total_items_sales_amount": null,
+        "proportional_paid_amount": null
+      }
+    },
+    {
+      "site": "main",
+      "period": "2024",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 6518,
+        "visitors_count": 4901,
+        "views_count": 19482,
+        "site_bounce_ratio": 0.4,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2024",
+      "model": "sales",
+      "values": {
+        "sales_count": 225,
+        "customers_count": 136,
+        "total_sales_amount": 37546.2,
+        "total_paid_amount": 1076.95,
+        "total_revenue_amount": 1051.95,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 381.75,
+        "order_value_avg": 166.872
+      }
+    },
+    {
+      "site": "main",
+      "period": "2024",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 237,
+        "confirmed_bookings_count": 189,
+        "canceled_bookings_count": 48,
+        "customers_count": 136,
+        "total_items_sales_amount": 37688.5,
+        "proportional_paid_amount": 1051.95
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 11570,
+        "visitors_count": 9210,
+        "views_count": 28314,
+        "site_bounce_ratio": 0.59,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025",
+      "model": "sales",
+      "values": {
+        "sales_count": 787,
+        "customers_count": 512,
+        "total_sales_amount": 156983.37,
+        "total_paid_amount": 3661.5,
+        "total_revenue_amount": 2966.5,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 227.5,
+        "order_value_avg": 199.470609911
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 929,
+        "confirmed_bookings_count": 755,
+        "canceled_bookings_count": 138,
+        "customers_count": 503,
+        "total_items_sales_amount": 157373.87,
+        "proportional_paid_amount": 2381.5
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025-YTD-matched",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 9327,
+        "visitors_count": 7310,
+        "views_count": 23936,
+        "site_bounce_ratio": 0.58,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025-YTD-matched",
+      "model": "sales",
+      "values": {
+        "sales_count": 696,
+        "customers_count": 465,
+        "total_sales_amount": 135495.97,
+        "total_paid_amount": 3136,
+        "total_revenue_amount": 2441,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 227.5,
+        "order_value_avg": 194.678117816
+      }
+    },
+    {
+      "site": "main",
+      "period": "2025-YTD-matched",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 820,
+        "confirmed_bookings_count": 665,
+        "canceled_bookings_count": 128,
+        "customers_count": 458,
+        "total_items_sales_amount": 135886.47,
+        "proportional_paid_amount": 2211
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q1",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 5118,
+        "visitors_count": 4264,
+        "views_count": 10286,
+        "site_bounce_ratio": 0.6,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q1",
+      "model": "sales",
+      "values": {
+        "sales_count": 185,
+        "customers_count": 145,
+        "total_sales_amount": 44448.71,
+        "total_paid_amount": 2768.5,
+        "total_revenue_amount": 2768.5,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 240.263297297
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q1",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 246,
+        "confirmed_bookings_count": 192,
+        "canceled_bookings_count": 30,
+        "customers_count": 144,
+        "total_items_sales_amount": 42672.21,
+        "proportional_paid_amount": 737
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q2",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 3091,
+        "visitors_count": 2435,
+        "views_count": 6956,
+        "site_bounce_ratio": 0.54,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q2",
+      "model": "sales",
+      "values": {
+        "sales_count": 203,
+        "customers_count": 127,
+        "total_sales_amount": 43138.48,
+        "total_paid_amount": 1046.5,
+        "total_revenue_amount": 1046.5,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 212.504827586
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q2",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 261,
+        "confirmed_bookings_count": 216,
+        "canceled_bookings_count": 24,
+        "customers_count": 127,
+        "total_items_sales_amount": 43572.98,
+        "proportional_paid_amount": 896.5
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q3",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 3045,
+        "visitors_count": 2554,
+        "views_count": 6722,
+        "site_bounce_ratio": 0.57,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q3",
+      "model": "sales",
+      "values": {
+        "sales_count": 169,
+        "customers_count": 114,
+        "total_sales_amount": 40848.85,
+        "total_paid_amount": 2584,
+        "total_revenue_amount": 2584,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 241.709171598
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q3",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 212,
+        "confirmed_bookings_count": 176,
+        "canceled_bookings_count": 31,
+        "customers_count": 119,
+        "total_items_sales_amount": 41470.35,
+        "proportional_paid_amount": 2334
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q4",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 1636,
+        "visitors_count": 1384,
+        "views_count": 3728,
+        "site_bounce_ratio": 0.55,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q4",
+      "model": "sales",
+      "values": {
+        "sales_count": 76,
+        "customers_count": 44,
+        "total_sales_amount": 19277.9,
+        "total_paid_amount": 259.5,
+        "total_revenue_amount": 259.5,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 253.656578947
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026-Q4",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 102,
+        "confirmed_bookings_count": 84,
+        "canceled_bookings_count": 4,
+        "customers_count": 47,
+        "total_items_sales_amount": 20086.4,
+        "proportional_paid_amount": 159.5
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 12890,
+        "visitors_count": 10481,
+        "views_count": 27692,
+        "site_bounce_ratio": 0.57,
+        "pages_per_session_avg": 2
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026",
+      "model": "sales",
+      "values": {
+        "sales_count": 633,
+        "customers_count": 385,
+        "total_sales_amount": 147713.94,
+        "total_paid_amount": 6658.5,
+        "total_revenue_amount": 6658.5,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 233.35535545
+      }
+    },
+    {
+      "site": "main",
+      "period": "2026",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 821,
+        "confirmed_bookings_count": 668,
+        "canceled_bookings_count": 89,
+        "customers_count": 391,
+        "total_items_sales_amount": 147801.94,
+        "proportional_paid_amount": 4127
+      }
+    },
+    {
+      "site": "legacy",
       "period": "2024",
       "model": "traffic",
       "values": {
@@ -972,166 +1132,6 @@
     },
     {
       "site": "legacy",
-      "period": "2025-Q1",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 1,
-        "visitors_count": 1,
-        "views_count": 1,
-        "site_bounce_ratio": 1,
-        "pages_per_session_avg": 1
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q1",
-      "model": "sales",
-      "values": {
-        "sales_count": 0,
-        "customers_count": 0,
-        "total_sales_amount": 0,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 0
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q1",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 0,
-        "confirmed_bookings_count": 0,
-        "canceled_bookings_count": 0,
-        "customers_count": 0,
-        "total_items_sales_amount": null,
-        "proportional_paid_amount": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q2",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 0,
-        "visitors_count": 0,
-        "views_count": 0,
-        "site_bounce_ratio": 0,
-        "pages_per_session_avg": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q2",
-      "model": "sales",
-      "values": {
-        "sales_count": 0,
-        "customers_count": 0,
-        "total_sales_amount": 0,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 0
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q2",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 0,
-        "confirmed_bookings_count": 0,
-        "canceled_bookings_count": 0,
-        "customers_count": 0,
-        "total_items_sales_amount": null,
-        "proportional_paid_amount": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q3",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 0,
-        "visitors_count": 0,
-        "views_count": 0,
-        "site_bounce_ratio": 0,
-        "pages_per_session_avg": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q3",
-      "model": "sales",
-      "values": {
-        "sales_count": 0,
-        "customers_count": 0,
-        "total_sales_amount": 0,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 0
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q3",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 0,
-        "confirmed_bookings_count": 0,
-        "canceled_bookings_count": 0,
-        "customers_count": 0,
-        "total_items_sales_amount": null,
-        "proportional_paid_amount": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q4",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 0,
-        "visitors_count": 0,
-        "views_count": 0,
-        "site_bounce_ratio": 0,
-        "pages_per_session_avg": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q4",
-      "model": "sales",
-      "values": {
-        "sales_count": 0,
-        "customers_count": 0,
-        "total_sales_amount": 0,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 0
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-Q4",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 0,
-        "confirmed_bookings_count": 0,
-        "canceled_bookings_count": 0,
-        "customers_count": 0,
-        "total_items_sales_amount": null,
-        "proportional_paid_amount": null
-      }
-    },
-    {
-      "site": "legacy",
       "period": "2025",
       "model": "traffic",
       "values": {
@@ -1160,6 +1160,46 @@
     {
       "site": "legacy",
       "period": "2025",
+      "model": "bookings",
+      "values": {
+        "bookings_count": 0,
+        "confirmed_bookings_count": 0,
+        "canceled_bookings_count": 0,
+        "customers_count": 0,
+        "total_items_sales_amount": null,
+        "proportional_paid_amount": null
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-YTD-matched",
+      "model": "traffic",
+      "values": {
+        "sessions_count": 1,
+        "visitors_count": 1,
+        "views_count": 1,
+        "site_bounce_ratio": 1,
+        "pages_per_session_avg": 1
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-YTD-matched",
+      "model": "sales",
+      "values": {
+        "sales_count": 0,
+        "customers_count": 0,
+        "total_sales_amount": 0,
+        "total_paid_amount": 0,
+        "total_revenue_amount": 0,
+        "total_refunded_amount": 0,
+        "total_discount_amount": 0,
+        "order_value_avg": 0
+      }
+    },
+    {
+      "site": "legacy",
+      "period": "2025-YTD-matched",
       "model": "bookings",
       "values": {
         "bookings_count": 0,
@@ -1360,46 +1400,6 @@
     {
       "site": "legacy",
       "period": "2026",
-      "model": "bookings",
-      "values": {
-        "bookings_count": 0,
-        "confirmed_bookings_count": 0,
-        "canceled_bookings_count": 0,
-        "customers_count": 0,
-        "total_items_sales_amount": null,
-        "proportional_paid_amount": null
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-YTD-matched",
-      "model": "traffic",
-      "values": {
-        "sessions_count": 1,
-        "visitors_count": 1,
-        "views_count": 1,
-        "site_bounce_ratio": 1,
-        "pages_per_session_avg": 1
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-YTD-matched",
-      "model": "sales",
-      "values": {
-        "sales_count": 0,
-        "customers_count": 0,
-        "total_sales_amount": 0,
-        "total_paid_amount": 0,
-        "total_revenue_amount": 0,
-        "total_refunded_amount": 0,
-        "total_discount_amount": 0,
-        "order_value_avg": 0
-      }
-    },
-    {
-      "site": "legacy",
-      "period": "2025-YTD-matched",
       "model": "bookings",
       "values": {
         "bookings_count": 0,
@@ -1411,5 +1411,5 @@
       }
     }
   ],
-  "notes": "True period aggregates; use these for unique visitors and customers and for averages. 2026 is partial through October 28; 2025-YTD-matched is through October 28, 2025. Figures are Wix reports, not audited financial statements."
+  "notes": "True Wix reporting period aggregates through November 17, 2026 (end exclusive Nov 18, Nassau local). 2026 is partial, Q4 is partial, and 2025-YTD-matched is Jan 1–Nov 17, 2025. 2024 management report annual income/net earnings are in a separate financial file and never added to Wix totals. Unique customer/visitor counts cannot be summed across sites as distinct persons."
 }
