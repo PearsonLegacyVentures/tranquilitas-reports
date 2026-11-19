@@ -97,3 +97,11 @@ Treatment names have not been consolidated across near-duplicate packages or dur
 - `data/wix-breakdowns.json` — source, service, SEO, market and CTA breakdowns.
 - `data/channel-intelligence.json` — year-to-date Wix funnel reporting alongside the separately sourced GA4 window.
 - `report/CARIBBEAN_MARKETS_2026.md` — separate regional operations and pricing report.
+
+### Weekly operations reconciliation addendum — November 18, 2026
+
+Alex's manually compiled management weeks **Aug 1–9, Aug 10–16, Aug 17–23, Aug 24–30, Sep 21–27 and Oct 5–11** are non-consecutive samples. The latest corrected reports total **66 manually recorded Nassau completed engagements**, **$16,100.50 in reported collections** and **$7,369.15 in therapist payouts**; the arithmetic difference **$8,731.35** is **not net profit** and cannot be taken as settled cash (includes pending $200 JA event receipt, net Viator disbursements, extra tips, and $30 non-service room rent). In the exact same Wix date scopes, the Wix Analytics system reports **95 confirmed bookings**, **95 sale orders**, and **$21,123.10 Wix sale value**. Booking-ID crossmatching is unavailable, so these are **not reconciled duplicates or incremental revenue**.
+
+On Nov 17 Alex emailed PDF weekly reports for **Nov 2–8** and **Nov 9–15** (the email describes Nov 2–9 and 10–15); the Zoho attachment metadata confirms both, but the current connector cannot read their bytes. September and October monthly summary PDFs were also identified, not read. **Do not certify those monthly totals** until the attachments are made accessible. The Sept 21–27 PDF is FINAL CORRECTED (collections $1,786, payout $764.50), and Aug 17–23 uses the UPDATED payout $1,277.80 (not obsolete $1,217.80).
+
+**Caribbean explicit commissions**, separate from the Jan–Mar tracker: Bonaire Aug 12 **$21** recorded, settlement unverified; St Barths Oct 16 **$100 reported paid by management** (not bank-confirmed), Nov 6 **$173 invoiced/due**. The distinct entries sum to **$294** in reported booking commissions, but only **$100 is described as paid**, and that remains unverified by independent processor evidence. **Exclude** the $3,778.80 January–March modeled tracker commissions from earned or received financial statements until validated. See `data/weekly-reconciliation.json` and `operations.html`.
