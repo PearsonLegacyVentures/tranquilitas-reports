@@ -56,3 +56,7 @@ Separate 2024–2026 source-site operating histories, quarterly/yearly reporting
 - All customer-facing Tranquilitas websites retain their own **independent conversion funnels**. Links within the internal reports are for management review, not cross-promotion between consumer sites.
 - **Security:** This GitHub repo and Pages deployment remain public; `noindex` is **not** access control. Keep patient/guest identities, passwords, account credentials and private financial transactions out of this reporting snapshot. For secure multiuser reports, add actual authentication and private data storage.
 - Operating definitions and source caveats: [DIGITAL_MARKETING_FUNNELS_2026.md](report/DIGITAL_MARKETING_FUNNELS_2026.md).
+
+## Weekly operations reconciliation (2026)
+
+`operations.html` compares **six nonconsecutive** management weekly reports to independently retrieved date-scoped Wix metrics. `data/weekly-reconciliation.json` preserves the correct, final report versions, aggregated completed engagements, collections, therapist payouts, outstanding source documents, and country-level commission settlement status. These weekly collections **must not** be added to Wix annual sales. Commission records separate **reported paid**, **invoiced/due**, **recorded but unverified**, and **modeled** amounts. On November 18 the Zoho mailbox confirmed the existence of September/October monthly PDFs and November 2–15 weekly PDFs, but the connected Zoho mail action does not expose attachment bytes; the contents were not used.
