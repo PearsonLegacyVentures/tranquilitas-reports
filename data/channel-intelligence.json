@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-13",
+  "updatedAt": "2026-11-18",
   "ga4": {
     "propertyId": "properties/451831019",
     "property": "Tranquilitas Day Spa (primary Wix property)",
@@ -618,37 +618,37 @@
   "wix2026": {
     "site": "Main Wix only",
     "year": 2026,
-    "through": "2026-10-28",
+    "through": "2026-11-17",
     "trafficSources": [
       {
         "name": "organic_search",
-        "sessions": 6511,
-        "views": 14452
+        "sessions": 6927,
+        "views": 16035
       },
       {
         "name": "direct",
-        "sessions": 4129,
-        "views": 8099
+        "sessions": 4413,
+        "views": 8820
       },
       {
         "name": "paid_ads",
         "sessions": 805,
-        "views": 876
+        "views": 878
       },
       {
         "name": "social",
-        "sessions": 531,
-        "views": 1368
+        "sessions": 549,
+        "views": 1452
       },
       {
         "name": "referral",
-        "sessions": 85,
-        "views": 190
+        "sessions": 88,
+        "views": 193
       },
       {
         "name": "ai_platform",
-        "sessions": 74,
-        "views": 248
+        "sessions": 83,
+        "views": 276
       },
       {
         "name": "wix_automations",
@@ -664,15 +664,15 @@
     "conversionSources": [
       {
         "name": "organic_search",
-        "sessions": 7314,
-        "confirmedBookings": 132,
-        "wixSalesAmount": 23760.1
+        "sessions": 7773,
+        "confirmedBookings": 139,
+        "wixSalesAmount": 25311.1
       },
       {
         "name": "direct",
-        "sessions": 3232,
-        "confirmedBookings": 76,
-        "wixSalesAmount": 15463.8
+        "sessions": 3469,
+        "confirmedBookings": 81,
+        "wixSalesAmount": 16030.3
       },
       {
         "name": "paid_ads",
@@ -682,21 +682,21 @@
       },
       {
         "name": "social",
-        "sessions": 595,
-        "confirmedBookings": 16,
+        "sessions": 615,
+        "confirmedBookings": 17,
         "wixSalesAmount": 2684
       },
       {
         "name": "referral",
-        "sessions": 105,
+        "sessions": 109,
         "confirmedBookings": 3,
         "wixSalesAmount": 280.5
       },
       {
         "name": "ai_platform",
-        "sessions": 77,
+        "sessions": 88,
         "confirmedBookings": 1,
-        "wixSalesAmount": 445.5
+        "wixSalesAmount": 605
       },
       {
         "name": "wix_automations",
@@ -714,106 +714,106 @@
     "ctaClicks": [
       {
         "name": "Book In-Spa Service",
-        "clicks": 1504
+        "clicks": 1613
       },
       {
         "name": "Book Mobile Service",
-        "clicks": 536
+        "clicks": 572
       },
       {
         "name": "Menu",
-        "clicks": 386
+        "clicks": 408
       },
       {
         "name": "Read more",
-        "clicks": 329
-      },
-      {
-        "name": "n_a",
-        "clicks": 228
+        "clicks": 343
       },
       {
         "name": "BOOK NOW",
-        "clicks": 217
+        "clicks": 243
+      },
+      {
+        "name": "n_a",
+        "clicks": 240
       },
       {
         "name": "Plan Our Duo Time",
-        "clicks": 215
+        "clicks": 222
       },
       {
         "name": "Reserve The Shoreline",
-        "clicks": 204
+        "clicks": 218
       },
       {
         "name": "Release My Knots",
-        "clicks": 132
+        "clicks": 140
       },
       {
         "name": "In-Spa",
-        "clicks": 123
+        "clicks": 134
       },
       {
         "name": "60 Min Swedish Massage",
-        "clicks": 115
-      },
-      {
-        "name": "Mobile",
-        "clicks": 111
+        "clicks": 124
       },
       {
         "name": "Float Me Away",
-        "clicks": 108
+        "clicks": 117
       },
       {
         "name": "Chat Now",
-        "clicks": 102
+        "clicks": 114
+      },
+      {
+        "name": "Mobile",
+        "clicks": 112
       },
       {
         "name": "Book Massage Now",
-        "clicks": 95
-      },
-      {
-        "name": "Beach",
-        "clicks": 87
+        "clicks": 102
       },
       {
         "name": "60 Min Deep Tissue",
-        "clicks": 81
+        "clicks": 91
       },
       {
-        "name": "Gallery",
-        "clicks": 70
+        "name": "Beach",
+        "clicks": 90
       },
       {
         "name": "60 Min Couples Massage",
-        "clicks": 70
-      },
-      {
-        "name": "Start My Glow",
-        "clicks": 69
+        "clicks": 76
       },
       {
         "name": "90 Min Couples Massage",
-        "clicks": 69
+        "clicks": 74
+      },
+      {
+        "name": "Gallery",
+        "clicks": 74
+      },
+      {
+        "name": "Start My Glow",
+        "clicks": 73
       },
       {
         "name": "#7 Fourth Terrace, Collins Ave",
-        "clicks": 66
+        "clicks": 68
       },
       {
         "name": "+1 (242) 816-8286",
-        "clicks": 65
+        "clicks": 66
       },
       {
         "name": "FAQ",
-        "clicks": 61
+        "clicks": 65
       },
       {
         "name": "90 Min Swedish Massage",
-        "clicks": 60
+        "clicks": 64
       }
     ],
-    "note": "Separate Wix Analytics annual snapshot. Different collection definitions and period from GA4; never add to GA4 totals. Wix-confirmed booking counts may not represent settled cash."
+    "note": "Updated to 2026-11-17. YTD is partial and includes November 1–17. Wix channel attribution differs from Wix sales totals and GA4; report conversions separately and do not count attributed sales as additional company revenue."
   },
   "marketingChannels": [
     {
